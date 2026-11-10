@@ -72,7 +72,7 @@ export default async function PlacePage({ params }: PageProps) {
             <Text as="p">방문 시간과 이용 정보는 바뀔 수 있어요. 출발 전에 원문 안내를 확인해 주세요.</Text>
           </div>
           <SourceNote item={item} />
-          <AffiliateLink />
+          <AffiliateLink regionSlug={item.regionSlug} regionName={item.regionName} />
         </div>
       </article>
     </div>
