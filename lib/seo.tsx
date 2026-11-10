@@ -18,7 +18,7 @@ export function canonicalUrl(path: string) {
   return origin ? new URL(path, origin).toString() : path;
 }
 
-export const SITE_NAME = "여행 찾기";
+export const SITE_NAME = "뽈뽈";
 
 export function pageMetadata(title: string, description: string, path: string, image?: string): Metadata {
   const canIndex = Boolean(getSiteOrigin());
