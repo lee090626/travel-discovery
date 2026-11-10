@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getSiteOrigin } from "@/lib/seo";
+import { getSiteOrigin, parseUpdatedAt } from "@/lib/seo";
 import { getAllTravelItems, getAvailableRegions, getRegionItems, getThemesWithItems } from "@/lib/travel";
 
 export const dynamic = "force-static";
@@ -48,6 +48,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const item of items) {
     routes.push({
       url: origin + "/places/" + item.id,
+      lastModified: parseUpdatedAt(item.updatedAt),
       changeFrequency: "monthly",
       priority: 0.5,
     });

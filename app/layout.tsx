@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   },
   description: "지역과 테마로 국내 여행지와 행사를 가볍게 둘러보세요.",
   robots: { index: Boolean(siteOrigin), follow: Boolean(siteOrigin) },
+  openGraph: { siteName: "여행 찾기", locale: "ko_KR", type: "website" },
 };
 
 export const viewport: Viewport = {
