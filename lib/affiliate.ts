@@ -1,4 +1,4 @@
-// 세시간전(3hoursahead) 제휴 링크. 지역 숙소는 여기어때 지역 검색, 투어는 마이리얼트립 상품.
+// 세시간전(3hoursahead) 제휴 링크. 지역 숙소는 여기어때 지역 검색, 투어는 마이리얼트립 상품, 렌터카는 찜카 국내 렌터카 메인.
 const DEFAULT_STAY_URL = "https://3ha.in/r/887679";
 
 const STAY_URLS: Record<string, string> = {
@@ -23,6 +23,14 @@ const STAY_URLS: Record<string, string> = {
 
 const TOURS: Record<string, { title: string; url: string }> = {
   seoul: { title: "서울 시내 역사 투어", url: "https://3ha.in/r/887797" },
+  incheon: { title: "월미도 썬셋 불꽃 크루즈", url: "https://3ha.in/r/887961" },
+  daegu: { title: "대구 이월드 자유이용권", url: "https://3ha.in/r/887952" },
+  gwangju: { title: "5·18 사적지 인문 투어", url: "https://3ha.in/r/887953" },
+  busan: { title: "부산투어패스", url: "https://3ha.in/r/887954" },
+  ulsan: { title: "울산 요트 투어", url: "https://3ha.in/r/887955" },
+  sejong: { title: "세종 공룡월드 이용권", url: "https://3ha.in/r/887956" },
+  chungbuk: { title: "단양투어패스", url: "https://3ha.in/r/887957" },
+  jeonnam: { title: "여수투어패스", url: "https://3ha.in/r/887958" },
   daejeon: { title: "대전 먹캉스 투어", url: "https://3ha.in/r/887800" },
   gyeonggi: { title: "경기투어패스 통합이용권", url: "https://3ha.in/r/887806" },
   gangwon: { title: "강릉 여행 투어", url: "https://3ha.in/r/887807" },
@@ -40,3 +48,5 @@ export function stayUrl(regionSlug?: string) {
 export function tourOffer(regionSlug?: string) {
   return regionSlug ? TOURS[regionSlug] : undefined;
 }
+
+export const RENTAL_URL = "https://3ha.in/r/887942";

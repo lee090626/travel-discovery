@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Icon } from "@/components/icons";
 import type { Region, Theme, TravelItem, TravelPhoto } from "@/lib/travel";
 import { eventPeriod, getTheme } from "@/lib/travel";
-import { stayUrl, tourOffer } from "@/lib/affiliate";
+import { RENTAL_URL, stayUrl, tourOffer } from "@/lib/affiliate";
 
 function publicNuriLabel(license: TravelPhoto["license"]) {
   return license === "Type1" ? "공공누리 제1유형" : "공공누리 제3유형";
@@ -224,6 +224,9 @@ export function AffiliateLink({ regionSlug, regionName }: { regionSlug?: string;
           {tour.title} <Icon name="arrow" size={17} />
         </Link>
       ) : null}
+      <Link href={RENTAL_URL} target="_blank" rel="sponsored nofollow noopener noreferrer" isExternalLink>
+        렌터카 찾아보기 <Icon name="arrow" size={17} />
+      </Link>
     </aside>
   );
 }
