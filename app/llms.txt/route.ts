@@ -1,4 +1,4 @@
-import { getSiteOrigin } from "@/lib/seo";
+import { SITE_NAME, getSiteOrigin } from "@/lib/seo";
 import { getAllTravelItems, getAvailableRegions, getRegionItems, getThemesWithItems } from "@/lib/travel";
 
 export const dynamic = "force-static";
@@ -16,7 +16,7 @@ export async function GET() {
     .map(({ theme, items: themeItems }) => "- [" + theme.name + "](" + origin + "/themes/" + theme.slug + "): " + theme.description + " (" + themeItems.length + "곳)");
 
   const body = [
-    "# 여행 찾기",
+    "# " + SITE_NAME,
     "",
     "> 한국관광공사 TourAPI에 등록된 국내 관광지·문화시설·레포츠·행사 정보를 지역과 테마별로 정리한 여행 탐색 사이트입니다. 각 장소 페이지에 주소, 문의처, 행사 기간, 원문 출처를 함께 제공합니다.",
     "",
