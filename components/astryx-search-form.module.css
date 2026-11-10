@@ -26,7 +26,7 @@
 .hero .input {
   min-height: 82px;
   padding-inline: 26px;
-  border: 1px solid #9fdaa9;
+  border: 2px solid var(--line-strong);
   border-radius: 999px;
   background: var(--surface);
 }

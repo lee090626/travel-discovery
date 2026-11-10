@@ -1,29 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Gowun+Dodum&display=swap");
 @import "@astryxdesign/core/reset.css";
 @import "@astryxdesign/core/astryx.css";
 @import "@astryxdesign/theme-neutral/theme.css";
 
 :root {
   color-scheme: light;
-  --page: #fcfbf8;
+  --page: #fff9f2;
   --surface: #ffffff;
-  --surface-soft: #eef7f0;
-  --surface-mint: #f8fcf8;
-  --ink: #17211b;
-  --muted: #526158;
-  --quiet: #647169;
-  --line: #dfe8e1;
-  --line-strong: #c9d9ce;
-  --accent: #78e58c;
-  --accent-hover: #67d77c;
-  --accent-ink: #12351e;
-  --green: #267549;
-  --warm: #f4f0e8;
-  --focus: #176d3d;
-  --content-width: 1360px;
-  --radius-control: 14px;
-  --radius-card: 16px;
-  --radius-panel: 26px;
+  --surface-soft: #ffeef2;
+  --surface-mint: #eef9f1;
+  --ink: #3a2a2f;
+  --muted: #6e5a60;
+  --quiet: #85707a;
+  --line: #f3e1e3;
+  --line-strong: #ebcdd2;
+  --accent: #ffb3c4;
+  --accent-hover: #ff9fb5;
+  --accent-ink: #4a1d2b;
+  --green: #c2416a;
+  --warm: #fff3dc;
+  --focus: #c2416a;
+  --shadow-soft: 0 6px 18px rgba(194, 65, 106, 0.08);
+  --shadow-lift: 0 12px 28px rgba(194, 65, 106, 0.14);
+  --font-cute: "Jua", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-body: "Gowun Dodum", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --content-width: 1240px;
+  --radius-control: 999px;
+  --radius-card: 22px;
+  --radius-panel: 32px;
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
@@ -46,8 +50,8 @@
   --color-text-primary: var(--ink);
   --color-text-secondary: var(--muted);
   --color-text-accent: var(--green);
-  --font-family-body: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-  --font-family-heading: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-family-body: var(--font-body);
+  --font-family-heading: var(--font-cute);
 }
 
 * {
@@ -58,7 +62,7 @@ html {
   background: var(--page);
   color-scheme: light;
   scroll-behavior: smooth;
-  scrollbar-color: #9fbaa8 var(--page);
+  scrollbar-color: #f0b7c4 var(--page);
 }
 
 body {
@@ -66,7 +70,7 @@ body {
   margin: 0;
   background: var(--page);
   color: var(--ink);
-  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-family: var(--font-body);
   font-size: 16px;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
@@ -74,7 +78,7 @@ body {
 
 ::selection {
   color: var(--accent-ink);
-  background: #c5f1cf;
+  background: #ffd6e0;
 }
 
 input,
@@ -232,7 +236,7 @@ input:focus-visible {
 .featured-place {
   min-width: 0;
   padding: 30px;
-  border: 1px solid #dcefe0;
+  border: 1px solid var(--line);
   border-radius: var(--radius-panel);
   background: var(--surface-mint);
 }
@@ -251,7 +255,7 @@ input:focus-visible {
   overflow: hidden;
   aspect-ratio: 2.25 / 1;
   border-radius: 18px;
-  background: #e8f1eb;
+  background: var(--surface-soft);
 }
 
 .featured-image-link img {
@@ -970,6 +974,173 @@ input:focus-visible {
   color: var(--green);
 }
 
+/* ── 뽈뽈: 귀여운 테마 ───────────────────────────── */
+
+/* 디자인 시스템 Link가 자식을 span으로 한 번 감싸서 카드의 flex 배치가 깨진다. 감싼 span을 레이아웃에서 빼 준다. */
+a[data-astryx-pressable] > .astryx-text {
+  display: contents;
+  font: inherit;
+  color: inherit;
+}
+
+@media (max-width: 680px) {
+  .region-card > .astryx-text > svg:last-child,
+  .theme-row > .astryx-text > svg:last-child {
+    display: none;
+  }
+}
+
+/* 한국어 단어가 글자 단위로 끊기지 않게 한다. */
+body {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+/* Text as="p"가 inline으로 렌더링되어 문단이 한 줄로 겹치는 문제를 막는다. */
+p.astryx-text {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+.brand,
+.region-card-copy strong,
+.theme-card-copy strong,
+.theme-row strong,
+.button,
+.affiliate-note strong {
+  font-family: var(--font-cute);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.hero h1,
+.page-intro h1,
+.detail-heading h1,
+.featured-place > h2,
+.featured-place-content h3,
+.section-heading h2,
+.place-facts h2 {
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.brand {
+  gap: 6px;
+  color: var(--green);
+  font-size: 30px;
+}
+
+.brand::before {
+  content: "🐾";
+  font-size: 0.8em;
+}
+
+.desktop-nav a {
+  padding: 8px 16px;
+  border-radius: var(--radius-control);
+  font-family: var(--font-cute);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.desktop-nav a:hover {
+  background: var(--surface-soft);
+}
+
+.hero h1 {
+  color: var(--ink);
+}
+
+.featured-place {
+  border: 2px solid var(--line);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.featured-image-link {
+  border-radius: 24px;
+}
+
+.featured-image-note {
+  margin-top: 2px;
+}
+
+.region-grid,
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  border-top: 0;
+}
+
+.region-card,
+.theme-card,
+.theme-row {
+  padding: 16px 18px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.region-card:hover,
+.theme-card:hover,
+.theme-row:hover {
+  border-color: var(--accent);
+  background: var(--surface);
+  box-shadow: var(--shadow-lift);
+  transform: translateY(-3px) rotate(-0.4deg);
+}
+
+.theme-row > .astryx-text > svg:first-child {
+  flex: 0 0 auto;
+  box-sizing: content-box;
+  padding: 10px;
+}
+
+.region-card-icon,
+.theme-icon,
+.theme-row > .astryx-text > svg:first-child {
+  border-radius: 50%;
+  background: var(--surface-soft);
+  color: var(--green);
+}
+
+.theme-row:nth-child(4n + 2) > .astryx-text > svg:first-child { background: var(--surface-mint); color: #2f8a57; }
+.theme-row:nth-child(4n + 3) > .astryx-text > svg:first-child { background: var(--warm); color: #b0741a; }
+.theme-row:nth-child(4n + 4) > .astryx-text > svg:first-child { background: #ecebff; color: #5b55c9; }
+.theme-row > .astryx-text > strong { flex: 1; }
+.region-card:nth-child(4n + 2) .region-card-icon { background: var(--surface-mint); color: #2f8a57; }
+.region-card:nth-child(4n + 3) .region-card-icon { background: var(--warm); color: #b0741a; }
+.region-card:nth-child(4n + 4) .region-card-icon { background: #ecebff; color: #5b55c9; }
+
+.region-card-copy strong,
+.theme-row strong {
+  font-size: 19px;
+}
+
+.theme-pill {
+  border-width: 2px;
+  font-family: var(--font-cute);
+}
+
+.theme-pill:hover {
+  border-color: var(--accent);
+  background: var(--surface-soft);
+}
+
+.place-card {
+  border-radius: var(--radius-card);
+}
+
+.affiliate-note {
+  border: 2px dashed var(--accent);
+  background: #fff6f8;
+}
+
 @media (max-width: 1080px) {
   .hero {
     gap: 38px;
@@ -1001,18 +1172,9 @@ input:focus-visible {
     max-width: 760px;
   }
 
-  .region-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .region-card {
-    padding-inline: 8px;
-  }
-
-  .region-card:nth-child(2n) {
-    border-left: 1px solid var(--line);
-    padding-left: 18px;
+  .region-grid,
+  .theme-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .footer-inner {
@@ -1110,21 +1272,24 @@ input:focus-visible {
     font-size: 13px;
   }
 
-  .region-grid {
-    display: block;
+  .region-grid,
+  .theme-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
   }
 
-  .region-card:nth-child(2n) {
-    border-left: 0;
-    padding-left: 10px;
+  .brand {
+    font-size: 25px;
   }
 
   .region-card,
   .theme-card,
   .theme-row {
+    flex-direction: column;
+    align-items: flex-start;
     min-height: 68px;
-    gap: 12px;
-    padding-inline: 7px;
+    gap: 8px;
+    padding: 14px;
   }
 
   .region-card-icon,
