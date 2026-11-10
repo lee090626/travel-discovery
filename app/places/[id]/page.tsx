@@ -6,7 +6,7 @@ import { Text } from "@astryxdesign/core/Text";
 import { AffiliateLink, Breadcrumbs, PlaceGallery, SourceNote } from "@/components/travel-ui";
 import { Icon } from "@/components/icons";
 import { eventPeriod, getAllTravelItems, getTheme, getTravelItem } from "@/lib/travel";
-import { pageMetadata } from "@/lib/seo";
+import { JsonLd, canonicalUrl, pageMetadata, parseUpdatedAt } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ id: string }> };
 
@@ -19,7 +19,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const item = await getTravelItem(id);
   if (!item) return pageMetadata("여행지 정보", "출처가 있는 국내 여행 정보를 확인해 보세요.", "/places");
   const description = item.description || item.address || item.title + "의 관광 정보를 확인해 보세요.";
-  return pageMetadata(item.title, description, "/places/" + id);
+  const title = item.regionName ? item.title + " - " + item.regionName + " 여행 정보" : item.title;
+  return pageMetadata(title, description, "/places/" + id, item.imageUrl);
 }
 
 export default async function PlacePage({ params }: PageProps) {
@@ -29,8 +30,35 @@ export default async function PlacePage({ params }: PageProps) {
 
   const theme = getTheme(item.themeSlug);
   const period = eventPeriod(item);
+  const url = canonicalUrl("/places/" + item.id);
+  const isEvent = item.contentTypeId === "15";
+  const isoDate = (v?: string) => (v && v.length === 8 ? v.slice(0, 4) + "-" + v.slice(4, 6) + "-" + v.slice(6, 8) : undefined);
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": isEvent ? "Event" : "TouristAttraction",
+      name: item.title,
+      description: item.description,
+      image: item.imageUrl,
+      url,
+      ...(isEvent
+        ? { startDate: isoDate(item.eventStartDate), endDate: isoDate(item.eventEndDate), location: { "@type": "Place", name: item.title, address: item.address } }
+        : { address: item.address }),
+      dateModified: parseUpdatedAt(item.updatedAt)?.toISOString(),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { name: "지역별", path: "/regions" },
+        ...(item.regionSlug ? [{ name: item.regionName, path: "/regions/" + item.regionSlug }] : []),
+        { name: item.title, path: "/places/" + item.id },
+      ].map((crumb, index) => ({ "@type": "ListItem", position: index + 1, name: crumb.name, item: canonicalUrl(crumb.path) })),
+    },
+  ];
   return (
     <div className="page-container detail-page">
+      <JsonLd data={jsonLd} />
       <Breadcrumbs items={[
         { label: "지역별", href: "/regions" },
         ...(item.regionSlug ? [{ label: item.regionName, href: "/regions/" + item.regionSlug }] : []),
