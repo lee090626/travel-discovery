@@ -13,7 +13,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="header-inner">
         <Link className="brand" href="/" aria-label="뽈뽈 홈">
-          <span>뽈뽈</span>
+          <img className="brand-mascot" src="/mascot.svg" alt="" width={36} height={33} /><span>뽈뽈</span>
         </Link>
         <nav className="desktop-nav" aria-label="주 메뉴">
           {navigation.map((item) => (
@@ -31,7 +31,7 @@ export function SiteFooter() {
       <footer className="site-footer">
         <div className="footer-inner">
           <Link className="brand footer-brand" href="/">
-            <span>뽈뽈</span>
+            <img className="brand-mascot" src="/mascot.svg" alt="" width={36} height={33} /><span>뽈뽈</span>
           </Link>
           <Text as="p">관광 정보는 방문 전에 공식 안내에서 한 번 더 확인해 주세요.</Text>
           <div className="footer-links">

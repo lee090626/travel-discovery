@@ -27,6 +27,7 @@ export default async function HomePage() {
       }} />
       <section className="hero">
         <div className="hero-copy">
+          <img className="hero-mascot" src="/mascot.svg" alt="여행 가방을 멘 마스코트 뽈뽈이" width={96} height={88} />
           <Heading level={1}>이번 주말,<br />어디로 뽈뽈 가볼까요?</Heading>
           <Text as="p" className="hero-description">지역과 관심사로 국내 여행지를 둘러보세요.</Text>
           <SearchForm

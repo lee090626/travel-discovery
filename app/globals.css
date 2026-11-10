@@ -394,7 +394,6 @@ input:focus-visible {
 .place-symbol,
 .detail-symbol,
 .planning-note-icon,
-.not-found-mark,
 .empty-state-icon {
   display: inline-grid;
   flex: 0 0 auto;
@@ -450,6 +449,7 @@ input:focus-visible {
 .not-found-links {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -914,13 +914,34 @@ input:focus-visible {
   padding-block: 80px;
 }
 
-.not-found-mark {
-  width: 52px;
-  height: 52px;
-  margin-bottom: 20px;
-  border-radius: 15px;
-  background: var(--surface-soft);
+.not-found-page {
+  justify-items: center;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.not-found-mascot {
+  width: min(200px, 60vw);
+  height: auto;
+  animation: mascot-wobble 2.6s ease-in-out infinite;
+  transform-origin: 50% 90%;
+}
+
+.not-found-code {
+  margin: 4px 0 6px;
   color: var(--green);
+  font-family: var(--font-cute);
+  font-size: 22px;
+  letter-spacing: 0.2em;
+}
+
+@keyframes mascot-wobble {
+  0%, 100% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .not-found-mascot { animation: none; }
 }
 
 .not-found-page h1 {
@@ -1042,9 +1063,26 @@ h3,
   font-size: 30px;
 }
 
-.brand::before {
-  content: "🐾";
-  font-size: 0.8em;
+.brand-mascot {
+  width: 1.2em;
+  height: auto;
+}
+
+.hero-mascot {
+  display: block;
+  width: 96px;
+  height: auto;
+  margin-bottom: 12px;
+  animation: mascot-bob 2.4s ease-in-out infinite;
+}
+
+@keyframes mascot-bob {
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-8px) rotate(3deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-mascot { animation: none; }
 }
 
 .desktop-nav a {
