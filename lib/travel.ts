@@ -1,4 +1,4 @@
-import { unstable_cache } from "next/cache";
+import snapshot from "@/data/kto-snapshot.json";
 
 export type ThemeSlug = "nature" | "culture" | "outdoor" | "courses" | "food" | "events";
 
@@ -74,7 +74,6 @@ export const THEMES: Theme[] = [
 ];
 
 const KTO_API_URL = "https://www.data.go.kr/data/15101578/openapi.do";
-const KTO_BASE_URL = "https://apis.data.go.kr/B551011/KorService2";
 const SOURCE_NAME = "한국관광공사 대한민국 구석구석";
 const API_SOURCE_NAME = "한국관광공사 TourAPI";
 
@@ -243,61 +242,6 @@ function homepageUrl(record: KtoRecord) {
   }
 }
 
-function visitInfo(record: KtoRecord, contentTypeId: string) {
-  const fields: Record<string, [string, string][]> = {
-    "12": [["이용 시간", "usetime"], ["쉬는 날", "restdate"], ["주차", "parking"]],
-    "14": [["이용 시간", "usetimeculture"], ["쉬는 날", "restdateculture"], ["주차", "parkingculture"]],
-    "15": [["행사 장소", "eventplace"], ["행사 시간", "playtime"], ["관람 정보", "usetimefestival"]],
-    "28": [["이용 시간", "usetimeleports"], ["쉬는 날", "restdateleports"], ["주차", "parkingleports"]],
-    "39": [["영업 시간", "opentimefood"], ["쉬는 날", "restdatefood"], ["주차", "parkingfood"]],
-  };
-  return (fields[contentTypeId] || [])
-    .map(([label, key]) => ({ label, value: plainText(value(record, key)) }))
-    .filter((item) => item.value);
-}
-
-function responseItems(payload: unknown): KtoRecord[] {
-  if (!payload || typeof payload !== "object") return [];
-  const response = (payload as { response?: { body?: { items?: { item?: unknown } } } }).response;
-  const item = response?.body?.items?.item;
-  if (Array.isArray(item)) return item.filter((entry): entry is KtoRecord => Boolean(entry) && typeof entry === "object");
-  return item && typeof item === "object" ? [item as KtoRecord] : [];
-}
-
-async function requestKto(endpoint: string, params: Record<string, string>, revalidate = 86400) {
-  const serviceKey = process.env.KTO_SERVICE_KEY;
-  if (!serviceKey) return [];
-
-  // The result is public for this query, so keep provider credentials out of cache keys.
-  const getCachedItems = unstable_cache(
-    async () => {
-      const url = new URL(KTO_BASE_URL + "/" + endpoint);
-      url.searchParams.set("serviceKey", serviceKey);
-      url.searchParams.set("MobileOS", "ETC");
-      url.searchParams.set("MobileApp", "TravelDiscovery");
-      url.searchParams.set("_type", "json");
-      for (const [key, item] of Object.entries(params)) url.searchParams.set(key, item);
-
-      const response = await fetch(url, { cache: "no-store" });
-      if (!response.ok) throw new Error("TourAPI request failed");
-
-      const payload = await response.json();
-      const result = payload as { response?: { header?: { resultCode?: string } }; resultCode?: string };
-      const resultCode = result?.response?.header?.resultCode ?? result?.resultCode;
-      if (resultCode !== "0000") throw new Error("TourAPI returned an error");
-      return responseItems(payload);
-    },
-    ["tourapi", endpoint, JSON.stringify(params)],
-    { revalidate },
-  );
-
-  try {
-    return await getCachedItems();
-  } catch {
-    return [];
-  }
-}
-
 function themeForApi(contentTypeId: string, category: string): ThemeSlug | null {
   if (contentTypeId === "15") return "events";
   if (contentTypeId === "25") return "courses";
@@ -344,33 +288,24 @@ function koreaDateKey(offsetDays = 0) {
   return new Date(timestamp).toISOString().slice(0, 10).replace(/-/g, "");
 }
 
-async function getKtoRegionItems(region: Region) {
-  const listRequests = ["12", "14", "25", "39"].map((contentTypeId) =>
-    requestKto("areaBasedList2", {
-      areaCode: region.areaCode,
-      contentTypeId,
-      numOfRows: "40",
-      pageNo: "1",
-    }),
-  );
-  const eventRequest = requestKto("searchFestival2", {
-    areaCode: region.areaCode,
-    eventStartDate: koreaDateKey(-30),
-    eventEndDate: koreaDateKey(180),
-    numOfRows: "40",
-    pageNo: "1",
-  }, 21600).then((records) => records.map((record) => ({ ...record, contenttypeid: "15" })));
-  const groups = await Promise.all([...listRequests, eventRequest]);
-  const today = koreaDateKey();
-  const records = groups.flat().filter((record) => {
-    if (value(record, "contenttypeid") !== "15") return true;
-    const end = value(record, "eventenddate") || value(record, "eventEndDate");
-    return end.length === 8 && end >= today;
-  });
+type KtoSnapshot = {
+  regions: Record<string, KtoRecord[]>;
+  details: Record<string, KtoRecord>;
+};
 
-  return records
-    .map((record) => mapApiRecord(record, region))
-    .filter((item): item is TravelItem => item !== null);
+// Built by `npm run data:fetch`; pages only read this file, never the live API.
+function getKtoRegionItems(region: Region) {
+  const { regions, details } = snapshot as KtoSnapshot;
+  const today = koreaDateKey();
+  return (regions[region.areaCode] || [])
+    .filter((record) => {
+      if (value(record, "contenttypeid") !== "15") return true;
+      const end = value(record, "eventenddate") || value(record, "eventEndDate");
+      return end.length === 8 && end >= today;
+    })
+    .map((record) => mapApiRecord({ ...details[value(record, "contentid")], ...record }, region))
+    // Skip places without a description: the list API has none, and thin pages are not worth indexing.
+    .filter((item): item is TravelItem => item !== null && Boolean(item.description));
 }
 
 export function getRegion(slug: string) {
@@ -385,20 +320,13 @@ export async function getRegionItems(regionSlug: string) {
   const region = getRegion(regionSlug);
   if (!region) return [];
 
-  if (process.env.KTO_SERVICE_KEY) {
-    const items = await getKtoRegionItems(region);
-    if (items.length) return items;
-  }
+  const items = getKtoRegionItems(region);
+  if (items.length) return items;
 
   return SEED_ITEMS.filter((item) => item.regionSlug === regionSlug);
 }
 
 export async function getAvailableRegions() {
-  if (!process.env.KTO_SERVICE_KEY) {
-    const slugs = new Set(SEED_ITEMS.map((item) => item.regionSlug));
-    return REGIONS.filter((region) => slugs.has(region.slug));
-  }
-
   const groups = await Promise.all(REGIONS.map(async (region) => ({
     region,
     items: await getRegionItems(region.slug),
@@ -407,7 +335,6 @@ export async function getAvailableRegions() {
 }
 
 export async function getAllTravelItems() {
-  if (!process.env.KTO_SERVICE_KEY) return SEED_ITEMS;
   const groups = await Promise.all(REGIONS.map((region) => getRegionItems(region.slug)));
   return groups.flat();
 }
@@ -437,53 +364,7 @@ export function eventPeriod(item: TravelItem) {
 }
 
 export async function getTravelItem(id: string): Promise<TravelItem | undefined> {
-  const seed = SEED_ITEMS.find((item) => item.id === id);
-  if (seed) return seed;
-  if (!/^\d+$/.test(id) || !process.env.KTO_SERVICE_KEY) return undefined;
-
-  const commonItems = await requestKto("detailCommon2", {
-    contentId: id,
-  });
-  const common = commonItems[0];
-  if (!common) return undefined;
-
-  const contentTypeId = value(common, "contenttypeid") || "12";
-  const themeSlug = themeForApi(contentTypeId, value(common, "cat1"));
-  if (!themeSlug) return undefined;
-  const areaCode = value(common, "areacode");
-  const region = REGIONS.find((item) => item.areaCode === areaCode);
-  const [introItems, imageItems] = await Promise.all([
-    requestKto("detailIntro2", { contentId: id, contentTypeId }),
-    requestKto("detailImage2", { contentId: id, imageYN: "Y", numOfRows: "8" }),
-  ]);
-  const intro = introItems[0] || {};
-  const eventStartDate = intro ? value(intro, "eventstartdate") : "";
-  const eventEndDate = intro ? value(intro, "eventenddate") : "";
-  const coverPhoto = ktoPhoto(common, "firstimage");
-  const photos = imageItems.map((photo) => ktoPhoto(photo)).filter((photo): photo is TravelPhoto => Boolean(photo));
-  if (!photos.length && coverPhoto) photos.push(coverPhoto);
-
-  return {
-    id,
-    title: plainText(value(common, "title")),
-    regionSlug: region?.slug || "",
-    regionName: region?.name || "국내",
-    address: plainText(value(common, "addr1")),
-    description: plainText(value(common, "overview")),
-    imageUrl: coverPhoto?.url,
-    imageLicense: coverPhoto?.license,
-    photos,
-    telephone: plainText(value(common, "tel")) || undefined,
-    homepageUrl: homepageUrl(common),
-    visitInfo: visitInfo(intro, contentTypeId),
-    themeSlug,
-    contentTypeId,
-    eventStartDate,
-    eventEndDate,
-    sourceName: API_SOURCE_NAME,
-    sourceUrl: KTO_API_URL,
-    updatedAt: value(common, "modifiedtime"),
-  };
+  return (await getAllTravelItems()).find((item) => item.id === id);
 }
 
 export function affiliateUrl() {

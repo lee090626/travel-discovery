@@ -1,0 +1,39 @@
+name: Refresh travel data
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # 03:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY_HOOK_URL: ${{ secrets.DEPLOY_HOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch TourAPI snapshot
+        run: node scripts/fetch-travel-data.mjs
+        env:
+          KTO_SERVICE_KEY: ${{ secrets.KTO_SERVICE_KEY }}
+      - name: Commit snapshot if changed
+        run: |
+          if git diff --quiet -- data/kto-snapshot.json; then
+            echo "No data changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/kto-snapshot.json
+            git commit -m "Refresh travel data snapshot"
+            git push
+          fi
+      # Expired events are filtered at build time, so redeploy daily even without data changes.
+      - name: Trigger site rebuild
+        if: env.DEPLOY_HOOK_URL != ''
+        run: curl -fsS -X POST "$DEPLOY_HOOK_URL"

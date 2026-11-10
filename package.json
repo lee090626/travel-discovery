@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "data:fetch": "node --env-file=.env.local scripts/fetch-travel-data.mjs"
   },
   "dependencies": {
     "@astryxdesign/core": "0.7.11",
