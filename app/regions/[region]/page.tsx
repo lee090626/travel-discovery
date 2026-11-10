@@ -4,7 +4,7 @@ import { Heading } from "@astryxdesign/core/Heading";
 import { Text } from "@astryxdesign/core/Text";
 import { AffiliateLink, Breadcrumbs, PlaceList, SectionHeading, ThemePill } from "@/components/travel-ui";
 import { getAvailableRegions, getRegion, getRegionItems, getTheme, getThemesWithItems } from "@/lib/travel";
-import { pageMetadata } from "@/lib/seo";
+import { JsonLd, canonicalUrl, pageMetadata } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ region: string }> };
 
@@ -28,8 +28,26 @@ export default async function RegionPage({ params }: PageProps) {
   if (!items.length) notFound();
 
   const themeGroups = getThemesWithItems(items).filter((group) => group.items.length >= 2);
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: region.name + " 여행지",
+      numberOfItems: items.length,
+      itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: item.title, url: canonicalUrl("/places/" + item.id) })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "지역별", item: canonicalUrl("/regions") },
+        { "@type": "ListItem", position: 2, name: region.name, item: canonicalUrl("/regions/" + slug) },
+      ],
+    },
+  ];
   return (
     <div className="page-container listing-page">
+      <JsonLd data={jsonLd} />
       <Breadcrumbs items={[{ label: "지역별", href: "/regions" }, { label: region.name }]} />
       <header className="page-intro region-intro">
         <Heading level={1}>{region.name}<br />여행지를 둘러봐요.</Heading>

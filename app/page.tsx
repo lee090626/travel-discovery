@@ -5,6 +5,7 @@ import { Icon } from "@/components/icons";
 import { SearchForm } from "@/components/astryx-search-form";
 import { FeaturedPlace, RegionCard, SectionHeading } from "@/components/travel-ui";
 import { getAllTravelItems, getAvailableRegions, getThemesWithItems } from "@/lib/travel";
+import { JsonLd, SITE_NAME, canonicalUrl } from "@/lib/seo";
 
 export default async function HomePage() {
   const [regions, items] = await Promise.all([getAvailableRegions(), getAllTravelItems()]);
@@ -15,6 +16,15 @@ export default async function HomePage() {
 
   return (
     <div className="page-container home-page">
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: SITE_NAME,
+        url: canonicalUrl("/"),
+        inLanguage: "ko-KR",
+        description: "한국관광공사 TourAPI 정보를 바탕으로 지역과 테마별 국내 여행지와 행사를 소개합니다.",
+        potentialAction: { "@type": "SearchAction", target: canonicalUrl("/search") + "?q={search_term_string}", "query-input": "required name=search_term_string" },
+      }} />
       <section className="hero">
         <div className="hero-copy">
           <Heading level={1}>이번 주말,<br />어디 가고 싶어요?</Heading>

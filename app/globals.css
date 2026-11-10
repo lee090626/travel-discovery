@@ -752,6 +752,16 @@ input:focus-visible {
   overflow-wrap: anywhere;
 }
 
+.place-facts.place-faq dl > div {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 4px;
+}
+
+.place-facts.place-faq dt {
+  color: var(--ink);
+  font-size: 14px;
+}
+
 .place-facts a {
   color: var(--green);
   font-weight: 650;
@@ -1198,6 +1208,11 @@ input:focus-visible {
   .place-facts dl > div {
     grid-template-columns: 88px minmax(0, 1fr);
     gap: 12px;
+  }
+
+  .place-facts.place-faq dl > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
   }
 
   .detail-description {
