@@ -9,12 +9,12 @@ const siteOrigin = getSiteOrigin();
 export const metadata: Metadata = {
   metadataBase: siteOrigin ? new URL(siteOrigin) : undefined,
   title: {
-    default: "여행 찾기 | 국내 여행지 탐색",
-    template: "%s | 여행 찾기",
+    default: "뽈뽈 | 국내 여행지 탐색",
+    template: "%s | 뽈뽈",
   },
   description: "지역과 테마로 국내 여행지와 행사를 가볍게 둘러보세요.",
   robots: { index: Boolean(siteOrigin), follow: Boolean(siteOrigin) },
-  openGraph: { siteName: "여행 찾기", locale: "ko_KR", type: "website" },
+  openGraph: { siteName: "뽈뽈", locale: "ko_KR", type: "website" },
 };
 
 export const viewport: Viewport = {

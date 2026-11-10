@@ -17,7 +17,7 @@ export default async function HomePage() {
     <div className="page-container home-page">
       <section className="hero">
         <div className="hero-copy">
-          <Heading level={1}>이번 주말,<br />어디 가고 싶어요?</Heading>
+          <Heading level={1}>이번 주말,<br />어디로 뽈뽈 가볼까요?</Heading>
           <Text as="p" className="hero-description">지역과 관심사로 국내 여행지를 둘러보세요.</Text>
           <SearchForm
             variant="hero"
