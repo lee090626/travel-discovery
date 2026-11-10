@@ -9,3 +9,9 @@ out/
 .DS_Store
 output/
 /*.md
+graphify-out/
+.playwright-cli/
+.playwright-mcp/
+*.log
+*.tsbuildinfo
+.cache/

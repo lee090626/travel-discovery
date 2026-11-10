@@ -367,9 +367,10 @@ export async function getTravelItem(id: string): Promise<TravelItem | undefined>
   return (await getAllTravelItems()).find((item) => item.id === id);
 }
 
+const DEFAULT_AFFILIATE_URL = "https://3ha.in/r/887679";
+
 export function affiliateUrl() {
-  const value = process.env.TRIP_COM_AFFILIATE_URL?.trim();
-  if (!value) return null;
+  const value = process.env.AFFILIATE_URL?.trim() || DEFAULT_AFFILIATE_URL;
   try {
     const url = new URL(value);
     return url.protocol === "https:" ? url.toString() : null;

@@ -213,7 +213,7 @@ export function AffiliateLink() {
     <aside className="affiliate-note">
       <div>
         <strong>숙소도 함께 살펴볼까요?</strong>
-        <Text as="p">이 링크를 통해 예약하면 사이트가 수수료를 받을 수 있어요.</Text>
+        <Text as="p">광고 · 이 링크는 제휴마케팅의 일환으로, 예약 시 사이트가 일정액의 수수료를 제공받습니다.</Text>
       </div>
       <Link href={href} target="_blank" rel="sponsored nofollow noopener noreferrer" isExternalLink>
         숙소 찾아보기 <Icon name="arrow" size={17} />
