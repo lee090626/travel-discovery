@@ -5,7 +5,8 @@ import { Text } from "@astryxdesign/core/Text";
 import Image from "next/image";
 import { Icon } from "@/components/icons";
 import type { Region, Theme, TravelItem, TravelPhoto } from "@/lib/travel";
-import { affiliateUrl, eventPeriod, getTheme } from "@/lib/travel";
+import { eventPeriod, getTheme } from "@/lib/travel";
+import { stayUrl, tourOffer } from "@/lib/affiliate";
 
 function publicNuriLabel(license: TravelPhoto["license"]) {
   return license === "Type1" ? "공공누리 제1유형" : "공공누리 제3유형";
@@ -205,19 +206,24 @@ export function Breadcrumbs({ items }: { items: { label: string; href?: string }
   );
 }
 
-export function AffiliateLink() {
-  const href = affiliateUrl();
-  if (!href) return null;
+export function AffiliateLink({ regionSlug, regionName }: { regionSlug?: string; regionName?: string }) {
+  const tour = tourOffer(regionSlug);
+  const label = regionName ? regionName + " 숙소 찾아보기" : "숙소 찾아보기";
 
   return (
     <aside className="affiliate-note">
       <div>
-        <strong>숙소도 함께 살펴볼까요?</strong>
+        <strong>{regionName ? regionName + " 여행, 숙소도 함께 살펴볼까요?" : "숙소도 함께 살펴볼까요?"}</strong>
         <Text as="p">광고 · 이 링크는 제휴마케팅의 일환으로, 예약 시 사이트가 일정액의 수수료를 제공받습니다.</Text>
       </div>
-      <Link href={href} target="_blank" rel="sponsored nofollow noopener noreferrer" isExternalLink>
-        숙소 찾아보기 <Icon name="arrow" size={17} />
+      <Link href={stayUrl(regionSlug)} target="_blank" rel="sponsored nofollow noopener noreferrer" isExternalLink>
+        {label} <Icon name="arrow" size={17} />
       </Link>
+      {tour ? (
+        <Link href={tour.url} target="_blank" rel="sponsored nofollow noopener noreferrer" isExternalLink>
+          {tour.title} <Icon name="arrow" size={17} />
+        </Link>
+      ) : null}
     </aside>
   );
 }

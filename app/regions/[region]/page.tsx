@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Heading } from "@astryxdesign/core/Heading";
 import { Text } from "@astryxdesign/core/Text";
-import { Breadcrumbs, PlaceList, SectionHeading, ThemePill } from "@/components/travel-ui";
+import { AffiliateLink, Breadcrumbs, PlaceList, SectionHeading, ThemePill } from "@/components/travel-ui";
 import { getAvailableRegions, getRegion, getRegionItems, getTheme, getThemesWithItems } from "@/lib/travel";
 import { pageMetadata } from "@/lib/seo";
 
@@ -51,6 +51,7 @@ export default async function RegionPage({ params }: PageProps) {
         <SectionHeading title={region.name + "에서 둘러볼 곳"} description={items.length + "곳의 출처가 있는 관광 정보를 모았어요."} />
         <PlaceList items={items} />
       </section>
+      <AffiliateLink regionSlug={slug} regionName={region.name} />
     </div>
   );
 }
