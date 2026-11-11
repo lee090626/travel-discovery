@@ -5,6 +5,9 @@ import { getSiteOrigin } from "@/lib/seo";
 import "./globals.css";
 
 const siteOrigin = getSiteOrigin();
+// Search Console / 네이버 서치어드바이저 소유 확인 코드. 빌드 환경변수로 넣는다.
+const googleVerification = process.env.GOOGLE_SITE_VERIFICATION?.trim();
+const naverVerification = process.env.NAVER_SITE_VERIFICATION?.trim();
 
 export const metadata: Metadata = {
   metadataBase: siteOrigin ? new URL(siteOrigin) : undefined,
@@ -15,6 +18,10 @@ export const metadata: Metadata = {
   description: "지역과 테마로 국내 여행지와 행사를 가볍게 둘러보세요.",
   robots: { index: Boolean(siteOrigin), follow: Boolean(siteOrigin) },
   openGraph: { siteName: "뽈뽈", locale: "ko_KR", type: "website" },
+  verification: {
+    google: googleVerification || undefined,
+    other: naverVerification ? { "naver-site-verification": naverVerification } : undefined,
+  },
 };
 
 export const viewport: Viewport = {
