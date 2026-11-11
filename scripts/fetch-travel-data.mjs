@@ -16,7 +16,7 @@ const AREA_CODES = ["1", "2", "3", "4", "5", "6", "7", "8", "31", "32", "33", "3
 const LIST_CONTENT_TYPES = ["12", "14", "25", "39"];
 const LIST_FIELDS = ["addr1", "areacode", "cat1", "contentid", "contenttypeid", "cpyrhtDivCd", "eventenddate", "eventstartdate", "firstimage", "firstimage2", "modifiedtime", "tel", "title"];
 const DETAIL_FIELDS = ["homepage", "overview", "tel"];
-const DETAIL_LIMIT = Number(process.env.DETAIL_LIMIT || 300);
+const DETAIL_LIMIT = Number(process.env.DETAIL_LIMIT || 900);
 const CONCURRENCY = 3;
 const ATTEMPTS = 3;
 
