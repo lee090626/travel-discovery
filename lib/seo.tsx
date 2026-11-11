@@ -48,6 +48,24 @@ export function JsonLd({ data }: { data: object }) {
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, "\\u003c") }} />;
 }
 
+// 목록 페이지용 ItemList + BreadcrumbList.
+export function listingJsonLd(name: string, items: { id: string; title: string }[], crumbs: { name: string; path: string }[]) {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name,
+      numberOfItems: items.length,
+      itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: item.title, url: canonicalUrl("/places/" + item.id) })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: crumbs.map((crumb, index) => ({ "@type": "ListItem", position: index + 1, name: crumb.name, item: canonicalUrl(crumb.path) })),
+    },
+  ];
+}
+
 type FaqSource = {
   title: string;
   regionName: string;

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Breadcrumbs, PlaceList, RegionBanner, RegionThemeNav, SectionHeading } from "@/components/travel-ui";
 import { getAvailableRegions, getRegion, getRegionItems, getRegionThemeItems, getTheme, getThemesWithItems } from "@/lib/travel";
-import { pageMetadata } from "@/lib/seo";
+import { JsonLd, listingJsonLd, pageMetadata } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ region: string; theme: string }> };
 
@@ -43,6 +43,11 @@ export default async function RegionThemePage({ params }: PageProps) {
 
   return (
     <div className="page-container listing-page">
+      <JsonLd data={listingJsonLd(region.name + " " + theme.name + " 여행", items, [
+        { name: "지역별", path: "/regions" },
+        { name: region.name, path: "/regions/" + regionSlug },
+        { name: theme.name, path: "/regions/" + regionSlug + "/" + themeSlug },
+      ])} />
       <Breadcrumbs items={[
         { label: "지역별", href: "/regions" },
         { label: region.name, href: "/regions/" + regionSlug },

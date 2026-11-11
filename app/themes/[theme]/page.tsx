@@ -4,7 +4,7 @@ import { Heading } from "@astryxdesign/core/Heading";
 import { Text } from "@astryxdesign/core/Text";
 import { Breadcrumbs, PlaceList, SectionHeading } from "@/components/travel-ui";
 import { getAllTravelItems, getTheme, getThemesWithItems } from "@/lib/travel";
-import { pageMetadata } from "@/lib/seo";
+import { JsonLd, listingJsonLd, pageMetadata } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ theme: string }> };
 
@@ -29,6 +29,7 @@ export default async function ThemePage({ params }: PageProps) {
 
   return (
     <div className="page-container listing-page">
+      <JsonLd data={listingJsonLd(theme.name + " 여행지", group.items, [{ name: "테마별", path: "/themes" }, { name: theme.name, path: "/themes/" + slug }])} />
       <Breadcrumbs items={[{ label: "테마별", href: "/themes" }, { label: theme.name }]} />
       <header className="page-intro">
         <img className="intro-mascot" src="/mascot.svg" alt="뽈뽈이" width={160} height={130} />
