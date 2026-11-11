@@ -17,15 +17,17 @@ export default async function RegionsPage() {
     <div className="page-container listing-page">
       <Breadcrumbs items={[{ label: "지역별" }]} />
       <header className="page-intro">
+        <img className="intro-mascot" src="/mascot-map.svg" alt="지도를 펼친 뽈뽈이" width={160} height={130} />
         <Heading level={1}>지역을 고르면,<br />여행이 조금 쉬워져요.</Heading>
         <Text as="p">현재 여행 정보가 준비된 지역부터 둘러보세요. 지역별 페이지에서는 테마와 장소를 이어 볼 수 있어요.</Text>
       </header>
       <section className="content-section">
         <SectionHeading title="둘러볼 지역" description={regions.length + "개 지역에서 여행 정보를 찾을 수 있어요."} />
         <div className="region-grid region-grid-large">
-          {regions.map((region) => (
+          {regions.map((region, index) => (
             <RegionCard
               key={region.slug}
+              index={index}
               region={region}
               count={items.filter((item) => item.regionSlug === region.slug).length}
             />

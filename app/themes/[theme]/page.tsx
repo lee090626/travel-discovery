@@ -31,6 +31,7 @@ export default async function ThemePage({ params }: PageProps) {
     <div className="page-container listing-page">
       <Breadcrumbs items={[{ label: "테마별", href: "/themes" }, { label: theme.name }]} />
       <header className="page-intro">
+        <img className="intro-mascot" src="/mascot.svg" alt="뽈뽈이" width={160} height={130} />
         <Heading level={1}>{theme.name}<br />여행지를 찾아봐요.</Heading>
         <Text as="p">{theme.description}</Text>
       </header>

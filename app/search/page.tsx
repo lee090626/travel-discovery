@@ -23,6 +23,7 @@ export default async function SearchPage() {
     <div className="page-container listing-page">
       <Breadcrumbs items={[{ label: "여행지 검색" }]} />
       <header className="page-intro search-intro">
+        <img className="intro-mascot" src="/mascot-search.svg" alt="돋보기를 든 뽈뽈이" width={160} height={130} />
         <Heading level={1}>궁금한 지역이나<br />여행지를 검색해요.</Heading>
         <Text as="p">장소명, 지역명, 관광 정보에 포함된 단어로 찾아볼 수 있어요.</Text>
       </header>

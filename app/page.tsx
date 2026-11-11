@@ -1,9 +1,7 @@
 import { Heading } from "@astryxdesign/core/Heading";
-import { Link } from "@astryxdesign/core/Link";
 import { Text } from "@astryxdesign/core/Text";
-import { Icon } from "@/components/icons";
 import { SearchForm } from "@/components/astryx-search-form";
-import { FeaturedPlace, RegionCard, SectionHeading } from "@/components/travel-ui";
+import { FeaturedPlace, RegionCard, SectionHeading, ThemePill } from "@/components/travel-ui";
 import { getAllTravelItems, getAvailableRegions, getThemesWithItems } from "@/lib/travel";
 import { JsonLd, SITE_NAME, canonicalUrl } from "@/lib/seo";
 
@@ -46,9 +44,10 @@ export default async function HomePage() {
           href="/regions"
         />
         <div className="region-grid">
-          {regions.map((region) => (
+          {regions.map((region, index) => (
             <RegionCard
               key={region.slug}
+              index={index}
               region={region}
               count={items.filter((item) => item.regionSlug === region.slug).length}
             />
@@ -59,18 +58,13 @@ export default async function HomePage() {
       {themes.length ? (
         <section className="content-section">
           <SectionHeading
-            title="관심 있는 테마"
+            title="테마로 찾아보기"
             description="관광 정보에 등록된 주제로 여행지를 둘러보세요."
             href="/themes"
           />
-          <div className="theme-grid" role="list">
-            {themes.map(({ theme, items: themeItems }) => (
-              <Link className={"theme-row theme-" + theme.slug} key={theme.slug} href={"/themes/" + theme.slug} role="listitem">
-                <Icon name={theme.icon} size={20} />
-                <strong>{theme.name}</strong>
-                <span>{themeItems.length}곳</span>
-                <Icon name="arrow" size={17} />
-              </Link>
+          <div className="theme-pills">
+            {themes.map(({ theme }) => (
+              <ThemePill key={theme.slug} theme={theme} href={"/themes/" + theme.slug} />
             ))}
           </div>
         </section>
