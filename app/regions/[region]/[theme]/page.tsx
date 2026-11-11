@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Heading } from "@astryxdesign/core/Heading";
-import { Text } from "@astryxdesign/core/Text";
-import { Breadcrumbs, PlaceList, SectionHeading } from "@/components/travel-ui";
+import { Breadcrumbs, PlaceList, RegionBanner, RegionThemeNav, SectionHeading } from "@/components/travel-ui";
 import { getAvailableRegions, getRegion, getRegionItems, getRegionThemeItems, getTheme, getThemesWithItems } from "@/lib/travel";
 import { pageMetadata } from "@/lib/seo";
 
@@ -38,7 +36,9 @@ export default async function RegionThemePage({ params }: PageProps) {
   const theme = getTheme(themeSlug);
   if (!region || !theme) notFound();
 
-  const items = getRegionThemeItems(await getRegionItems(regionSlug), themeSlug);
+  const regionItems = await getRegionItems(regionSlug);
+  const items = getRegionThemeItems(regionItems, themeSlug);
+  const themeGroups = getThemesWithItems(regionItems).filter((group) => group.items.length >= 2);
   if (items.length < 2) notFound();
 
   return (
@@ -48,12 +48,14 @@ export default async function RegionThemePage({ params }: PageProps) {
         { label: region.name, href: "/regions/" + regionSlug },
         { label: theme.name },
       ]} />
-      <header className="page-intro">
-        <Heading level={1}>{region.name}에서<br />{theme.name}을 만나봐요.</Heading>
-        <Text as="p">{theme.description} 장소별 공식 정보도 함께 확인할 수 있어요.</Text>
-      </header>
+      <RegionBanner
+        title={region.name + " " + theme.name}
+        description={theme.description + " 장소별 공식 정보도 함께 확인할 수 있어요."}
+        count={items.length}
+      />
+      <RegionThemeNav regionSlug={regionSlug} themes={themeGroups.map((group) => group.theme)} current={themeSlug} />
       <section className="content-section last-section">
-        <SectionHeading title={region.name + " " + theme.name} description={items.length + "곳의 관광 정보를 모았어요."} />
+        <SectionHeading title={region.name + " " + theme.name + " 여행지"} />
         <PlaceList items={items} />
       </section>
     </div>

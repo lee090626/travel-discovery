@@ -18,6 +18,7 @@ export default async function ThemesPage() {
     <div className="page-container listing-page">
       <Breadcrumbs items={[{ label: "테마별" }]} />
       <header className="page-intro">
+        <img className="intro-mascot" src="/mascot-camera.svg" alt="카메라를 든 뽈뽈이" width={160} height={130} />
         <Heading level={1}>지금 끌리는<br />테마부터 찾아봐요.</Heading>
         <Text as="p">한국관광공사 관광 정보의 분류를 바탕으로, 실제 장소가 있는 테마만 열어 두었어요.</Text>
       </header>

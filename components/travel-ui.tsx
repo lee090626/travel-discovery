@@ -4,6 +4,7 @@ import { Link } from "@astryxdesign/core/Link";
 import { Text } from "@astryxdesign/core/Text";
 import Image from "next/image";
 import { Icon } from "@/components/icons";
+import { ShowMore } from "@/components/show-more";
 import type { Region, Theme, TravelItem, TravelPhoto } from "@/lib/travel";
 import { eventPeriod, getTheme } from "@/lib/travel";
 import { RENTAL_URL, stayUrl, tourOffer } from "@/lib/affiliate";
@@ -72,15 +73,16 @@ export function SectionHeading({
   );
 }
 
-export function RegionCard({ region, count }: { region: Region; count: number }) {
+const TINTS = ["tint-pink", "tint-yellow", "tint-mint", "tint-lilac"];
+
+export function RegionCard({ region, count, index = 0 }: { region: Region; count: number; index?: number }) {
   return (
     <Link className="region-card" href={"/regions/" + region.slug}>
-      <span className="region-card-icon"><Icon name="pin" size={22} /></span>
+      <span className={"region-card-tint " + TINTS[index % TINTS.length]} aria-hidden="true" />
       <span className="region-card-copy">
         <strong>{region.name}</strong>
-        <span>{count}곳 둘러보기</span>
+        <span>{count}곳 · 이 지역 여행지 보기 →</span>
       </span>
-      <Icon name="arrow" size={18} />
     </Link>
   );
 }
@@ -98,13 +100,39 @@ export function ThemeCard({ theme, count, regionCount }: { theme: Theme; count: 
   );
 }
 
-export function ThemePill({ theme, href }: { theme: Theme; href: string }) {
+export function ThemePill({ theme, href, label, current }: { theme?: Theme; href: string; label?: string; current?: boolean }) {
   return (
-    <Link className="theme-pill" href={href}>
-      <Icon name={theme.icon} size={17} />
-      <span>{theme.name}</span>
-      <Icon name="arrow" size={15} />
+    <Link className={"theme-pill" + (current ? " is-current" : "")} href={href} aria-current={current ? "page" : undefined}>
+      {label || theme?.name}
     </Link>
+  );
+}
+
+export function RegionBanner({ title, description, count }: { title: string; description: string; count: number }) {
+  return (
+    <header className="region-banner">
+      <div>
+        <Heading level={1}>{title}</Heading>
+        <Text as="p">{description}</Text>
+        <span className="region-banner-count">여행지 {count}곳</span>
+      </div>
+      <img className="intro-mascot" src="/mascot-map.svg" alt="지도를 펼친 뽈뽈이" width={160} height={130} />
+    </header>
+  );
+}
+
+export function RegionThemeNav({ regionSlug, themes, current }: { regionSlug: string; themes: Theme[]; current?: string }) {
+  if (!themes.length) return null;
+  return (
+    <section className="content-section compact-section" aria-labelledby="region-theme-nav">
+      <Heading level={2} id="region-theme-nav" className="small-heading">테마로 좁혀보기</Heading>
+      <div className="theme-pills">
+        <ThemePill href={"/regions/" + regionSlug} label="전체" current={!current} />
+        {themes.map((theme) => (
+          <ThemePill key={theme.slug} theme={theme} href={"/regions/" + regionSlug + "/" + theme.slug} current={current === theme.slug} />
+        ))}
+      </div>
+    </section>
   );
 }
 
@@ -117,27 +145,26 @@ export function PlaceCard({ item }: { item: TravelItem }) {
   return (
     <article className="place-card">
       <Link className="place-card-link" href={"/places/" + item.id}>
-        {photo ? (
-          <span className="place-card-photo">
-            <Image src={photo.url} alt="" fill sizes="112px" unoptimized />
-            <span className="place-card-photo-credit">
-              한국관광공사 · {photo.license === "Type1" ? "제1유형" : "제3유형"}
-            </span>
-          </span>
-        ) : (
-          <span className={"place-symbol theme-" + item.themeSlug}>
-            <Icon name={theme?.icon || "compass"} size={25} />
-          </span>
-        )}
+        <span className={"place-card-photo theme-" + item.themeSlug}>
+          {photo ? (
+            <>
+              <Image src={photo.url} alt="" fill sizes="(max-width: 680px) 100vw, 360px" unoptimized />
+              <span className="place-card-photo-credit">
+                한국관광공사 · {photo.license === "Type1" ? "제1유형" : "제3유형"}
+              </span>
+            </>
+          ) : (
+            <Icon name={theme?.icon || "compass"} size={34} />
+          )}
+        </span>
         <span className="place-card-copy">
+          {theme ? <span className="place-card-theme">{theme.name}</span> : null}
+          <strong>{item.title}</strong>
           <span className="place-meta">
             <span>{item.regionName}</span>
             {period ? <span>{period}</span> : null}
           </span>
-          <strong>{item.title}</strong>
-          <span className="place-description">{item.description || item.address || "한국관광공사 관광정보를 확인해 보세요."}</span>
         </span>
-        <Icon name="arrow" size={18} />
       </Link>
     </article>
   );
@@ -175,9 +202,9 @@ export function PlaceGallery({ item }: { item: TravelItem }) {
 
 export function PlaceList({ items }: { items: TravelItem[] }) {
   return (
-    <div className="place-list">
+    <ShowMore>
       {items.map((item) => <PlaceCard key={item.id} item={item} />)}
-    </div>
+    </ShowMore>
   );
 }
 
@@ -208,25 +235,26 @@ export function Breadcrumbs({ items }: { items: { label: string; href?: string }
 
 export function AffiliateLink({ regionSlug, regionName }: { regionSlug?: string; regionName?: string }) {
   const tour = tourOffer(regionSlug);
-  const label = regionName ? regionName + " 숙소 찾아보기" : "숙소 찾아보기";
+  const rel = "sponsored nofollow noopener noreferrer";
 
   return (
-    <aside className="affiliate-note">
-      <div>
-        <strong>{regionName ? regionName + " 여행, 숙소도 함께 살펴볼까요?" : "숙소도 함께 살펴볼까요?"}</strong>
-        <Text as="p">광고 · 이 링크는 제휴마케팅의 일환으로, 예약 시 사이트가 일정액의 수수료를 제공받습니다.</Text>
+    <aside className="affiliate-note" aria-labelledby="affiliate-title">
+      <div className="affiliate-head">
+        <img src="/mascot.svg" alt="" width={44} height={36} />
+        <Heading level={2} id="affiliate-title">뽈뽈이의 여행 준비</Heading>
       </div>
-      <Link href={stayUrl(regionSlug)} target="_blank" rel="sponsored nofollow noopener noreferrer" isExternalLink>
-        {label} <Icon name="arrow" size={17} />
+      <Link href={stayUrl(regionSlug)} target="_blank" rel={rel} isExternalLink>
+        {regionName ? regionName + " 숙소 보기" : "숙소 보기"} <Icon name="arrow" size={17} />
       </Link>
       {tour ? (
-        <Link href={tour.url} target="_blank" rel="sponsored nofollow noopener noreferrer" isExternalLink>
+        <Link href={tour.url} target="_blank" rel={rel} isExternalLink>
           {tour.title} <Icon name="arrow" size={17} />
         </Link>
       ) : null}
-      <Link href={RENTAL_URL} target="_blank" rel="sponsored nofollow noopener noreferrer" isExternalLink>
-        렌터카 찾아보기 <Icon name="arrow" size={17} />
+      <Link href={RENTAL_URL} target="_blank" rel={rel} isExternalLink>
+        렌터카 알아보기 <Icon name="arrow" size={17} />
       </Link>
+      <Text as="p">광고 · 이 링크는 제휴마케팅의 일환으로, 예약 시 사이트가 일정액의 수수료를 제공받습니다.</Text>
     </aside>
   );
 }

@@ -68,17 +68,17 @@ export default async function PlacePage({ params }: PageProps) {
       ]} />
       <article>
         <header className="detail-heading">
-          <div className={"detail-symbol theme-" + item.themeSlug}><Icon name={theme?.icon || "compass"} size={31} /></div>
-          <Text as="p" className="detail-location">{item.regionName}</Text>
-          <Heading level={1}>{item.title}</Heading>
           <div className="detail-tags">
-            {theme ? <span>{theme.name}</span> : null}
+            {item.regionName ? <span className="tag-region">{item.regionName}</span> : null}
+            {theme ? <span className="tag-theme">{theme.name}</span> : null}
             {period ? <span>{period}</span> : null}
           </div>
+          <Heading level={1}>{item.title}</Heading>
         </header>
         <PlaceGallery item={item} />
         <div className="detail-body">
           {item.description ? <Text as="p" className="detail-description">{item.description}</Text> : null}
+          <div className="detail-cards">
           {item.address || item.telephone || item.homepageUrl || item.visitInfo?.length ? (
             <section className="place-facts" aria-labelledby="place-facts-title">
               <Heading level={2} id="place-facts-title">방문 정보</Heading>
@@ -105,6 +105,7 @@ export default async function PlacePage({ params }: PageProps) {
               ))}
             </dl>
           </section>
+          </div>
           <div className="planning-note">
             <span className="planning-note-icon"><Icon name="landmark" size={18} /></span>
             <Text as="p">방문 시간과 이용 정보는 바뀔 수 있어요. 출발 전에 원문 안내를 확인해 주세요.</Text>
