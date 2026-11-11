@@ -1,12 +1,13 @@
 import { Heading } from "@astryxdesign/core/Heading";
 import { Text } from "@astryxdesign/core/Text";
 import { SearchForm } from "@/components/astryx-search-form";
-import { FeaturedPlace, RegionCard, SectionHeading, ThemePill } from "@/components/travel-ui";
+import { CollectionCard, FeaturedPlace, RegionCard, SectionHeading, ThemePill } from "@/components/travel-ui";
+import { getCollections } from "@/lib/collections";
 import { getAllTravelItems, getAvailableRegions, getThemesWithItems } from "@/lib/travel";
 import { JsonLd, SITE_NAME, canonicalUrl } from "@/lib/seo";
 
 export default async function HomePage() {
-  const [regions, items] = await Promise.all([getAvailableRegions(), getAllTravelItems()]);
+  const [regions, items, collections] = await Promise.all([getAvailableRegions(), getAllTravelItems(), getCollections()]);
   const themes = getThemesWithItems(items).filter((group) => group.items.length >= 2);
   const recommendation = items.find((item) => item.id === "anmok-beach")
     || items.find((item) => item.themeSlug === "nature")
@@ -36,6 +37,21 @@ export default async function HomePage() {
         </div>
         {recommendation ? <FeaturedPlace item={recommendation} /> : null}
       </section>
+
+      {collections.length ? (
+        <section className="content-section">
+          <SectionHeading
+            title="뽈뽈이가 고른 모음"
+            description="상황에 맞춰 함께 둘러보기 좋은 장소를 묶어 두었어요."
+            href="/collections"
+          />
+          <div className="region-grid collection-grid">
+            {collections.slice(0, 4).map(({ collection, items: collectionItems }, index) => (
+              <CollectionCard key={collection.slug} index={index} slug={collection.slug} title={collection.title} summary={collection.summary} count={collectionItems.length} />
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="content-section">
         <SectionHeading

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getSiteOrigin, parseUpdatedAt } from "@/lib/seo";
+import { getCollections } from "@/lib/collections";
 import { getAllTravelItems, getAvailableRegions, getRegionItems, getThemesWithItems } from "@/lib/travel";
 
 export const dynamic = "force-static";
@@ -8,7 +9,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const origin = getSiteOrigin();
   if (!origin) return [];
 
-  const [regions, items] = await Promise.all([getAvailableRegions(), getAllTravelItems()]);
+  const [regions, items, collections] = await Promise.all([getAvailableRegions(), getAllTravelItems(), getCollections()]);
   const regionGroups = await Promise.all(regions.map(async (region) => ({
     region,
     items: await getRegionItems(region.slug),
@@ -17,6 +18,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: origin, changeFrequency: "weekly", priority: 1 },
     { url: origin + "/regions", changeFrequency: "weekly", priority: 0.8 },
     { url: origin + "/themes", changeFrequency: "weekly", priority: 0.8 },
+    { url: origin + "/collections", changeFrequency: "weekly", priority: 0.8 },
+    ...collections.map(({ collection }) => ({ url: origin + "/collections/" + collection.slug, changeFrequency: "weekly" as const, priority: 0.7 })),
   ];
 
   for (const { region, items: regionItems } of regionGroups) {
