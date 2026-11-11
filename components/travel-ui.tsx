@@ -87,6 +87,19 @@ export function RegionCard({ region, count, index = 0 }: { region: Region; count
   );
 }
 
+export function CollectionCard({ slug, title, summary, count, index = 0 }: { slug: string; title: string; summary: string; count: number; index?: number }) {
+  return (
+    <Link className="region-card collection-card" href={"/collections/" + slug}>
+      <span className={"region-card-tint " + TINTS[index % TINTS.length]} aria-hidden="true" />
+      <span className="region-card-copy">
+        <strong>{title}</strong>
+        <span>{summary}</span>
+        <span>{count}곳 · 모음 보기 →</span>
+      </span>
+    </Link>
+  );
+}
+
 export function ThemeCard({ theme, count, regionCount }: { theme: Theme; count: number; regionCount: number }) {
   return (
     <Link className={"theme-card theme-" + theme.slug} href={"/themes/" + theme.slug}>

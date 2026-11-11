@@ -1,4 +1,5 @@
 import { getSiteOrigin } from "@/lib/seo";
+import { getCollections } from "@/lib/collections";
 import { getAllTravelItems, getAvailableRegions, getRegionItems, getThemesWithItems } from "@/lib/travel";
 
 export const dynamic = "force-static";
@@ -6,7 +7,7 @@ export const dynamic = "force-static";
 // llms.txt: 생성형 AI가 사이트 구조와 주요 페이지를 파악하도록 돕는 요약 문서.
 export async function GET() {
   const origin = getSiteOrigin() || "";
-  const [regions, items] = await Promise.all([getAvailableRegions(), getAllTravelItems()]);
+  const [regions, items, collections] = await Promise.all([getAvailableRegions(), getAllTravelItems(), getCollections()]);
   const regionLines = await Promise.all(regions.map(async (region) => {
     const count = (await getRegionItems(region.slug)).length;
     return "- [" + region.name + " 여행지](" + origin + "/regions/" + region.slug + "): " + count + "곳";
@@ -30,6 +31,9 @@ export async function GET() {
     "",
     "## 테마",
     ...themeLines,
+    "",
+    "## 여행지 모음",
+    ...collections.map(({ collection, items: collectionItems }) => "- [" + collection.title + "](" + origin + "/collections/" + collection.slug + "): " + collection.summary + " (" + collectionItems.length + "곳)"),
     "",
   ].join("\n");
 
