@@ -94,7 +94,14 @@ const previous = JSON.parse(await readFile(SNAPSHOT_FILE, "utf8"));
 
 // 1. Lists: any failure aborts the run before anything is written.
 const regionRecords = await mapLimit(AREA_CODES, fetchRegion);
-const regions = Object.fromEntries(AREA_CODES.map((code, index) => [code, regionRecords[index]]));
+// The list API returns a shifting window of places, so keep places from earlier runs
+// (except events, which expire) instead of letting them drop off the site.
+const regions = Object.fromEntries(AREA_CODES.map((code, index) => {
+  const fresh = regionRecords[index];
+  const freshIds = new Set(fresh.map((record) => String(record.contentid)));
+  const kept = (previous.regions?.[code] || []).filter((record) => record.contenttypeid !== "15" && !freshIds.has(String(record.contentid)));
+  return [code, [...fresh, ...kept].sort((a, b) => String(a.contentid).localeCompare(String(b.contentid)))];
+}));
 const records = Object.values(regions).flat();
 console.log(`lists: ${records.length} places in ${AREA_CODES.length} regions`);
 
