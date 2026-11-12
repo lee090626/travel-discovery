@@ -431,6 +431,15 @@
     "title": "서울 삼전도비"
    },
    {
+    "addr1": "서울특별시 종로구 지봉로12길 6",
+    "areacode": "1",
+    "cat1": "A05",
+    "contentid": "232218",
+    "contenttypeid": "39",
+    "modifiedtime": "20251124154933",
+    "title": "궁나라냉면묵밥"
+   },
+   {
     "addr1": "서울특별시 강서구 방화대로49길 6-7",
     "areacode": "1",
     "cat1": "A05",
@@ -1104,6 +1113,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/58/2860758_image3_1.jpg",
     "modifiedtime": "20250902134439",
     "title": "갈비사랑"
+   },
+   {
+    "addr1": "서울특별시 종로구 평창길 62 (평창동)",
+    "areacode": "1",
+    "cat1": "A05",
+    "contentid": "2864251",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/40/2864240_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/40/2864240_image3_1.jpg",
+    "modifiedtime": "20250902135803",
+    "title": "그라운드62(GROUND62)"
    },
    {
     "addr1": "서울특별시 강남구 언주로167길 35 (신사동)",
@@ -2622,6 +2643,18 @@
     "title": "다올"
    },
    {
+    "addr1": "인천광역시 연수구 센트럴로 160 (송도동, 송도센트럴파크푸르지오)",
+    "areacode": "2",
+    "cat1": "A05",
+    "contentid": "2899996",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/89/2899989_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/89/2899989_image3_1.jpg",
+    "modifiedtime": "20251023143000",
+    "title": "따룽훠궈 송도점"
+   },
+   {
     "addr1": "인천광역시 강화군 삼랑성길 8",
     "areacode": "2",
     "cat1": "C01",
@@ -3655,6 +3688,15 @@
     "title": "이강서원"
    },
    {
+    "addr1": "대구광역시 동구 율하동로24길 31",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "1828249",
+    "contenttypeid": "39",
+    "modifiedtime": "20250317200017",
+    "title": "부부식당"
+   },
+   {
     "addr1": "대구광역시 북구 원대로19길 16",
     "areacode": "4",
     "cat1": "A05",
@@ -3766,6 +3808,18 @@
     "title": "경극고택"
    },
    {
+    "addr1": "대구광역시 동구 팔공산로9길 6-1 (덕곡동)",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2736720",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/87/2737087_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/87/2737087_image2_1.jpg",
+    "modifiedtime": "20250910085847",
+    "title": "밥을짓다"
+   },
+   {
     "addr1": "대구광역시 달서구 월배로83길 7 (송현동)",
     "areacode": "4",
     "cat1": "A05",
@@ -3802,6 +3856,18 @@
     "title": "침산공원"
    },
    {
+    "addr1": "대구광역시 달서구 두류공원로28길 8",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2745610",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/67/2746367_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/67/2746367_image2_1.jpg",
+    "modifiedtime": "20250116110039",
+    "title": "버들식당"
+   },
+   {
     "addr1": "대구광역시 중구 동성로2길 80 (공평동)",
     "areacode": "4",
     "cat1": "A02",
@@ -3824,6 +3890,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/92/3571492_image3_1.JPG",
     "modifiedtime": "20251121144817",
     "title": "김수환 추기경 사랑과 나눔공원"
+   },
+   {
+    "addr1": "대구광역시 남구 앞산순환로 383-6",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2766489",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/16/2766716_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/16/2766716_image2_1.jpg",
+    "modifiedtime": "20250114172141",
+    "title": "앞산분식"
    },
    {
     "addr1": "대구광역시 달서구 조암로 58",
@@ -3888,6 +3966,30 @@
     "title": "대구의 핫플레이스를 둘러보는 1박2일 여행 코스"
    },
    {
+    "addr1": "대구광역시 군위군 중앙6길 19-1",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2831991",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/82/2831982_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/82/2831982_image3_1.jpg",
+    "modifiedtime": "20250116101137",
+    "title": "연화식당"
+   },
+   {
+    "addr1": "대구광역시 남구 큰골길 35 (대명동)",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2840362",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/57/2840357_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/57/2840357_image3_1.jpg",
+    "modifiedtime": "20250909173100",
+    "title": "앞산 큰골집"
+   },
+   {
     "addr1": "대구광역시 달성군 가창면 녹문길 16-11",
     "areacode": "4",
     "cat1": "A05",
@@ -3934,6 +4036,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/09/2840709_image3_1.jpg",
     "modifiedtime": "20250909173100",
     "title": "롤러커피"
+   },
+   {
+    "addr1": "대구광역시 중구 달구벌대로446길 11 (대봉동)",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2840766",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/51/2840751_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/51/2840751_image3_1.jpg",
+    "modifiedtime": "20250909173100",
+    "title": "방천가족족발&보쌈"
    },
    {
     "addr1": "대구광역시 달성군 가창면 가창로119길 13",
@@ -4140,6 +4254,18 @@
     "title": "대봉정"
    },
    {
+    "addr1": "대구광역시 달성군 서재본길 11",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2850406",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/02/2850402_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/02/2850402_image3_1.jpg",
+    "modifiedtime": "20250110163034",
+    "title": "보백관 본점"
+   },
+   {
     "addr1": "대구광역시 동구 초례로 6 (숙천동)",
     "areacode": "4",
     "cat1": "A05",
@@ -4152,6 +4278,30 @@
     "title": "레이틀리92"
    },
    {
+    "addr1": "대구광역시 동구 팔공산로 222",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2850496",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/90/2850490_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/90/2850490_image3_1.jpg",
+    "modifiedtime": "20250114091728",
+    "title": "미소팔공한우"
+   },
+   {
+    "addr1": "대구광역시 수성구 달구벌대로641길 7 (매호동)",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2850538",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/20/2850520_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/20/2850520_image3_1.jpg",
+    "modifiedtime": "20250909102318",
+    "title": "서민수산회"
+   },
+   {
     "addr1": "대구광역시 서구 달구벌대로375길 31 (내당동)",
     "areacode": "4",
     "cat1": "A05",
@@ -4162,6 +4312,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/35/2850535_image3_1.jpg",
     "modifiedtime": "20250909102533",
     "title": "똘똘이식당"
+   },
+   {
+    "addr1": "대구광역시 수성구 희망로 137-1 (중동)",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2850573",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/62/2850562_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/62/2850562_image3_1.jpg",
+    "modifiedtime": "20250909102825",
+    "title": "살맛나는집"
    },
    {
     "addr1": "대구광역시 수성구 유니버시아드로 318 (욱수동)",
@@ -4212,6 +4374,18 @@
     "title": "메르헨카페"
    },
    {
+    "addr1": "대구광역시 수성구 들안로 41 (상동)",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2856337",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/21/2856321_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/21/2856321_image3_1.jpg",
+    "modifiedtime": "20250909113829",
+    "title": "아라한참치"
+   },
+   {
     "addr1": "대구광역시 동구 서촌로21길 11 (송정동)",
     "areacode": "4",
     "cat1": "A05",
@@ -4224,6 +4398,18 @@
     "title": "메종듀미디"
    },
    {
+    "addr1": "대구광역시 동구 팔공로 400-6 (봉무동)",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2856371",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/66/2856366_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/66/2856366_image3_1.jpg",
+    "modifiedtime": "20250909162917",
+    "title": "브런치달랏"
+   },
+   {
     "addr1": "대구광역시 북구 옥산로 53 (노원동1가)",
     "areacode": "4",
     "cat1": "A05",
@@ -4234,6 +4420,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/44/2866144_image3_1.jpg",
     "modifiedtime": "20250909164310",
     "title": "걸리버막창"
+   },
+   {
+    "addr1": "대구광역시 북구 침산남로 62 (노원동1가)",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2866165",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/61/2866161_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/61/2866161_image3_1.jpg",
+    "modifiedtime": "20250909164615",
+    "title": "벽강물회"
    },
    {
     "addr1": "대구광역시 수성구 고모로 188 (고모동)",
@@ -4260,6 +4458,18 @@
     "title": "루미너스"
    },
    {
+    "addr1": "대구광역시 동구 대경로 1 (숙천동)",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2866276",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/68/2866268_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/68/2866268_image3_1.jpg",
+    "modifiedtime": "20250909171047",
+    "title": "안심농장직영식육식당"
+   },
+   {
     "addr1": "대구광역시 수성구 범어천로 48 (범어동)",
     "areacode": "4",
     "cat1": "A05",
@@ -4270,6 +4480,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/73/2866273_image3_1.jpg",
     "modifiedtime": "20250909171312",
     "title": "명동돼지한마리"
+   },
+   {
+    "addr1": "대구광역시 남구 현충로 214",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "2866522",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/12/2866512_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/12/2866512_image3_1.jpg",
+    "modifiedtime": "20251126094912",
+    "title": "신송자 신마산식당"
    },
    {
     "addr1": "대구광역시 달성군 구지면 구지동로 234",
@@ -4381,6 +4603,15 @@
     "contenttypeid": "39",
     "modifiedtime": "20250318203130",
     "title": "대하닭갈비"
+   },
+   {
+    "addr1": "대구광역시 달성군 다사읍 부곡2길 7-9",
+    "areacode": "4",
+    "cat1": "A05",
+    "contentid": "637822",
+    "contenttypeid": "39",
+    "modifiedtime": "20250324152218",
+    "title": "손중헌원조논메기매운탕"
    },
    {
     "addr1": "대구광역시 동구 파계로 152-5",
@@ -4823,6 +5054,18 @@
     "title": "옛날에 금잔디"
    },
    {
+    "addr1": "전남광주통합특별시 광산구 수완로74번길 30-6  ",
+    "areacode": "5",
+    "cat1": "A05",
+    "contentid": "2855307",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/98/2855298_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/98/2855298_image3_1.jpg",
+    "modifiedtime": "20260630212627",
+    "title": "초돈"
+   },
+   {
     "addr1": "전남광주통합특별시 서구 마륵로 23  ",
     "areacode": "5",
     "cat1": "A05",
@@ -5227,6 +5470,15 @@
     "title": "대궐안집"
    },
    {
+    "addr1": "부산광역시 동래구 금강공원로26번길 34",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "134718",
+    "contenttypeid": "39",
+    "modifiedtime": "20250306100902",
+    "title": "원조소문난산곰장어"
+   },
+   {
     "addr1": "부산광역시 동래구 온천장로119번길 57",
     "areacode": "6",
     "cat1": "A05",
@@ -5536,6 +5788,18 @@
     "title": "브라운피크닉"
    },
    {
+    "addr1": "부산광역시 기장군 일광읍 기장해안로 1286",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2753006",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/18/2753518_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/18/2753518_image3_1.jpg",
+    "modifiedtime": "20250902113815",
+    "title": "어느멋진날"
+   },
+   {
     "addr1": "부산광역시 동래구 연안로 38",
     "areacode": "6",
     "cat1": "A05",
@@ -5546,6 +5810,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/09/2756909_image3_1.jpg",
     "modifiedtime": "20250116131744",
     "title": "박해윤통영해물밥상"
+   },
+   {
+    "addr1": "부산광역시 남구 유엔평화로 35-1 (대연동)",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2759609",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/76/2759676_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/76/2759676_image2_1.jpg",
+    "modifiedtime": "20250916090438",
+    "title": "쌍둥이돼지국밥 본점"
    },
    {
     "addr1": "부산광역시 연제구 쌍미천로 32-1 (연산동)",
@@ -5838,6 +6114,42 @@
     "title": "노티스"
    },
    {
+    "addr1": "부산광역시 서구 보수대로 53 (토성동1가)",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2838382",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/72/2838372_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/72/2838372_image3_1.jpg",
+    "modifiedtime": "20250828104304",
+    "title": "신창국밥 본점"
+   },
+   {
+    "addr1": "부산광역시 서구 암남공원로 177 (암남동)",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2838418",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/04/2838404_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/04/2838404_image3_1.jpg",
+    "modifiedtime": "20250828104758",
+    "title": "이엘 16.52 (EL16.52)"
+   },
+   {
+    "addr1": "부산광역시 수영구 수영로680번길 39",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2838432",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/22/2838422_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/22/2838422_image3_1.jpg",
+    "modifiedtime": "20250116111621",
+    "title": "엄용백 돼지국밥"
+   },
+   {
     "addr1": "부산광역시 부산진구 중앙대로666번길 50 (부전동, 더샵 센트럴스타)",
     "areacode": "6",
     "cat1": "A05",
@@ -5896,6 +6208,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/76/2841476_image3_1.jpg",
     "modifiedtime": "20250605113025",
     "title": "공극샌드커피"
+   },
+   {
+    "addr1": "부산광역시 기장군 일광읍 일광로 582-22",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2844638",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/32/2844632_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/32/2844632_image3_1.jpg",
+    "modifiedtime": "20250828112258",
+    "title": "어보"
    },
    {
     "addr1": "부산광역시 기장군 차성로 327-2 가마솥생복집",
@@ -6066,6 +6390,18 @@
     "title": "사마정"
    },
    {
+    "addr1": "부산광역시 부산진구 초읍동",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2865384",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/71/2865371_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/71/2865371_image3_1.jpg",
+    "modifiedtime": "20250829152835",
+    "title": "아시오"
+   },
+   {
     "addr1": "부산광역시 기장군 철마면 개좌로 763-25",
     "areacode": "6",
     "cat1": "A05",
@@ -6090,6 +6426,18 @@
     "title": "거창맷돌순두부"
    },
    {
+    "addr1": "부산광역시 부산진구 중앙대로970번길 38",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2867517",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/11/2867511_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/11/2867511_image3_1.JPG",
+    "modifiedtime": "20250113150140",
+    "title": "양정기사식당"
+   },
+   {
     "addr1": "부산광역시 수영구 수영로464번길 9 (남천동)",
     "areacode": "6",
     "cat1": "A05",
@@ -6102,6 +6450,18 @@
     "title": "남천다옴"
    },
    {
+    "addr1": "부산광역시 수영구 광안해변로307번길 20",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2868940",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/37/2868937_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/37/2868937_image3_1.jpg",
+    "modifiedtime": "20250120144123",
+    "title": "요이쿠마 본점"
+   },
+   {
     "addr1": "부산광역시 동구 범일로102번길 16-20 (범일동)",
     "areacode": "6",
     "cat1": "A05",
@@ -6112,6 +6472,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/32/2869132_image3_1.jpg",
     "modifiedtime": "20250829093536",
     "title": "감포참가자미"
+   },
+   {
+    "addr1": "부산광역시 해운대구 마린시티1로 155 (우동, 해운대현대하이페리온)",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "2869936",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/20/2869920_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/20/2869920_image3_1.jpg",
+    "modifiedtime": "20250829095044",
+    "title": "우봉"
    },
    {
     "addr1": "부산광역시 해운대구 송정광어골로 76 (송정동)",
@@ -6454,6 +6826,15 @@
     "contenttypeid": "39",
     "modifiedtime": "20250304174542",
     "title": "명수정"
+   },
+   {
+    "addr1": "부산광역시 부산진구 골드테마길 52-2",
+    "areacode": "6",
+    "cat1": "A05",
+    "contentid": "850932",
+    "contenttypeid": "39",
+    "modifiedtime": "20251023143000",
+    "title": "원조 범일동 매떡"
    },
    {
     "addr1": "부산광역시 해운대구 구남로41번길 40-1",
@@ -7782,6 +8163,18 @@
   ],
   "31": [
    {
+    "addr1": "경기도 성남시 분당구 정자동",
+    "areacode": "31",
+    "cat1": "A02",
+    "contentid": "1053768",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/41/3053241_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/41/3053241_image3_1.jpg",
+    "modifiedtime": "20250520145921",
+    "title": "분당 정자동 카페거리"
+   },
+   {
     "addr1": "경기도 가평군 가평읍 호반로 2540",
     "areacode": "31",
     "cat1": "A02",
@@ -8193,6 +8586,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/57/3068757_image3_1.jpg",
     "modifiedtime": "20250703125008",
     "title": "박목월 시의 정원"
+   },
+   {
+    "addr1": "경기도 수원시 팔달구 남수동",
+    "areacode": "31",
+    "cat1": "A02",
+    "contentid": "2613659",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/92/3539092_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/92/3539092_image3_1.jpg",
+    "modifiedtime": "20250919152424",
+    "title": "봉돈"
    },
    {
     "addr1": "경기도 수원시 장안구 정조로 1087 (송죽동)",
@@ -8618,6 +9023,18 @@
     "title": "감성식탁"
    },
    {
+    "addr1": "경기도 구리시 안골로 79",
+    "areacode": "31",
+    "cat1": "A02",
+    "contentid": "2782126",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/15/2782315_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/15/2782315_image3_1.jpg",
+    "modifiedtime": "20250110170728",
+    "title": "보원장탄온천"
+   },
+   {
     "addr1": "경기도 양주시 광적면 삼일로 123-74",
     "areacode": "31",
     "cat1": "A05",
@@ -8873,6 +9290,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/47/2860547_image3_1.jpg",
     "modifiedtime": "20250502165411",
     "title": "강원막국수"
+   },
+   {
+    "addr1": "경기도 평택시 정암로 126-49 (이충동)",
+    "areacode": "31",
+    "cat1": "A05",
+    "contentid": "2861159",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/26/2861026_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/26/2861026_image3_1.jpg",
+    "modifiedtime": "20250731175350",
+    "title": "게으쭈루"
    },
    {
     "addr1": "경기도 하남시 미사동로 105-1 (미사동)",
@@ -9238,6 +9667,18 @@
     "title": "여주대신도서관"
    },
    {
+    "addr1": "경기도 평택시 장안웃길 149 (이충동)",
+    "areacode": "31",
+    "cat1": "A01",
+    "contentid": "3456435",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/83/3455883_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/83/3455883_image3_1.jpg",
+    "modifiedtime": "20250724140144",
+    "title": "부락산분수공원"
+   },
+   {
     "addr1": "경기도 시흥시 거북섬둘레길 5-7 (정왕동)",
     "areacode": "31",
     "cat1": "A05",
@@ -9519,6 +9960,18 @@
     "title": "교암해변"
    },
    {
+    "addr1": "강원특별자치도 평창군 진부면 방아다리로 1011-26",
+    "areacode": "32",
+    "cat1": "A01",
+    "contentid": "125729",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/60/3033960_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/60/3033960_image3_1.jpg",
+    "modifiedtime": "20250704111458",
+    "title": "방아다리약수터"
+   },
+   {
     "addr1": "강원특별자치도 홍천군 내촌면 동창로 165",
     "areacode": "32",
     "cat1": "A02",
@@ -9529,6 +9982,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/00/3465500_image3_1.JPG",
     "modifiedtime": "20251105112918",
     "title": "기미만세공원"
+   },
+   {
+    "addr1": "강원특별자치도 철원군 근남면 잠곡리 222-5",
+    "areacode": "32",
+    "cat1": "A01",
+    "contentid": "125775",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/65/3332265_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/65/3332265_image3_1.jpg",
+    "modifiedtime": "20250316211653",
+    "title": "매월대폭포"
    },
    {
     "addr1": "강원특별자치도 동해시 공단12로 77 (구호동)",
@@ -9627,6 +10092,18 @@
     "title": "덕가산"
    },
    {
+    "addr1": "강원특별자치도 정선군 화암면 약수길 1330",
+    "areacode": "32",
+    "cat1": "A01",
+    "contentid": "127842",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/00/3100000_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/00/3100000_image3_1.jpg",
+    "modifiedtime": "20251023143000",
+    "title": "몰운대(정선)"
+   },
+   {
     "addr1": "강원특별자치도 정선군 정선읍 신월리",
     "areacode": "32",
     "cat1": "A01",
@@ -9637,6 +10114,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/95/3342495_image3_1.jpg",
     "modifiedtime": "20251215113459",
     "title": "기우산(정선)"
+   },
+   {
+    "addr1": "강원특별자치도 홍천군 서석면 검산길 147-19",
+    "areacode": "32",
+    "cat1": "A02",
+    "contentid": "128029",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/31/2598431_image2_1.bmp",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/31/2598431_image3_1.bmp",
+    "modifiedtime": "20250318150335",
+    "title": "모둘자리 힐링체험마을"
    },
    {
     "addr1": "강원특별자치도 화천군 사내면",
@@ -10230,6 +10719,18 @@
     "title": "마린데크(커피마린협동조합)"
    },
    {
+    "addr1": "강원특별자치도 고성군 거진읍 자산천로 102-15",
+    "areacode": "32",
+    "cat1": "A01",
+    "contentid": "2727740",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/26/3383926_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/26/3383926_image3_1.JPG",
+    "modifiedtime": "20250317135347",
+    "title": "반암항"
+   },
+   {
     "addr1": "강원특별자치도 동해시 삼화동",
     "areacode": "32",
     "cat1": "A02",
@@ -10601,6 +11102,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/19/2837919_image3_1.jpg",
     "modifiedtime": "20250110174517",
     "title": "공가네감자옹심이"
+   },
+   {
+    "addr1": "강원특별자치도 속초시 원암학사평길 183",
+    "areacode": "32",
+    "cat1": "A05",
+    "contentid": "2839793",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/86/2839786_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/86/2839786_image3_1.JPG",
+    "modifiedtime": "20250114165439",
+    "title": "김영애할머니순두부 본점"
    },
    {
     "addr1": "강원특별자치도 화천군 사내면 포화로 2",
@@ -11310,6 +11823,18 @@
     "title": "계명산 자연휴양림"
    },
    {
+    "addr1": "충청북도 충주시 노은면 보련골길 78",
+    "areacode": "33",
+    "cat1": "A01",
+    "contentid": "126772",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/35/3344835_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/35/3344835_image3_1.JPG",
+    "modifiedtime": "20250408142955",
+    "title": "보련산"
+   },
+   {
     "addr1": "충청북도 옥천군 동이면 우산로1길 88-1",
     "areacode": "33",
     "cat1": "A02",
@@ -11331,6 +11856,18 @@
     "title": "갈기산"
    },
    {
+    "addr1": "충청북도 진천군 진천읍 백곡로 1504-48",
+    "areacode": "33",
+    "cat1": "A01",
+    "contentid": "127789",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/74/3064574_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/74/3064574_image3_1.JPG",
+    "modifiedtime": "20250404103752",
+    "title": "백곡저수지"
+   },
+   {
     "addr1": "충청북도 괴산군 칠성면 쌍곡리",
     "areacode": "33",
     "cat1": "A01",
@@ -11341,6 +11878,15 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/49/3353449_image3_1.JPG",
     "modifiedtime": "20250429091010",
     "title": "군자산"
+   },
+   {
+    "addr1": "충청북도 괴산군 청천면 괴산로대방래길 158",
+    "areacode": "33",
+    "cat1": "A01",
+    "contentid": "127838",
+    "contenttypeid": "12",
+    "modifiedtime": "20250910142428",
+    "title": "백악산"
    },
    {
     "addr1": "충청북도 청주시 상당구 것대로46번길 33 (산성동)",
@@ -11440,6 +11986,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/35/3338935_image3_1.JPG",
     "modifiedtime": "20250316143055",
     "title": "개심사 목조여래좌상과 목조관음보살좌상"
+   },
+   {
+    "addr1": "충청북도 충주시 중앙탑면 가흥리",
+    "areacode": "33",
+    "cat1": "A01",
+    "contentid": "1646664",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/68/3062668_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/68/3062668_image3_1.JPG",
+    "modifiedtime": "20250402155150",
+    "title": "봉황경(능암리섬)"
    },
    {
     "addr1": "충청북도 괴산군 불정면 목도리",
@@ -11562,6 +12120,18 @@
     "title": "충주고구려비전시관"
    },
    {
+    "addr1": "충청북도 보은군 회인면 부수길 111-2",
+    "areacode": "33",
+    "cat1": "A02",
+    "contentid": "1939620",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/82/3033882_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/82/3033882_image3_1.jpg",
+    "modifiedtime": "20250710110214",
+    "title": "보은 하얀민들레한옥마을"
+   },
+   {
     "addr1": "충청북도 괴산군 감물면 이담리",
     "areacode": "33",
     "cat1": "A02",
@@ -11607,6 +12177,18 @@
     "title": "목계나루"
    },
    {
+    "addr1": "충청북도 진천군 진천읍 보련골길 40-4",
+    "areacode": "33",
+    "cat1": "A02",
+    "contentid": "2530632",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/35/3336235_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/35/3336235_image3_1.JPG",
+    "modifiedtime": "20250317111257",
+    "title": "보련마을"
+   },
+   {
     "addr1": "충청북도 단양군 적성면 애곡리",
     "areacode": "33",
     "cat1": "A01",
@@ -11629,6 +12211,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/89/3335889_image3_1.JPG",
     "modifiedtime": "20250316123554",
     "title": "도란원 샤토미소"
+   },
+   {
+    "addr1": "충청북도 제천시 청풍면 광의리",
+    "areacode": "33",
+    "cat1": "A01",
+    "contentid": "2610497",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/83/3062583_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/83/3062583_image3_1.JPG",
+    "modifiedtime": "20250404092321",
+    "title": "비봉산(제천)"
    },
    {
     "addr1": "충청북도 옥천군 안남면 연주길 148-18",
@@ -12236,6 +12830,15 @@
     "title": "마치공작소"
    },
    {
+    "addr1": "충청북도 청주시 흥덕구 신율로135번길 3",
+    "areacode": "33",
+    "cat1": "A02",
+    "contentid": "2932742",
+    "contenttypeid": "12",
+    "modifiedtime": "20250701170819",
+    "title": "복대동사람들"
+   },
+   {
     "addr1": "충청북도 옥천군 관성로3길 7 옥천교육도서관",
     "areacode": "33",
     "cat1": "A02",
@@ -12343,6 +12946,18 @@
     "title": "고란약수"
    },
    {
+    "addr1": "충청남도 아산시 배방읍 행단길 25",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "125925",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/08/3569408_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/08/3569408_image3_1.jpg",
+    "modifiedtime": "20251119133315",
+    "title": "아산 맹씨 행단(맹사성 고택)"
+   },
+   {
     "addr1": "충청남도 홍성군 갈산면 백야로546번길 12",
     "areacode": "34",
     "cat1": "A02",
@@ -12350,6 +12965,18 @@
     "contenttypeid": "12",
     "modifiedtime": "20250718090000",
     "title": "김좌진 장군 생가지"
+   },
+   {
+    "addr1": "충청남도 아산시 음봉면 고룡산로 12-38",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "125944",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/78/3337578_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/78/3337578_image3_1.jpg",
+    "modifiedtime": "20250317101233",
+    "title": "아산 이충무공묘"
    },
    {
     "addr1": "충청남도 당진시 정미면 원당골1길 188",
@@ -12386,6 +13013,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/58/3337558_image3_1.JPG",
     "modifiedtime": "20250316220825",
     "title": "광덕산 관광농원"
+   },
+   {
+    "addr1": "충청남도 아산시 영인면 여민루길 20",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "126981",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/03/3568703_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/03/3568703_image3_1.jpg",
+    "modifiedtime": "20251118161951",
+    "title": "여민루"
    },
    {
     "addr1": "충청남도 천안시 동남구 광덕면 광덕사길 30",
@@ -12616,6 +13255,18 @@
     "title": "강경미내다리"
    },
    {
+    "addr1": "충청남도 아산시 둔포면 해위길52번길 29",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "1627066",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/92/3337492_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/92/3337492_image3_1.jpg",
+    "modifiedtime": "20250319192734",
+    "title": "아산 윤보선 대통령 생가"
+   },
+   {
     "addr1": "충청남도 예산군 덕산면 덕산향교길 88-34",
     "areacode": "34",
     "cat1": "A02",
@@ -12764,6 +13415,18 @@
     "title": "일출과 동백꽃, 서천에서 '빨간 여행'"
    },
    {
+    "addr1": "충청남도 부여군 충화면 충신로 616",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "251994",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/21/3588621_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/21/3588621_image3_1.jpg",
+    "modifiedtime": "20251224150930",
+    "title": "서동요 테마파크"
+   },
+   {
     "addr1": "충청남도 태안군 소원면 천리포1길 120",
     "areacode": "34",
     "cat1": "A02",
@@ -12771,6 +13434,18 @@
     "contenttypeid": "14",
     "modifiedtime": "20250313112436",
     "title": "유류피해 극복기념관"
+   },
+   {
+    "addr1": "충청남도 아산시 인주면 공세리",
+    "areacode": "34",
+    "cat1": "A01",
+    "contentid": "2606913",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/14/3048814_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/14/3048814_image3_1.JPG",
+    "modifiedtime": "20250424102353",
+    "title": "아산만방조제"
    },
    {
     "addr1": "충청남도 보령시 웅천읍 열린바다2길 46",
@@ -12827,6 +13502,30 @@
     "title": "바늘꽃피우다"
    },
    {
+    "addr1": "충청남도 청양군 운곡면 어슬티안길 71-15",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "2717604",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/93/3337293_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/93/3337293_image3_1.jpg",
+    "modifiedtime": "20250430135152",
+    "title": "어슬티굿밤"
+   },
+   {
+    "addr1": "충청남도 청양군 비봉면 은골1길 196",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "2725025",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/21/2821321_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/21/2821321_image3_1.JPG",
+    "modifiedtime": "20250424110851",
+    "title": "소찬 협동조합"
+   },
+   {
     "addr1": "충청남도 당진시 석문면 석문방조제로 1755",
     "areacode": "34",
     "cat1": "A01",
@@ -12863,6 +13562,18 @@
     "title": "내당한우"
    },
    {
+    "addr1": "충청남도 천안시 서북구 불당31길 22",
+    "areacode": "34",
+    "cat1": "A05",
+    "contentid": "2734949",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/43/2735043_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/43/2735043_image3_1.jpg",
+    "modifiedtime": "20250703135320",
+    "title": "더몰트하우스"
+   },
+   {
     "addr1": "충청남도 공주시 봉황산1길 1-2",
     "areacode": "34",
     "cat1": "A05",
@@ -12873,6 +13584,30 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/39/2736839_image2_1.jpg",
     "modifiedtime": "20250512161330",
     "title": "곰골식당"
+   },
+   {
+    "addr1": "충청남도 당진시 석문면 석문방조제로 1755",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "2736685",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/22/3344022_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/22/3344022_image3_1.jpg",
+    "modifiedtime": "20250318214123",
+    "title": "석문 국가산업단지 음악분수대"
+   },
+   {
+    "addr1": "충청남도 당진시 송산면 석문방조제로 707",
+    "areacode": "34",
+    "cat1": "A01",
+    "contentid": "2736712",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/09/3567709_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/09/3567709_image3_1.jpg",
+    "modifiedtime": "20251118093705",
+    "title": "석문선착장"
    },
    {
     "addr1": "충청남도 당진시 송악읍 신복운로 173-1",
@@ -12923,6 +13658,15 @@
     "title": "맷돌포선착장"
    },
    {
+    "addr1": "충청남도 서천군 장항읍 장항산단로34번길 48-44",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "2746237",
+    "contenttypeid": "12",
+    "modifiedtime": "20250626131924",
+    "title": "서천송림갯벌체험장"
+   },
+   {
     "addr1": "충청남도 서산시 팔봉면 팔봉1로 753",
     "areacode": "34",
     "cat1": "A01",
@@ -12966,6 +13710,30 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/64/2751164_image3_1.jpg",
     "modifiedtime": "20250327113804",
     "title": "군헌갯벌체험장"
+   },
+   {
+    "addr1": "충청남도 아산시 온천대로 1469",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "2751941",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/28/2751928_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/28/2751928_image3_1.jpg",
+    "modifiedtime": "20250121131825",
+    "title": "신천탕"
+   },
+   {
+    "addr1": "충청남도 태안군 원북면 신두해변길 201-122",
+    "areacode": "34",
+    "cat1": "A01",
+    "contentid": "2758172",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/39/3340939_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/39/3340939_image3_1.jpg",
+    "modifiedtime": "20250317144048",
+    "title": "신두사구 쉼터공원 (신두사구 생태공원)"
    },
    {
     "addr1": "충청남도 태안군 안면읍 중장리",
@@ -13058,6 +13826,15 @@
     "title": "대천키조개삼합"
    },
    {
+    "addr1": "충청남도 부여군 장암면 석동로29번길 3",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "2777931",
+    "contenttypeid": "12",
+    "modifiedtime": "20251023143000",
+    "title": "생산소"
+   },
+   {
     "addr1": "충청남도 서천군 서면 마량리",
     "areacode": "34",
     "cat1": "A01",
@@ -13135,6 +13912,18 @@
     "title": "누리마루숲"
    },
    {
+    "addr1": "충청남도 부여군 뒷개로27번길 10-1",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "2820629",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/04/2820604_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/04/2820604_image2_1.jpg",
+    "modifiedtime": "20250502110915",
+    "title": "부여북포한옥마을"
+   },
+   {
     "addr1": "충청남도 부여군 임천면 성흥로97번길 4-5",
     "areacode": "34",
     "cat1": "A02",
@@ -13145,6 +13934,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/19/3305119_image3_1.jpg",
     "modifiedtime": "20250701151301",
     "title": "가림상회"
+   },
+   {
+    "addr1": "충청남도 부여군 자온로 68",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "2820659",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/14/2820614_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/14/2820614_image3_1.JPG",
+    "modifiedtime": "20250701171934",
+    "title": "부여 선샤인"
    },
    {
     "addr1": "충청남도 청양군 대치면 사수터길 99-12",
@@ -13440,6 +14241,18 @@
     "title": "가보"
    },
    {
+    "addr1": "충청남도 서산시 독곶해변길 116",
+    "areacode": "34",
+    "cat1": "A05",
+    "contentid": "2869318",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/03/2869303_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/03/2869303_image3_1.jpg",
+    "modifiedtime": "20250624173602",
+    "title": "덕수네가리비 1호점"
+   },
+   {
     "addr1": "충청남도 아산시 음봉로 791",
     "areacode": "34",
     "cat1": "A05",
@@ -13500,6 +14313,18 @@
     "title": "민병갈 식물도서관"
    },
    {
+    "addr1": "충청남도 서천군 장항읍 장산로 323",
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "3351556",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/80/3381180_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/80/3381180_image3_1.JPG",
+    "modifiedtime": "20250120132317",
+    "title": "서천문화예술창작공간"
+   },
+   {
     "addr1": "충청남도 아산시 신정로 632-7 (방축동)",
     "areacode": "34",
     "cat1": "A05",
@@ -13522,6 +14347,17 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/75/3423075_image3_1.jpg",
     "modifiedtime": "20241121141241",
     "title": "논사이하우스"
+   },
+   {
+    "areacode": "34",
+    "cat1": "A02",
+    "contentid": "3453008",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/42/3454142_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/42/3454142_image3_1.JPG",
+    "modifiedtime": "20241226132315",
+    "title": "보령목재문화체험장"
    },
    {
     "addr1": "충청남도 서산시 인지면 토성산길 29-6",
@@ -14027,6 +14863,18 @@
     "title": "금산서원"
    },
    {
+    "addr1": "경상북도 경산시 하양읍 가마실길2길 32-1",
+    "areacode": "35",
+    "cat1": "A02",
+    "contentid": "1958090",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/60/3404460_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/60/3404460_image3_1.jpg",
+    "modifiedtime": "20250624152734",
+    "title": "금호서원(경산)"
+   },
+   {
     "addr1": "경상북도 포항시 남구 희망대로514번길 46",
     "areacode": "35",
     "cat1": "A05",
@@ -14187,6 +15035,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/97/3583297_image3_1.jpg",
     "modifiedtime": "20251212163428",
     "title": "구산항"
+   },
+   {
+    "addr1": "경상북도 울진군 기성면 기성리",
+    "areacode": "35",
+    "cat1": "A01",
+    "contentid": "2737998",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/20/3583320_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/20/3583320_image3_1.jpg",
+    "modifiedtime": "20251212165628",
+    "title": "기성항"
    },
    {
     "addr1": "경상북도 영덕군 축산면 영덕대게로 1735",
@@ -14578,6 +15438,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/06/2839206_image3_1.png",
     "modifiedtime": "20250910172813",
     "title": "담박집"
+   },
+   {
+    "addr1": "경상북도 포항시 남구 해맞이로46번길 74-16",
+    "areacode": "35",
+    "cat1": "A05",
+    "contentid": "2839248",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/33/2839233_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/33/2839233_image3_1.jpg",
+    "modifiedtime": "20250113133408",
+    "title": "더자리카페"
    },
    {
     "addr1": "경상북도 경산시 와촌면 갓바위로81길 7-5",
@@ -15238,6 +16110,18 @@
     "title": "두곡서원(창원)"
    },
    {
+    "addr1": "경상남도 함안군 여항면 두곡길 145",
+    "areacode": "36",
+    "cat1": "A02",
+    "contentid": "1959573",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/40/3377040_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/40/3377040_image3_1.JPG",
+    "modifiedtime": "20250316213306",
+    "title": "두릉서원"
+   },
+   {
     "addr1": "경상남도 거제시 하청면 칠천로 265-39",
     "areacode": "36",
     "cat1": "A02",
@@ -15479,6 +16363,18 @@
     "contenttypeid": "39",
     "modifiedtime": "20251104164152",
     "title": "거제보재기집"
+   },
+   {
+    "addr1": "경상남도 남해군 설천면 설천로775번길 38",
+    "areacode": "36",
+    "cat1": "A05",
+    "contentid": "2778892",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/86/2795486_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/86/2795486_image3_1.jpg",
+    "modifiedtime": "20250114093731",
+    "title": "냇가집잔치국수"
    },
    {
     "addr1": "경상남도 양산시 상북면 양산대로 1456",
@@ -16149,6 +17045,18 @@
     "title": "구시포마을"
    },
    {
+    "addr1": "전북특별자치도 무주군 무주읍 단천로 135",
+    "areacode": "37",
+    "cat1": "A02",
+    "contentid": "129562",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/26/3585126_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/26/3585126_image3_1.jpg",
+    "modifiedtime": "20251222174313",
+    "title": "무주향교"
+   },
+   {
     "addr1": "전북특별자치도 임실군 덕치면 천담1길 49",
     "areacode": "37",
     "cat1": "A02",
@@ -16171,6 +17079,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/08/3573508_image3_1.jpg",
     "modifiedtime": "20251126141510",
     "title": "마한박물관"
+   },
+   {
+    "addr1": "전북특별자치도 익산시 왕궁면 장중길 105-8",
+    "areacode": "37",
+    "cat1": "A02",
+    "contentid": "1316294",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/61/3587861_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/61/3587861_image3_1.jpg",
+    "modifiedtime": "20251223162420",
+    "title": "망모당"
    },
    {
     "addr1": "전북특별자치도 완주군 운주면 대둔산로 2268",
@@ -16410,6 +17330,18 @@
     "title": "남평문씨열녀비"
    },
    {
+    "addr1": "전북특별자치도 장수군 계북면 양악리",
+    "areacode": "37",
+    "cat1": "A02",
+    "contentid": "1623801",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/22/3361822_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/22/3361822_image3_1.JPG",
+    "modifiedtime": "20250318210324",
+    "title": "문태서, 박춘실 의병대장 전적비"
+   },
+   {
     "addr1": "전북특별자치도 고창군 고창읍 도산1길 4",
     "areacode": "37",
     "cat1": "A02",
@@ -16617,6 +17549,18 @@
     "title": "만화서원"
    },
    {
+    "addr1": "전북특별자치도 완주군 비봉면 반곡서원길 52-29",
+    "areacode": "37",
+    "cat1": "A02",
+    "contentid": "1956980",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/88/3360088_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/88/3360088_image3_1.JPG",
+    "modifiedtime": "20250318211144",
+    "title": "반곡서원(완주)"
+   },
+   {
     "addr1": "전북특별자치도 김제시 만경읍 화포리,소토리,청하면 동지산리 일대",
     "areacode": "37",
     "cat1": "A01",
@@ -16714,6 +17658,18 @@
     "contenttypeid": "39",
     "modifiedtime": "20250306170556",
     "title": "두메골"
+   },
+   {
+    "addr1": "전북특별자치도 부안군 변산면 모항길 107",
+    "areacode": "37",
+    "cat1": "A02",
+    "contentid": "2588908",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/72/3359372_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/72/3359372_image3_1.JPG",
+    "modifiedtime": "20250319191321",
+    "title": "모항갯벌체험장"
    },
    {
     "addr1": "전북특별자치도 군산시 옥산면 옥산신성길 50",
@@ -16996,6 +17952,18 @@
     "title": "대율담"
    },
    {
+    "addr1": "전북특별자치도 완주군 안전로 107-19",
+    "areacode": "37",
+    "cat1": "A05",
+    "contentid": "2837331",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/99/2837299_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/99/2837299_image3_1.jpg",
+    "modifiedtime": "20250718090000",
+    "title": "멜로우어텀"
+   },
+   {
     "addr1": "전북특별자치도 임실군 종운로 802-5 강나루횟집",
     "areacode": "37",
     "cat1": "A05",
@@ -17020,6 +17988,18 @@
     "title": "개암곰탕"
    },
    {
+    "addr1": "전북특별자치도 부안군 변산면 격포항길 13",
+    "areacode": "37",
+    "cat1": "A05",
+    "contentid": "2840149",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/40/2840140_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/40/2840140_image3_1.jpg",
+    "modifiedtime": "20250912163112",
+    "title": "마식당"
+   },
+   {
     "addr1": "전북특별자치도 진안군 상전면 금지1길 18-20",
     "areacode": "37",
     "cat1": "A05",
@@ -17030,6 +18010,15 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/76/2844076_image3_1.jpg",
     "modifiedtime": "20251023143000",
     "title": "금강참붕어"
+   },
+   {
+    "addr1": "전북특별자치도 완주군 반교로 105-9",
+    "areacode": "37",
+    "cat1": "A05",
+    "contentid": "2847845",
+    "contenttypeid": "39",
+    "modifiedtime": "20250317224200",
+    "title": "매드에스프레소로스터리"
    },
    {
     "addr1": "전북특별자치도 남원시 향단로 18 이조숯불냉면",
@@ -17164,6 +18153,18 @@
     "title": "금암피순대"
    },
    {
+    "addr1": "전북특별자치도 군산시 대학로 67-3 만남스넥",
+    "areacode": "37",
+    "cat1": "A05",
+    "contentid": "2877165",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/62/2877162_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/62/2877162_image3_1.jpg",
+    "modifiedtime": "20250120180958",
+    "title": "만남스넥"
+   },
+   {
     "addr1": "전북특별자치도 김제시 대율2길 83",
     "areacode": "37",
     "cat1": "A05",
@@ -17266,6 +18267,18 @@
     "title": "농업회사법인 주식회사 공동체공간 수작"
    },
    {
+    "addr1": "전북특별자치도 완주군 구정1길 43-22",
+    "areacode": "37",
+    "cat1": "A02",
+    "contentid": "2996818",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type1",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/09/2972609_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/09/2972609_image3_1.jpg",
+    "modifiedtime": "20250514111856",
+    "title": "반줄"
+   },
+   {
     "addr1": "전북특별자치도 고창군 도솔길 294 도솔암",
     "areacode": "37",
     "cat1": "A02",
@@ -17288,6 +18301,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/96/3552296_image3_1.jpg",
     "modifiedtime": "20251208142222",
     "title": "농업회사법인삼산도가주식회사"
+   },
+   {
+    "addr1": "전북특별자치도 고창군 신림면 신평리",
+    "areacode": "37",
+    "cat1": "A01",
+    "contentid": "717051",
+    "contenttypeid": "12",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/44/3518644_image2_1.jpg",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/44/3518644_image3_1.jpg",
+    "modifiedtime": "20250807173810",
+    "title": "방장산"
    },
    {
     "addr1": "전북특별자치도 전주시 완산구 강변로 62",
@@ -18221,6 +19246,18 @@
     "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/27/2846427_image3_1.JPG",
     "modifiedtime": "20260630184428",
     "title": "고서회관"
+   },
+   {
+    "addr1": "전남광주통합특별시 담양군 죽향대로 723 담양애꽃 ",
+    "areacode": "38",
+    "cat1": "A05",
+    "contentid": "2847519",
+    "contenttypeid": "39",
+    "cpyrhtDivCd": "Type3",
+    "firstimage": "http://tong.visitkorea.or.kr/cms/resource/14/2847514_image2_1.JPG",
+    "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/14/2847514_image3_1.JPG",
+    "modifiedtime": "20260630184428",
+    "title": "담양애꽃"
    },
    {
     "addr1": "전남광주통합특별시 고흥군 고흥로 1896  ",
@@ -19997,10 +21034,20 @@
    "overview": "교암리 해수욕장은 금강산의 제1해수욕장이라고 하는데 길이 1㎞의 백사장은 경사가 완만하고 모래질이 좋다. 교암항 방향으로 방파제 너머 산 아래 솔숲에는 천학정이 있고 남쪽 3㎞ 거리엔 관동팔경 중의 하나인 청간정이 있어 해수욕과 함께 뛰어난 자연경관도 즐길 수 있다. 근처 문암항에서 교암해변 방향을 바라보면 해변 너머 설악산과 울산바위가 파노라마 사진처럼 멋진 자태를 뽐내고 있다. 해안의 유영폭이 좁아 수영 한계선을 넘지 않도록 유의하여야 한다. \n해안도로와 연접한 곳에 위치한 곳으로 주변에 스킨스쿠버를 운영하는 레포츠사가 있고 해저의 아름다움을 만끽할 수 있는 스킨스쿠버 다이빙을 즐길 수 있는 곳이기도 하다.",
    "modifiedtime": "20250804142648"
   },
+  "125729": {
+   "homepage": "<a href=\"http://www.millbridge.co.kr/renew/facilities/facilities5.php\" target=\"_blank\" title=\"새창: 밀브릿지 홈페이지로 이동\">http://www.millbridge.co.kr</a>",
+   "overview": "방아다리약수터는 평창군 오대산 국립공원에 위치한 밀브릿지 안에 있는 약수터이다. 밀브릿지 입구에서 입장료를 지불하고 전나무와 낙엽송으로 가득한 전나무 숲길을 10분가량 걸어가면 방아다리약수터를 만날 수 있다.\n방아다리약수터는 조선 숙종 때 발견된 탄산천으로 1987년 6월 한국의 명수로 지정되었다. 약수에는 탄산, 철분 등 30여 종의 무기질이 들어있는데, 특히 많이 함유된 철분은 위장병, 피부병, 신경통, 빈혈 등에 효과가 있다고 전해진다. \n이 약수는 옛날 한 노인이 병으로 고생을 하다가 이곳에 이르러 기거하던 중 꿈속에서 “네가 누워 있는 자리를 파 보아라”하는 산신령의 게시를 받고 땅을 파헤치니 지하에서 맑은 물이 솟아올라 노인이 그 물을 마시자 점차 정신이 맑아지고 원기가 살아나며 병이 씻은 듯이 나았다는 이야기가 전해진다. 또한, 약수터 주변이 디딜방아의 다리 형상을 하고 있어 방아다리약수라 불리게 되었다.",
+   "modifiedtime": "20250704111458"
+  },
   "125736": {
    "homepage": "<a href=\"https://www.hongcheon.go.kr/tour/selectTourCntntsWebView.do?tourNo=12&pageUnit=6&pageIndex=1&searchCnd=all&key=2040&ctgry=11&searchShowAt=Y\" target=\"_blank\" title=\"새창 : 홍천군 문화관광 홈페이지로 이동\">https://www.hongcheon.go.kr/tour/</a>",
    "overview": "홍천은 동학농민군 최후의 항전지이면서 일제강점기에는 만세운동도 치열하게 벌였다. 기미만세공원도 그런 숭고한 뜻을 되새겨주는 명소이다. 1919년 4월 1일 일제 탄압에 항거, 만세운동을 하다 이곳에서 순직한 8열사를 추모하기 위하여 1963년 관과민이 합동하여 팔렬각을 건립하였다. 이후 세월이 흐르면서 팔렬각이 노후되자 당시 만세운동에 참여했던 모든 선열들의 뜻을 기리고자 1990년 2월 28일에 기미만세공원 추진위원회를 구성했다. 군민의 성금과 독지가의 도움, 군비를  투자하여 기미만세상을 세우고 부대시설을 하는 등 공원을 조성했다. 8열사를 비롯한 선현들의 애국충절의 높은 뜻을 후세에 길이 전하고자 이룩한 곳이다.",
    "modifiedtime": "20251105112918"
+  },
+  "125775": {
+   "homepage": "<a href=\"https://www.cwg.go.kr/tour/selectTourCntntsWebView.do?tourNo=399&pageUnit=9&pageIndex=1&searchCnd=all&key=568&ctgry=49&sortTy=RECOMEND\" target=\"_blank\" title=\"새창 : 철원군 문화관광으로 이동\">https://www.cwg.go.kr/tour/</a>",
+   "overview": "매월대폭포는 철원군 복계산 매월대 정상에서 동쪽으로 1㎞ 정도 위치에 있는 폭포이다. 철원 9경 중 하나이자, 철원의 3대 폭포에 속한다. 청석골에서 매월대에 이르는 계곡은 여름철 피서지로 유명하다.\n매월대는 조선 시대 단종의 폐위에 반대하며 낙향했던 매월당 김시습(1435~1493)이 이 지역에 은거하고 난 후 절벽의 이름을 매월대(梅月臺)라고 불렀다. 매월대폭포 역시 김시습의 호를 따 매월대폭포라 칭하며, 다른 이름으로 선암폭포라고도 불린다.",
+   "modifiedtime": "20250316211653"
   },
   "125793": {
    "homepage": "동해관광 <a href=\"https://www.dh.go.kr/tour/selectTourCntntsWebView.do?key=1575&tourNo=43\" target=\"_blank\" title=\"새창 : 동해관광 홈페이지로 이동\">https://www.dh.go.kr</a>",
@@ -20030,10 +21077,20 @@
    "overview": "만뢰사는 조감의 위패를 모셔 놓고 그 공적을 후손이 기리도록 하고 있다. 병자호란 당시 의병장인 조감은 만노성에서 유창국과 더불어 통솔자가 없어 방황하는 수천 명의 피난민을 이끌고 만노성에 침입한 외적을 물리친 공을 세웠다. 조감은 사후에 예조판서에 올랐다. 1851년(철종 2) 백곡면 가죽리에 죽계사를 세워 김유신과 함께 조감을 배향하였다가 고종 때의 서원철폐령으로 죽계사가 철거되면서 배향을 하지 못하였다. 해방 후인 1949년 진천 길상사에서 다시 조감을 배향하였다가, 1961년 후손들과 지방 유림들의 노력으로 지금의 백곡면 갈월리 강당마을에 새로 만뢰사를 건립하여 조감을 배향하게 되었다.",
    "modifiedtime": "20250317102020"
   },
+  "125925": {
+   "homepage": "국가유산포털 <a href=\"https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333401090000&pageNo=1_1_1_1&sngl=Y\"target=\"_blank\" title=\"새창 : 국가유산청 이동\">https://www.heritage.go.kr</a>",
+   "overview": "맹사성 고택은 설화산을 서쪽으로 등지고 배방산을 동북으로 바라보고 있는데, 수백 년간 무사히 보존되어 온 우리나라 살림집 가운데 가장 오래된 옛 모습을 간직한 집이다. 고려 말 충신이던 최영 장군이 살던 집으로 최영 장군의 손녀사위가 된 맹사성에게 그 집을 물려주었다고 한다. 가옥의 형태는 ‘ㄷ’자형의 맛배집으로 목재는 광솔이  되다시피 그을렸으며,  기둥과 도리 사이에는 단구로 봉설(봉황의 혀)이 장식되었고, 내실 천정은 ‘소라 반자’로 흔히 볼 수 없는 나무반자다. 사적으로 지정된 맹씨행단은 말 그대로 맹씨가 사는 은행나무 단이 있는 집으로 맹고불의 고택, 구괴정, 쌍행수 등을 망라하여 ‘맹씨행단’ 이라 한다. 맹사성은 이 은행나무 두 그루를 손수 심고 학문에 정진하여 후학을 가르쳤다고 한다.",
+   "modifiedtime": "20251119133315"
+  },
   "125932": {
    "homepage": "<a href=\"https://www.hongseong.go.kr/prog/tursmCn/tour/sub02_0208/view.do?cntNo=36\" target=\"_blank\" title=\"새창 : 홍성군 문화관광 홈페이지로 이동\">https://www.hongseong.go.kr</a>",
    "overview": "김좌진장군생가지는 한국의 독립운동가 백야 김좌진이 출생하고 성장한 곳으로 충남기념물로 지정되었다. 생가는 안채, 사랑채, 곳간채로 구성되어 있으며, 안채는 김좌진 장군이 태어나고 성장한 곳으로, 사랑채는 김좌진 장군의 부친인 김두영 선생이 거주하던 곳으로 알려져 있다. 곳간채는 김좌진 장군의 가족들이 사용하던 창고로 사용되었다. 생가 주변에는 김좌진 장군의 업적을 기념하기 위한 사당, 기념관, 백야공원 등이 조성되어 있다. 사당은 김좌진 장군의 위패를 모신 곳으로, 기념관은 김좌진 장군의 독립운동 활동을 전시하고 있는 곳이다. 백야공원은 김좌진 장군의 생가와 사당을 둘러싸고 있는 공원으로, 김좌진 장군의 숭고한 정신을 기리는 공간으로 자리 잡고 있다.",
    "modifiedtime": "20250718090000"
+  },
+  "125944": {
+   "homepage": "<a href=\"https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaKdcd=13&ccbaAsno=01120000&ccbaCtcd=34&pageNo=1_1_1_0\" target=\"_blank\" title=\"새창 : 아산시 문화관광으로 이동\">https://www.heritage.go.kr/</a>",
+   "overview": "충무공 이순신(1545∼1598) 장군의 무덤이다. 충무공 이순신의 본관은 덕수이며, 1545년 서울에서 출생하였다. 충무공은 무과에 합격하여 여러 직책을 거쳤는데, 임진왜란이 일어나기 직전에는 전라좌수사라는 중요한 직책을 맡았다. 충무공은 일본의 침입에 대비하여 군사를 훈련시키고 거북선을 만들었다. 그리고 임진왜란이 일어나자 옥포, 노량, 당포, 한산도 등 여러 곳에서 적을 무찌르면서 전쟁을 승리로 이끌었다. 그러다가 노량해전에서 적의 총을 맞고 숨졌으나, 사실을 숨기고 조카인 완이 대신 지휘하여 왜적은 큰 피해를 입고 도망을 갔다. 전쟁을 승리로 이끌고 적이 패퇴한 뒤에 공의 서거를 발표하였다.\n\n선조 32년(1598) 노량해전에서 순국한 충무공 이순신의 유해는 남해 충렬사에 안치되었다가 본영이 있던 고금도에 임시로 안장하였다. 그러다 1599년 운구되어 금성산에 장사되었다가 광해 6년(1614)에 현충사에서 9㎞ 떨어진 음봉면 어라산에 이장되었다. 후손들이 관리하다가 1973년부터는 종손의 동의를 얻어 국가유산청 현충사관리소에서 묘역을 관리하고 있다. 무덤 주위에는 제사 지낼 때 음식을 차려놓는 상석과 혼이 놀다간다는 혼유석과 향로석이 있으며, 동자상 1쌍, 망주석 1쌍, 석상 1쌍, 문인석 1쌍, 광명등, 묘비석이 있다. 무덤 앞에는 정조 18년(1794)에 세워진 어제비(御製碑)와 비각이 있다.",
+   "modifiedtime": "20250317101233"
   },
   "125954": {
    "homepage": "<a href=\"https://tour.chungnam.go.kr/prog/trsrcn/kor/sub02_01_01/view.do?trsrcnNo=428\" target=\"_blank\" title=\"새창 : 충남 문화관광 홈페이지로 이동\">https://tour.chungnam.go.kr/</a>",
@@ -20267,6 +21324,11 @@
    "overview": "상사 마을은 구례군 간전면 양천 마을과 함께 전국 최장수 마을로 꼽힌다. 이곳 사람들은 장수의 비결로 심산유곡의 깨끗한 환경과 ‘당몰샘’을 꼽는다. 당몰샘은 ‘지리산 약초 뿌리 녹는 물이 다 흘러든다’라는 말을 할 정도로 효능이 뛰어나다. 1986년 고려대 예방 의학팀의 수질검사 결과 대장균이 한 마리도 없는 전국 최상의 물로 판명됐다. 이 마을 토박이 성씨인 의성 김씨 일가에 의하면 그 선조가 조선 말기에 명당을 찾아 전라도 고을을 헤매던 중 당몰샘을 저울로 달아보니 물 무게가 다른 곳보다 많이 나가고 수량도 풍부하여 이곳에 정착하였다고 한다.",
    "modifiedtime": "20260630184428"
   },
+  "126772": {
+   "homepage": "충북나드리 <a href=\"https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=60&searchMainSe=ATTR&tourNo=1497\" target=\"_blank\" title=\"새창 : 충북나드리 홈페이지로 이동\">https://tour.chungbuk.go.kr/</a>",
+   "overview": "보련산은 충주시에서 북쪽으로 약 20㎞ 거리에 있는 산으로 하남현 고개를 기점으로 서쪽의 국망산과 나란히 있다. 산과 계곡이 어우러져 사계절 변화하는 모습을 볼 수 있고 잘 알려지지 않아 여유 있고 호젓하게 산행을 즐기기에 적당한 곳이다. 산 정상에는 보련 산성이 있는데, 능선을 따라 흙과 돌로 쌓은 성은 일명 봉황성 또는 천룡성이라고 한다. 보련산은 경사가 완만한 능선 길에 낙엽이 두껍게 쌓여 있어 마치 카펫을 깔아 놓은 듯 푹신한 곳도 있고 경사가 심해 오르기 힘든 구간도 있다.\n보련산은 봄철이면 정상에 넓은 진달래꽃밭이 장관을 이룬다. 산 정상과 하남치에서 동막 고개에 이르는 주 능선 양쪽 비탈면 급경사에는 신갈나무와 굴참나무 군락이 발달하여 있으며, 산벚나무, 물푸레나무, 쪽동백나무, 생강나무, 노란재나무, 철쭉, 개옻나무 등 다양한 수종이 각자의 아름다움을 뽐내는 곳이다. 보련산 주 능선 각 비탈면에는 신갈나무를 위주로 하는 신갈나무와 소나무 혼합림이 넓게 형성되어 있다. 제1봉을 넘어 자연 굴을 지나면 빽빽한 소나무와 참나무 등 걸음 사이마다 낙엽 더미가 무릎이 파묻힐 정도로 쌓여 있으며 수석과 괴목을 소재로 제작한 가구 및 기념품 등을 판매하고 있다.",
+   "modifiedtime": "20250408142955"
+  },
   "126778": {
    "homepage": "<a title=\"새창 : 고성군청 문화관광 홈페이지로 이동\" href=\"https://www.gwgs.go.kr/prog/tursmCn/tour/sub02_02/view.do?cntno=67\" target=\"_blank\">http://tour.gwgs.go.kr</a>",
    "overview": "동해안 최북단 항구인 대진항 포구와 인접해 있어 연안에서 어획되는 싱싱한 활어회를 맛볼 수 있는 북쪽에 있는 해변이다. 길이 350m, 넓이 10,578m²(3,200여 평)의 백사장에는 희고 고운 모래가 깔려 있으며 물빛이 깨끗하고 수심이 평균 1.3m로 얕은 편이다. \n대진항 남쪽의 대진 5리에도 백사장의 길이 150m, 넓이 4,628m²(1,400여 평)의 아담한 간이 해수욕장이 있다. 이 역시 군사시설 보호구역이기 때문에, 관할 군부대와 협의해서 해수욕장 개장 기간에 맞추어 개방된다. \n해변 아래쪽 작은 산 위에는 대진등대가 우뚝 서 있어서 오가는 배들의 신호등 역할을 한다. 대진리의 두 해수욕장은 고성 통일전망대를 오가는 길목에 자리잡고 있어 관광객의 발길이 제법 잦은 곳이다.",
@@ -20296,6 +21358,11 @@
    "homepage": "https://www.visitbusan.net",
    "overview": "광복로패션거리는 과거 하천이었던 곳을 복개하여 도로로 사용하고 있는 곳이며, 도로 양쪽으로 오래전부터 옷 가게들이 운집되어 있어서 광복로패션거리로 명명되었다. 광복로가 시작되는 농협 부산지점부터 국제시장 먹자골목 입구까지가 광복로패션거리이며, 이곳은 우리나라 의류, 신발 등이 모여있는 곳으로 야간이나 주말에는 사람들로 발 디딜 틈이 없을 정도로 많은 사람들이 찾는 곳이다. 광복로패션거리에는 중구청 주관으로 매년 12월부터 광복로 겨울빛 트리축제를 시행하고 있으며, 다양한 종류의 조명과 각종 모형이 빛으로 장식되어 아름다운 거리로 탈바꿈하는 곳이며, 축제 기간에는 광복로 일대가 차 없는 거리로 조성되어 여유롭게 축제를 즐길 수 있다. 광복로문화패션거리에는 문화와 패션 그리고 맛집들이 즐비한 곳으로 방문하면 젊음과 활기를 느낄 수 있다.",
    "modifiedtime": "20250407110522"
+  },
+  "126981": {
+   "homepage": "국가유산포털 <a href=\"https://www.heritage.go.kr/heri/cul/culSelectDetail.do?pageNo=1_1_1_1&sngl=Y&ccbaCpno=2113400170000\" target=\"_blank\" title=\"새창: 국가유산청 홈페이지로 이동\">www.heritage.go.kr</a>",
+   "overview": "조선 시대의 아산군 관아 입구에 세워졌던 문루인데, 동향한 낮은 기단 위에 4 각형의 주형 초석을 배열하고 그 위에 둥근기둥을 세워서 루마루를 설치하였다. 하층은 정면 3칸에 각각 문을 달아 통로로 사용하였으며, 좌우 협간의 문미(門楣) 상부에는 홍살을 설치하였고 측면의 2칸은 판벽으로 막았다. 공포는 2익 공인데 외출목은 없으며 처마 밑의 기둥 사이에는 간략화된 화반형의 초화반을 중앙문에 3개, 그 이외의 문에는 모두 2 개식을 배치하였다. 지붕 가구는 앞뒤 기둥 위에 대들보를 걸었는데 대들보 위에 소로를 두고 그 위에 뜬 창방을, 다시 이 뜬 창방 위에 주두를 놓아 종량을 받치도록 하였다. 종량 위에 있는 대공은 파연대공(波蓮臺工)의 형태를 이루고 있는데, 이대공과 결구된 뜬 창방은 그 위에 있는 마루 도리와의 사이에 간단하게 장식된 초각반 3개를 배치하여 중간 부분을 보강하고 있다. 천장은 연등천장이며 모도 단청으로 채색되어 있고 이 칸 정면이 ‘여민루’란 현판이 걸려 있다.",
+   "modifiedtime": "20251118161951"
   },
   "126992": {
    "homepage": "<a href=\"https://www.heritage.go.kr/heri/cul/culSelectDetail.do;jsessionid=4Gr2VtWhx6aqrYfFlsxb1ZQQc1qUwV1VtYX5kJXWmAs0WX08va8B14SLaPloiDki.cpawas2_servlet_engine1?s_kdcd=&s_ctcd=37&ccbaKdcd=31&ccbaAsno=03220000&ccbaCtcd=37&ccbaCpno=3413703220000&ccbaLcto=14&culPageNo=30&header=region&pageNo=1_1_2_0&returnUrl=%2fheri%2fcul%2fculSelectRegionList.do&assetnamel=\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">https://www.khs.go.kr/main.html</a>",
@@ -20438,6 +21505,11 @@
    "overview": "산의 형세가 말갈기와 같다고 하여 이름 지어진 갈기산은 해발 585m 높이로 양산팔경 지역에 속해 있다. 능선은 반원형으로 가운데가 깊숙한 골을 이루고 있으며, 기암이 많아 암벽 등반하기에 제격인 산이다. 영동의 숨은 명산이인 갈기산은 외강내유의 미［美］를 속 깊이 지닌 산이다. 등산객에게 암릉 산행의 묘미를 느끼게 하면서도 정상에서는 그림 같이 흐르는 금강을 시원하게 보여주며 한없이 부드러운 조망을 선물한다. 암릉지대가 많지만 소나무길과 번갈아 등산로가 이어지며, 등산 기점과 종점이 같아 자가운전으로 찾아가도 부담이 없다.",
    "modifiedtime": "20250916142404"
   },
+  "127789": {
+   "homepage": "<a href=\"http://www.grandculture.net/jincheon/toc/GC02700940\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">http://www.grandculture.net/</a>",
+   "overview": "백곡저수지는 충청북도 진천군 진천읍 건송리, 장관리와 백곡면 석현리에 걸쳐 있는 농업 관개용 저수지로 근처 지역의 농지가 곡창 지대인데도 불구하고 농업용수의 부족으로 소기의 증산을 도모하지 못함에 따라 저수지를 건립하게 되었다. 이곳은 진천 읍내에서 북서쪽으로 약 2㎞ 떨어져 있고 백곡지로도 불리는 곳이다. 충청북도 진천군과 음성군 지역의 농업용수를 대 주고 있으며, 향어 양식과 아울러 관광 명소로서 복지 농촌 건설에도 기여하고 있다.\n저수지 둘레에 산책길이 잘 조성되어 있어 걷기 좋은 길이고, 주변이 탁 트여 있어 시원함을 느낄 수 있으며, 저수지 가는 길에 가을에는 노랗게 물든 은행나무길이 무척이나 아름다운 곳이다. 아늑하고 편안한 곳이라 명상하기에도 좋은 곳이며 저수지 주변 사정교와 식파정 등을 같이 둘러보면 좋다.",
+   "modifiedtime": "20250404103752"
+  },
   "127826": {
    "overview": "국지산은 서강의 남쪽에 있는 해발 626m로 영월지맥의 끝자락을 차지하고 있는 산이다. 왕박산, 가창산, 삼태산, 태화산과 연결되어 있으며 조선 제6대 임금 단종의 유배지인 청령포에서 남쪽으로 약 5㎞ 떨어져 있다. 단종비와 칠용동골을 함께 볼 수 있다. 산세가 유순하고 부드러워 가족 산행지로 좋으며 정상보다는 정상에 도달하기 이전 망바위에서 조망을 감상하는 것이 좋다. 북으로는 영월읍을 감싸고 있는 봉래산과 계족산이 보이고 그 사이로 완택산, 고고산 정상이 능선을 그리며 이어지고 있다. 남동쪽으로는 태화산의 모습이 병풍처럼 자리 잡고 오른쪽 멀리 신선봉, 국망봉, 소백산으로 이어지는 소백산 주 능선도 조망할 수 있다. 한재산에서 시작하는 등산로와 신선봉에서 시작하는 등산로가 있다. 한재산에서 시작하는 등산로는 약 4.5㎞로 3시간이 소요되며 국지골길을 따라가면 된다. 신선봉에서 시작하는 등산로는 약 3㎞로 2시간이 소요되며 검각산을 거쳐 가면 된다. 국지산 정상에서는 서강이 흐르는 모습과 주변의 산들을 감상할 수 있다.\n주변에 단종 유배지인 청령포, 선암마을 한반도 지형, 울창한 소나무 숲에 둘러싸인 단종의 무덤인 장릉 등이 있어 영월의 자연과 함께 문화유적을 방문하는 것도 좋다.",
    "modifiedtime": "20250808101744"
@@ -20450,6 +21522,16 @@
    "homepage": "괴산군 문화관광 <a href=\"https://www.goesan.go.kr/tour/selectTourInfo.do?key=884&tourNo=543&clgn=\" target=\"_blank\" title=\"새창: 괴산 문화관광 홈페이지로 이동\">https://www.goesan.go.kr/tour/index.do</a>",
    "overview": "군자산은 속리산국립공원에 속해있는 산으로 옛날에는 군대산이라 불렸으며, 산자락의 덕바위, 정자소, 서당말과 송시열 선생 유적 등이 있다. 군자산을 더욱 돋보이게 하는 것은 쌍곡계곡이다. 10㎞의 계곡 곳곳에는 많은 물과 바위, 소나무가 어우러진 선경을 이루어 여름철에 발 디딜 틈이 없을 정도로 많은 관광객이 찾고 있고, 충북의 유명계곡을 대상으로 수질검사를 실시한 결과, 쌍곡계곡의 물이 최고의 물로 판정을 받은 바 있다. 군자산은 쌍곡 제2곡인 소금강에서 다리를 건너면 솔밭 맞은편에 닦아 놓은 비포장 주차장에서부터 시작한다. 등산로를 따라 15분만 가면 화석바위 꼭대기의 하늘벽 전망대에 닿는데, 여기만 와도 쌍곡 도로가 저 아래로 보이며 높은 산에 오른 기분이다. 산길은 온통 노송이 가득하다. 소금강의 상단부를 지나며 오른쪽으로 내려다보면 아찔할 정도로 깎아 세운 절벽이다.  \n\n울퉁불퉁한 길을 올라가면 5m 정도의 세미클라이밍 지대에 올라서며, 다시 한번 훤히 트인 전망대에서 쌍곡계곡을 조망할 수 있다. 8부 능선의 비탈길을 올라 능선길을 밟기 시작하여 20분 정도 가면 정상으로 가는 길목의 작은 봉우리에 닿는데 여기서는 군자산의 정상이 높이 올려다보이며, 사방이 잘 보여 자연 전망대라고 부른다. 이 봉우리를 오르지 않고 허리를 돌아 정상으로 오를 수 있는데 자연 전망대에서 정상까지는 30분 정도 계속 오르막이다. 정상은 10여 m의 공터가 마련되어 있다. 정상에서 보면 동으로 쌍곡계곡의 하얀 속살이 실타래처럼 늘어져 있고 가까이 보개산, 칠보산으로부터 희양산, 백호산, 악휘봉으로 이어지는 험준한 산맥의 흐름이 고고하기만 하다. 남으로는 작은 군자산 너머로 대야산 그 너머로 속리산의 연봉들이 공룡의 등처럼 울퉁불퉁하다. \n\n하산은 두 길이 있으며 북쪽으로 난 바위봉을 넘어 헬기장을 지나 30여분 내려가면 원효대사가 수도했다는 원효굴이 나오는데 바위굴로, 굴 안에서는 물이 샘솟는 바 깨끗지 못한 사람이 오면 물이 흐려지거나 벌레가 생겨 못 먹게 된다고 한다. 여기서 목장 길 능선을 따라 40분 정도 내려오면 학동마을에 닿게 된다. 가장 많이 이용하는 하산로는 남쪽의 능선을 타고 30분 정도 가면 확 트인 바위 봉우리에서 남쪽의 가리지 않은 모습을 볼 수 있으며, 다시 30분 정도 내려가면 사은리로 넘어가는 도마재에 닿고 여기서 왼쪽 내리막길을 택하면 너덜지대를 통과하여 50분 정도면 도마골의 큰길에 도착하여 산행을 마칠 수 있다.",
    "modifiedtime": "20250429091010"
+  },
+  "127838": {
+   "homepage": "<a href=\"https://www.goesan.go.kr/tour/selectTourInfo.do?key=884&tourNo=811&clgn=\" target=\"_blank\" title=\"새창 : 괴산 문화관광 홈페이지로 이동\">http://www.goesan.go.kr/tour</a>",
+   "overview": "백악산은 괴산군 청천면 사담리에 있는 산으로 백 개의 봉우리로 이루어진 산이라 전해온다. 산에 올라 작은 바위들을 넘다 보면 백 개는 충분히 되리라 생각이 들 정도로 크고 작은 바위들이 널려 있다. 백악산은 충북과 경북의 경계에 위치하면서도 교통편 때문에 경북 쪽에서 올라 옥양폭포 쪽으로 하산을 해왔으나 근래 충북 쪽의 사담리까지 지방도 포장과 대방리계곡 때문에 등산객들이 대방리 코스를 이용하기 시작했다. 백악산 정상은 세 개의 바위가 각각 독특한 모습으로 삼각형을 이루고 있는데, 20여 미터 길이의 기차바위, 의자바위, 개구리바위가 그것이다. 백악산 자체가 자연미를 그대로 간직하고 있을 뿐 아니라 인근의 낙영산, 공림사, 청소, 천연기념물 망개나무 자생지 등 볼거리와 피서 장소가 많이 있어 등산객들이 즐겨 찾는 산이다. 인근에는 우암 송시열이 중국의 무이구곡을 본떠 이름을 지었다는 화양구곡과 선유동계곡이 있고, 괴산군 칠성면에는 절경의 쌍곡계곡도 있다.",
+   "modifiedtime": "20250910142428"
+  },
+  "127842": {
+   "homepage": "<a href=\"https://www.jeongseon.go.kr/tour/jeongseontour/attractions?contentSeq=163419&mode=read\"target=\"_blank\" title=\"새창 : 정선 문화관광 이동\">https://www.jeongseon.go.kr/tour</a>",
+   "overview": "화암팔경 중 제7 경인 몰운대는 수백 척의 암석을 깎아 세운 듯한 절벽 위에 5백 년이 넘은 노송이 좌우 건너편의 3형제 노송과 함께 천고흥망을 간직하고 있다. 옛 전설에 천상선인들이 선학을 타고 내려와 시흥에 도취되었다고 전하며 구름도 아름다운 경관에 반하여, 쉬어갔다고 하는 몰운대 절벽 아래에는 수백 명이 쉴 수 있는 광활한 반석이 펼쳐져 있으며, 계곡에는 맑은 물이 흐르고 있어 여름철에는 소풍객이 끊이지 않는다. 조그마한 능선을 따라 시작되는 등산로는 화암팔경 중 5경(화암약수, 거북바위, 화표주, 소금강, 몰운대)을 관망할 수 있으며, 비선대, 신선암, 금강대에서 보는 소금강과  설암은 한 폭의 동양화 그것이다. 등산 후 몰운대 밑 소금강 계곡에서 강물에 발을 담그고 몰운대를 감상하면 신선이 된 듯한 착각을 느끼게 한다. 그러나 비선대, 신선암, 금강대 등에는 추락위험이 있으니 각별히 유념하여야 하며 겨울철은 더더욱 조심하여야 한다. \n\n◎ 한류의 매력을 만나는 여행 정보 - 영화 <헤어질 결심>\n가상의 공간 호미산의 정상 부분으로 절벽 끝에 오백 년 된 고사목이 있는 곳이다. 경치가 좋아 구름도 쉬었다 간다는 몰운대의 책 모양 조형물에는 세상의 끝은 또 다른 사랑의 시작이라는 내용의 시가 적혀 있다. 눈 내리는 밤 마침내 마주한 해준과 서래가 떠오른다.",
+   "modifiedtime": "20251023143000"
   },
   "127844": {
    "homepage": "<a href=\"https://www.jeongseon.go.kr/tour/jeongseontour/attractions?contentSeq=163405&mode=read\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">https://www.jeongseon.go.kr/</a>",
@@ -20474,6 +21556,11 @@
    "homepage": "https://www.ulju.ulsan.kr",
    "overview": "울산 울주군에 위치한 간절곶은 한반도에서 해가 가장 먼저 떠오르는 곳으로, 매년 새해 첫날이면 해맞이를 보기 위해 수많은 이들이 찾는 대표적인 명소이다. 이곳에서는 포항 호미곶보다 1분, 강릉 정동진보다 5분 정도 일찍 해가 떠오른다. 간절곶의 상징 중 하나인 간절곶등대는 일제강점기인 1920년대에 세워진 유서 깊은 등대로, 지금은 공원과 어우러져 멋진 산책 코스이자 사진 명소로 사랑받고 있다. 푸른 바다를 배경으로 우뚝 솟은 하얀 등대는 간절곶의 풍경을 더욱 인상 깊게 만든다. 이곳에는 또 하나의 특별한 볼거리, 세계 최대 크기의 소망우체통이 있다. 실제로 엽서를 넣으면 전국 어디든 배달되며, 간절곶해올제 (울주군 특산품 판매장)에서는 무료 엽서를 배부하고 있어 관광객에게 소중한 추억을 선물한다. 간절곶 일대는 유채꽃밭, 기암괴석, 울창한 송림 등으로 사계절 아름다움을 자랑하며, 인근에는 여름철 울산에서 가장 많은 인파가 몰리는 진하해수욕장과 함께 서생포왜성, 나사봉수대, 온양옹기마을 등 다양한 볼거리도 함께 즐길 수 있다. 탁 트인 수평선, 이른 새벽의 햇살, 그리고 고즈넉한 등대 풍경이 어우러진 간절곶은 누구나 한 번쯤은 찾아가야 할 여행지이다.",
    "modifiedtime": "20251212174710"
+  },
+  "128029": {
+   "homepage": "<a href=\"http://www.moduljari.co.kr/\" target=\"_blank\" title=\"새창: 모둘자리 홈페이지로 이동\">www.moduljari.co.kr</a>",
+   "overview": "모둘자리 힐링체험마을은 홍천 아미산 자락의 계곡이 흐르는 분지에 자리한다. 사전 예약제로 운영되는 곳으로 언제나 여유롭고 쾌적하게 프라이빗한 시간을 보낼 수 있으며, 하룻밤 머무는 여행객은 다양한 자연 속 힐링체험을 무료로 마음껏 이용할 수 있기에 가족단위여행부터 회사워크숍까지 다양한 연령층이 선호하는 여행지이다. 4계절 내내 다양한 계절별 액티비티와 더불어 지역로컬푸드로 차려지는 정성 가득한 식사. 그리고 한국식 정원으로 가꿔진 전통한옥에서의 하룻밤까지. 지친 일상을 벗어나 자연 속에서의 짧지만 알찬 휴가를 꿈꾼다면 안성맞춤인 곳이다.",
+   "modifiedtime": "20250318150335"
   },
   "128031": {
    "overview": "영흥대교를 건너 영흥도에 진입하여 왼쪽길로 들어서면 동산이 하나 나오는데, 그곳에 하늘로 높이 솟은 기념탑과 바다를 향해 용감히 돌진하려는 듯한 포즈의 해군병사 동상이 서 있다. 이곳이 바로 해군 영흥도 전적비가 있는 곳이다. 해군 영흥도 전적비는 1950년 한국전쟁 당시 인천상륙작전에서 펼쳐진 해군첩보부대와 영흥도 반공청년단 14인의 숭고한 업적을 기리기 위해 건립된 전적기념비이다. 1950년 9월 15일 우리 국군과 유엔군은 인천상륙작전을 성공리에 끝냈는데, 이 전투에는 장병들 외에 영흥도 주민으로 조직된 대한청년단 방위대원들도 참여하였다. 9월 13일 북한의 대대급 병력을 맞이한 청년방위 대원들은 703함대의 필사적인 함포 지원 아래 작전을 승리로 이끄는 데 결정적인 공헌을 했다. 이때 순국한 해군 영흥지구 전투전사자와 영흥면 대한청년단 방위대원의 숭고한 업적이 전적비에 담겨있어 그들의 희생정신을 기리고 안보의식을 고취하기 위해 전적기념비가 건립되었다. 전적비 근처에는 해군 퇴역함 참수리호도 전시되어 있어 함께 관람할 수 있다. 참수리호는 고속정으로 북한경비정과의 전투 시 돌격기동으로 적함에 충돌하여 적 선체에 손상을 입히는 등 북한군의 선제도발을 억제하는 임무수행을 맡고 있다. 해군 영흥도 전적비와 참수리호는 역사의식과 안보의식을 고취할 수 있는 소중한 장소이다.",
@@ -20827,6 +21914,11 @@
    "overview": "숙정문(肅靖門)은 서울성곽을 이루는 사대문(四大門) 가운데 하나로, 한양도성의 북쪽 대문이다. 처음에는 숙청문(肅淸門)이었으나 숙정문(肅靖門)으로 이름이 바뀌었다. 현존 도성문 중 좌우 양쪽으로 성벽이 연결된 것은 이 문이 유일하다. 1976년에 문루를 새로 지었다. 청와대 경비를 위해 일반인의 접근을 금지하다가 2006년 4월부터 서쪽 성곽 0.5㎞, 북쪽의 진입로 0.6㎞ 구간과 함께 다시 개방했다. 1963년 1월 21일 서울 한양도성에 포함되어 사적 제10호로 지정되었다.",
    "modifiedtime": "20250318205923"
   },
+  "129562": {
+   "homepage": "<a href=\"https://tour.muju.go.kr/tour/selectTourCntntsDetail.do?key=472&ctgryNo=17&tourNo=221&sortTy=&searchCnd=all&searchKrwd=&pageIndex=1\" target=\"_blank\" title=\"새창 : 무주군 문화관광 홈페이지로 이동\">https://tour.muju.go.kr/tour/</a>",
+   "overview": "무주향교는 조선 태조 7년(1398)에 지금 위치 북쪽에 처음 지었다. 호랑이로 인한 피해가 심해지자 숙종 18년(1692)에 향로산 서쪽으로 옮겼으나 지대가 습하여 순조 34년(1834) 이후 지금 있는 자리로 다시 옮겼다. 현재의 향교 건물들은 그 후 몇 차례의 보수를 한 것이다. 대성전은 공자를 비롯하여 중국 유학자의 위패를 모시고 제사를 지내는 곳이다. 규모는 앞면 3칸, 옆면 2칸이다. 지붕은 옆면에서 볼 때 사람 인(人)자 모양인 맞배지붕으로 꾸몄다. 문화관광해설사가 상주하고 있어 향교이야기를 들을 수 있으며, 전통혼례복체험, 가훈쓰기, 투호, 제기차기, 윷놀이 등의 전통놀이 체험도 할 수 있는 곳이다.",
+   "modifiedtime": "20251222174313"
+  },
   "129581": {
    "homepage": "<a href=\"http://www.naju.go.kr/tour\n\" target=\"_blank\" title=\"새창 : 나주 문화관광 홈페이지로 이동\">http://www.naju.go.kr/tour</a>",
    "overview": "대한 불교조계종 제18교구 본사 백양사의 말사이다. 과거 운흥사와 관련된 문수암이 위치하였던 곳으로 전해지고 있으며, 이곳에 1987년 다정스님이 문성암을 창건하였다. 2층 건물의 구조로 1층은 종무소로 사용하며 2층은 참회전이라 하여 법당으로 사용하고 있다. 그 외 백호선원, 지장전, 문수선원 등의 건물이 있으며 지어진지 오래되지 않았고 다른 사찰과는 달리 단청을 칠하지 않아 정갈하고 고요한 느낌을 준다. \n문성암이라는 이름대로 글을 매우 잘 하는 사람이 출현할 것이라는 꿈을 꾸고 사찰을 짓게 되었다고 한다. 문수는 문수대성(文殊大成)이며 여기에서 문성(文成)을 따서 암자의 이름을 지었고, 문수가 지혜를 의미하기 때문에 선원 터로 적합하다고 여겼다고 하며, 문수보살이 화현한 터라고도 한다. \n문성암을 세운 다정스님은 죽림사와 운흥사를 오가며 수행할 때 문성암 앞의 커다란 소나무를 보고 사찰이 있을 만한 곳이라고 생각하였다고 한다. 또 운흥사 초가에서 기거할 때 스님이 문성암 쪽에서 빛이 찬란하게 비치는 꿈을 꾸고 절을 짓고자 결심하였다. 처음 터를 닦을 때 같이 일을 하던 보살이 꿈을 꾸었는데 불이 나서 그 불길이 하늘을 태웠다고 하는 길몽을 꾸었다고도 한다.",
@@ -21064,6 +22156,10 @@
    "overview": "대둔산골 자락에 자리 잡고 있는 대둔산골 식당은 버섯요리 전문점이다. 직접 채취한 자연산 능이버섯으로 다양한 요리를 선보이고 있다. 대표 메뉴는 자연산 능이버섯전골이며, 자연산 능이백숙, 더덕정식 등도 맛볼 수 있다. 능이버섯은 항암, 기관지, 천식에 좋아 보약 중의 보약이라고도 알려져 있다.  내부 좌석 시설이 넉넉하여 각종 단체모임을 하기에도 좋다.",
    "modifiedtime": "20250312154520"
   },
+  "134718": {
+   "overview": "원조소문난산곰장어는 부산 동래구에 위치한 곰장어 전문점으로 3대째 대를 이어 운영하고 있는 식당이다. 이곳의 곰장어는 당일 입고, 당일 판매를 원칙으로 신선한 음식만 제공하고 있다. 정통 곰장어를 표방하고 있는 ‘소문난 곰장어’는 산지 직송으로 곰장어를 공급받기에 신선하고 쫀득한 육질을 자랑한다. 이곳에서는 곰장어를 양념구이와 소금구이 그리고 통구이의 3종류로 메뉴가 구성되어 있다. 1층은 일반 손님을, 2층은 단체를 위한 연회석으로 꾸며놓았다.",
+   "modifiedtime": "20250306100902"
+  },
   "134946": {
    "overview": "1979년 문을 열어 40년 넘게 전통을 이어온 메밀냉면 전문점이다. 메밀의 본고장이라 할 수 있는 강원도 봉평 메밀을 구해 직접 내린 면발과 맑은 동치미 국물로 간을 맞춰 시원한 한우 양지 육수가 만나 시원, 깔끔하고 담백한 맛을 내는 여름 별미다. 식감이 부드럽고 맛이 자극적이지 않아 어린아이부터 노인까지 먹기 좋다. 밑반찬으로 나오는 톡 쏘는 맛의 여수 돌산 갓김치와 무절임을 얹어 먹으면 맛이 일품이다. 보은시외버스터미널, 보은전통시장과 가까우며 보은먹자골목 초입에 있어 찾기 쉽다.",
    "modifiedtime": "20250313174035"
@@ -21151,6 +22247,10 @@
    "overview": "부산 복천동 일대의 구릉 위에 있는 가야 때 무덤들이다. 여러 차례에 걸친 발굴 조사로 40여 기의 무덤이 확인되었으나, 대부분의 무덤은 아직도 땅 밑에 남아있다. 무덤의 형태는 땅을 파서 넓은 방을 만들고 나무관을 넣은 덧널무덤, 땅 속에 네모난 돌로 벽을 쌓고 천장을 덮어 만든 구덩이식 돌방무덤, 땅 속에 시체를 바로 묻는 널무덤을 비롯해 여러 가지 형식의 무덤들이 있다. 구릉의 원래 이름을 따서 학소대(鶴巢臺) 고분군이라고도 한다. 동아대학에 의해 10여 기가 최초로 발굴된 이래, 부산 대학이 1974년 구릉 동쪽 사면에 있는 3기의 고분을 발굴하였다. 이후 부산대학박물관과 부산시립박물관에 의해 100여 기가 넘는 고분군이 발굴조사되었다. 이 무덤들에는 도굴되지 않은 큰 무덤이 많아 다양한 유물이 출토되었다. 굽다리접시, 목항아리, 토제등잔을 비롯한 토기류는 낙동강 하류지역의 특징적인 토기들이다. 철제 갑옷·투구류도 다양하게 출토되었다.",
    "modifiedtime": "20250509102810"
   },
+  "232218": {
+   "overview": "2002년 안산에서 개업한 도토리묵밥과 냉면 전문점이다. 그 맛이 입에서 입으로 소문이 나면서 인기를 얻고 서울로 이전했다. 각종 TV프로그램이나 기타 월간지에 소개되었다. 무공해 식품이고 탄닌 성분이 많아 소화가 잘 되는 묵을 새콤달콤한 육수와 함께 즐기는 묵밥은 여름철 별미로 가볍게 즐길 수 있다. 시원한 냉 묵밥뿐만 아니라 따뜻한 육수로도 먹을 수 있어 여름뿐만 아니라 겨울에도 별미로 즐 길 수 있다. 묵밥과 함께 시원한 육수로 물냉면도 매우 맛이 있으며 매콤한 비빔냉면과 직접 빚어 만든 만두 또한 별미로 사랑받고 있다.",
+   "modifiedtime": "20251124154933"
+  },
   "249950": {
    "homepage": "<a href=\"https://www.namhae.go.kr/tour/00007/00951.web?amode=view&idx=12&category=T0103\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">https://www.namhae.go.kr/tour</a>",
    "overview": "남해의 관문인 남해대교는 당시에는 동양 최대의 현수교라 불렸다. 남해대교는 길이 660m, 높이 80m의 현수교로 1973년 개통되었으며, 약 10만의 인파로 인산인해를 이룬 지방자치 가장 화려했던 개통식에서도 알 수 있듯이 기대와 환희를 받은 아름다운 다리로 일컬어지고 있다. 붉은 남해대교를 걸어가는 게 행운의 상징처럼 여겨졌던 시절도 있었으며 수학여행, 신혼여행 장소로 사랑을 받아 왔다. 임진왜란의 마지막 전투인 노량해전이 치러진 곳으로, 남해대교가 놓이기 전에는 남해 사람들은 나룻배를 타거나 도선으로 노량의 물살을 가로질러 다녀야 했다. 남해대교를 건너면 남해대교를 조망할 수 있는 휴게공간인 남해각이 있으며, 남해각 주변으로는 벚꽃터널이 가득하다. 주변 관광지로는 남해 충렬사, 남해 척화비 등이 있다.",
@@ -21196,6 +22296,11 @@
    "homepage": "<a href=\"https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=23,00090000,24&sngl=Y&pageNo=1_1_1_1\" target=\"_blank\" title=\"국가유산청 사이트로 이동\">https://www.heritage.go.kr</a>",
    "overview": "월봉서원 내에 위치한 빙월당은 조선 중기의 성리학자 고봉(高峰) 기대승(奇大升)을 배향하는 곳이었으며, 백우산 기슭 광곡(너브실) 마을에 있다. 기대승의 장남 기효증이 1607년(선조 40)에 아버지를 추모하여지었으며 1938년 기대승의 후손에 의해 이전·개축되었다. 월봉서원은 당초 고봉을 추모하기 위해 고봉 사후 7년 만인 1578년(선조 11)에 낙암(현 신룡동)에 세웠으나 임진왜란 때 피해를 입고 동천(현 산월동)으로 옮겨서 건립했는데, 1868년 대원군의 서원철폐로 훼철되었다가 1941년 현 위치에 빙월당을 새로 지었다. 이어 1978년부터 사당과 장판각, 내삼문, 외삼문의 건립에 착수, 1981년 모두 준공하였다. 빙월당의 당호는 정조가 고봉의 고결한 학덕을 상징하는 ‘빙월설월(氷月雪月)’의 뜻으로 하사했다고 전해진다. \n월봉서원 주변으로는 소나무가 울창하게 우거져 있어 풍치가 아름답고 경내도 조용하다. 가볍게 산책을 즐기며 관람하기 좋고 역사 공부를 위하여 아이와 방문하는 가족 단위의 관광객이 많은 편이다.",
    "modifiedtime": "20260630184428"
+  },
+  "251994": {
+   "homepage": "부여군 문화관광 <a href=\"https://www.buyeo.go.kr/html/tour/info/info_010109.html\" target=\"_blank\" title=\"새창 : 부여군 문화관광 홈페이지로 이동\">https://www.buyeo.go.kr</a><br>부여군 시설관리공단 <a href=\"http://www.buyeofmc.or.kr/?MenuID=17\" target=\"_blank\" title=\"새창 : 서동요 테마파크사이트로 이동\">http://www.buyeofmc.or.kr</a>",
+   "overview": "서동요 테마파크는 약 1만여 평 백제왕궁, 왕궁마을, 왕비처의 대지 위에 조성된 오픈세트장에 오늘날의 과학기술 연구소 격인 태학사 등이 있고 고려말에서 조선초 건국과정을 풍수지리를 통해 드라마화한 대풍수 세트가 자리하고 있다. 또한, 탁본, 의상, 투호, 토기, 사물놀이 등 많은 체험관광프로그램을 운영하고 있으며, 2005년도 SBS 방영드라마 ‘서동요’ 이외 다양한 사극드라마의 촬영지가 되었다. \n\n◎ 한류의 매력을 만나는 여행 정보 - 드라마 <달의 연인-보보경심 려>\n서동요 테마파크는 백제를 테마로 조성된 세트장이다. 옛 건축양식을 고스란히 살린 건축물과 예스러운 풍경을 감상하다 보면 해수를 따라 과거로 타임슬립한 기분이 든다.",
+   "modifiedtime": "20251224150930"
   },
   "252529": {
    "homepage": "<a href=\"https://choongang.sen.hs.kr/\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">https://choongang.sen.hs.kr/</a>",
@@ -21405,6 +22510,10 @@
    "overview": "대하닭갈비는 대구 동성로 로데오거리 인근에 위치한 닭갈비 전문점으로 닭갈비, 닭내장, 막국수를 메뉴로 하며, 닭갈비에 각종 사리를 추가하여 맛볼 수 있다. 이곳은 오랜 시간 한 자리를 지켜온 곳으로 닭갈비 맛의 전통을 자랑한다. 인근 현지인들에게 인기가 많다. 외부는 한눈에 들어오는 큰 간판을 보고 쉽게 찾을 수 있다. 내부는 넓은 편으로 좌석이 많고 아늑한 분위기를 풍긴다.",
    "modifiedtime": "20250318203130"
   },
+  "637822": {
+   "overview": "손중헌원조논메기매운탕은 대구광역시 달성군 다사읍에 위치한 유명한 매운탕 전문 음식점이다. 이곳은 신선한 논메기를 사용한 매운탕으로 잘 알려져 있으며, 깊고 진한 국물 맛이 특징이다. 손중헌원조논메기매운탕은 오랜 전통을 자랑하는 곳으로, 특제 양념과 신선한 재료를 사용하여 매운탕의 풍미를 극대화한다. 또한, 매운탕 외에도 다양한 한정식과 반찬이 함께 제공되어 더욱 풍성한 식사를 즐길 수 있다. 식사 공간은 아늑하고 깔끔하여, 가족 단위 방문객이나 친구들과 함께 즐기기 좋은 장소이다.",
+   "modifiedtime": "20250324152218"
+  },
   "643451": {
    "overview": "‘나무포’는 목포의 또 다른 옛 이름이다. 목포라는 지명은 남포-나무포-나무개-목포로 변천되었다고 한다. 삼국사기와 같은 옛 문헌에 쓰인 지명은 어디에서 연유하고 무엇을 의미하는지 알 수가 없다. 그러나 목포의 지명 변천사를 보면 알 수 있듯이 목포가 옛날에는 나무가 많아 숲이 울창하여 ‘나무의 고장’, ‘나무의 포구’라는 뜻으로 목포라는 지명이 유래하였다는 것을 알 수 있다. 죽동에 위치한 소고기 전문점 나무포는 그 이름에 걸맞게 항상 신선하고 좋은 재료로 최고의 맛과 복을 드리겠다고 하는 주인장의 얘기 속에 남다른 맛이 숨어있다. 1등급 한우고기를 사용해 그 맛이 쫄깃쫄깃하고 담백하다.",
    "modifiedtime": "20260630184428"
@@ -21433,6 +22542,11 @@
   "716272": {
    "overview": "경상남도의 벚꽃명소로 유명해진 경화역은 경남 창원시 진해구 경화동에 있는 작은 간이역으로 2006년부터 여객 업무는 하지 않고 있다. 성주사역과 진해역 사이에 위치하고 있으며 철길 따라 쭉 펼쳐진 벚꽃이 터널을 이루어, 안민고개나 진해 여좌천 다리와 함께 벚꽃 사진 명소로도 유명하다. 벚꽃이 만발한 철길 위를 자유롭게 거닐 수 있으며, 벚꽃이 떨어질 때면 열차에 흩날리는 벚꽃이 환상적인 낭만을 느끼게 해 준다. 영화 ‘소년, 천국에 가다’와 드라마 ‘봄의 왈츠’ 촬영지인 경화역에서 세화여고까지 이어지는 약 800m 철로변 벚꽃은 여좌천보다 한가하게 벚꽃을 즐길 수 있어 연인들과 가족 단위 관광객들이 많이 찾고 있다. 매년 벚꽃이 필 무렵이면 구경하러 오는 관광객들이 점차 늘어나 2009년에는 군항제 기간에만 일시적으로 여객업무를 재개하기도 하였다. 군항제 기간 중에는 벚꽃축제 셔틀열차를 운행하며, 이곳을 지나는 열차들은 모두 서행운전을 하여 관광객들이 벚꽃의 낭만을 마음껏 즐길 수 있도록 하고 있다. 최근에는 관광객들이 이용하기 편한 깨끗한 화장실도 새로 마련하였다.",
    "modifiedtime": "20250904090539"
+  },
+  "717051": {
+   "homepage": "<a href=\"https://tour.gochang.go.kr/index.9is?iConUid=4028a69088fb2760018900a404e51b6a&contentUid=4028a690893f64f4018ba33f9100764a\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">https://tour.gochang.go.kr/</a>",
+   "overview": "방장산은 영산기맥의 한 줄기로, 고창읍 월곡리와 신림면 신평리 일대에 주봉을 이루며 정읍의 입암산과 연결된다. 이 산은 고창의 진산으로, 지역을 수호하는 영산으로 여겨진다. 고려사 속악조 권71에는 백제가요 '방등산가'가 전해지며, 옛 문헌에 따르면 '방등산'이 세월이 흐르며 '반등산'으로 변했다가 최근에 ‘모든 백성을 포용하는 큰 산’이라는 뜻으로 다시 방장산이라 불리게 되었다. 산에는 천오백 년의 역사를 지닌 상원사, 임공사, 방장사와 최근 세워진 미륵암이 있으며, 용이 승천했다는 전설이 깃든 용추폭포도 위치한다. 정상에 오르면 고창읍과 서해, 동쪽의 무등산까지 조망할 수 있는 뛰어난 경관을 자랑한다.",
+   "modifiedtime": "20250807173810"
   },
   "719757": {
    "overview": "울산에 위치한 갈비구락부는 다양한 TV 프로그램에 출연한 강병원 명인이 직접 작업한 신선육만 취급하고 있으며, 언양불고기 특구단지 명성에 걸맞게 한우 암소 특등육만 사용하고 있다. 아울러 주인 직영으로 농장에서 재배한 안전한 먹거리를 제공하고 있다. 자극적인지 않은 양념과 어우러진 고기 맛이 고소하기까지 하며 파채와 함께 먹는 연한 언양불고기의 맛도 맛이지만 함께 먹는 시래기 된장찌개 또한 일품이다. 실내가 넓고 테이블이 많아 단체 회식이나 가족모임이 가능하고 룸도 준비되어 있다. 또한 연중무휴로 운영하고 있고 별도의 브레이크 타임이 없어서 시간에 구애받지 않고 편안하게 방문해서 식사를 즐길 수 있어서 부담이 없다.",
@@ -21579,6 +22693,10 @@
    "overview": "명수정은 부산 금정구 범어사 가는 길목에 위치한 음식점으로 추어탕과 민물장어로 유명한 곳이다. 이곳은 구서동 부산은행 건물 4층에 자리하여 찾아가기 어렵지 않다. 대표 메뉴는 추어탕으로 배달도 가능하다. 이외에 오리야채불고기는 4인까지 먹을 수 있고 많은 사람들이 찾는 인기 메뉴이다. 내부는 넓고 아늑한 분위기를 풍긴다. 룸이 있어 모임에 제격이며 영양만점 맛있는 추어탕과 매운탕을 즐길 수 있다.",
    "modifiedtime": "20250304174542"
   },
+  "850932": {
+   "overview": "원조범일동매떡은 어묵, 튀김, 떡볶이 등을 파는 분식점으로 특히 매운 떡볶이로 유명한 분식집이다. 백종원의 3대 천왕에도 방영되었고 다양한 언론매체에 소개된 부산의 맛집이다. 매떡은 매운 떡볶이를 줄인 말로 전국에서 제일 먼저 매운 떡볶이를 시작한 곳이 이곳 원조범일동매떡이다. 떡볶이는 매운맛과 순한맛으로 준비되어 있어 매운걸 못먹는 사람도 순한맛으로 매떡을 맛볼 수 있다. 다양한 조합의 세트메뉴도 준비되어 있어 가족과 친구와 함께 즐길 수 있다. 식당 내부는 레트로한 감성이 묻어나며 자리도 넉넉하다.",
+   "modifiedtime": "20251023143000"
+  },
   "851286": {
    "homepage": "<a href=\"https://www.instagram.com/sangcookine_official\" target=\"_blank\" title=\"새창 : 공식인스타그램으로 이동\">https://www.instagram.com/sangcookine_official</a>",
    "overview": "해운대시장에 위치한 상국이네는 부산 3대 떡볶이집 중 한 곳으로 해운대역 맛집으로도 유명한 곳이다. 떡볶이를 포함해 각종 튀김과 어묵을 판매하고 있으며 떡볶이 떡이 가래떡이라 일반 떡볶이보다 더 크고 쫄깃한 식감을 맛볼 수 있다. 또한 주문할 때 박스가 있어 매장에서 먹지 않고 편하게 포장으로 떡볶이를 구매할 수 있는 맛집이다.",
@@ -21676,6 +22794,10 @@
    "overview": "가문은 서유역 인근에 위치한 중식당이다. 기본적으로 음식에 간이 세지 않아 부담 없이 먹을 수 있다. 모든 메뉴에는 재료가 푸짐하게 들어가 있으며, 튀김류는 튀김옷이 얇게 입혀져 있어 먹을 때 기름진 느낌 없이 담백하게 맛을 볼 수 있다.\n가문의 주요 메뉴로는 삼선자장과 삼선짬뽕, 가문자장면, 야채탕면, 소고기탕면 등 다양한 메뉴가 준비되어 있다.",
    "modifiedtime": "20250315131544"
   },
+  "1053768": {
+   "overview": "정자동 카페거리는 분당 정자동에 있는 유명한 명소로 카페로 가득한 근사한 거리이다. 정자동 카페거리는 [서울 청담동]같은 고급스러운 분위기를 지닌 곳으로 분당의 청담동으로 일명 [청자동(청담동+정자동)]이라고 불리기도 한다. 정자동 늘푸른 고등학교 옆 골목에서 금곡동 일대까지 이어지는 거리로 즐비한 주상복합과 오피스텔 건물 아래층에 연이어 있는 고급 카페들은 아름답고 멋진 테라스를 갖추고 있어 마치 프랑스 파리의 노천카페에 온 듯한 착각이 들 정도로 이국적인 분위기를 물씬 느낄 수 있다. 골목 곳곳의 카페와 맛집 식당들은 근사한 음식과 분위기를 만끽할 수 있는 공간들로 입소문이 자자하여 지역 주민은 물론 외지인, 외국인들에게 매우 인기있는 곳이다. 유럽 노천카페를 연상케 하는 이곳은 낮에는 테라스에서 책 한 권 들고 브런치를 즐기는 사람들이 많고, 저녁에는 산책을 즐기기에 좋아 항상 거리를 찾아오는 사람이 많다.",
+   "modifiedtime": "20250520145921"
+  },
   "1066804": {
    "homepage": "<a href=\"https://www.daejeon.go.kr/pre/index.do\" target=\"_blank\" title=\"새창 : 대전선사박물관 홈페이지로 이동\">https://www.daejeon.go.kr</a>",
    "overview": "대전선사박물관은 대전 유성구 서부에 위치한 선사시대 전문 박물관이다. 대전의 구석기시대에서 철기시대까지의 고고 유물과 유적을 한눈에 살펴볼 수 있는 선사시대를 테마로 한 전문 박물관이다. 박물관은 1997년 발굴된 노은동 유적지 안에 위치하며, 노은선사문화관을 비롯하여 대전의 선사문화를 한눈에 볼 수 있는 총 5개의 전시실을 운영하고 있다. 또한, 야외 체험장과 체험 전시실 등을 갖추고 있어 학생들을 위한 학습공간으로도 손색이 없다. 한밭대로에서 노은동로, 노은로에서 은구비남로를 통해 접근할 수 있으며, 고속도로는 호남고속도로 지선 유성 IC가 가깝다. 대중교통은 대전도시철도 1호선 노은역을 이용할 수 있다. \n주변에는 은구비역사공원, 대전월드컵경기장, 대전어린이회관 등이 있다.",
@@ -21761,6 +22883,11 @@
    "homepage": "http://www.iksan.go.kr/mahan",
    "overview": "마한박물관은 2008년 개관 이후 마한의 문화를 널리 알리기 위해 상설전시와 특별전, 기증전 등을 개최하고 있으며, 다양한 문화행사와 교육 프로그램을 운영하고 있다. 상설전시실은 익산문화의 여명, 마한의 중심 익산, 마한에서 백제로의 변화 코너로 구성되어 있으며, 익산에서 출토된 구석기시대부터 백제 이전 시기까지의 유물을 전시하고 있다. 특히 마한 박물관은 수려한 자연경관을 자랑하는 서동공원 내에 위치하고 있어 문화와 쉼이 함께 하는 문화복합공간으로 자리매김하고 있다.",
    "modifiedtime": "20251126141510"
+  },
+  "1316294": {
+   "homepage": "<a href=\"https://www.iksan.go.kr/tour/board/view.iksan?boardId=BBS_TOUR_NTOUR&menuCd=DOM_000005901001000000&startPage=1&dataSid=533404\" target=\"_blank\" title=\"새창\">http://www.iksan.go.kr/tour/</a>",
+   "overview": "이 집은 조선 선조대 문인 표옹 송영구(瓢翁 宋英耉)선생이 선조 38년(1605) 선친을 여의고 지은 곳으로, 이곳에서 우산(紆山)에 있는 선영(先塋)을 망모(望慕)하였다고 한다. 망모당이란 편액(扁額)은 중국사신 주지번(朱之蕃)의 친필을 현각한 것이다.정면 3칸, 측면 3칸의 팔작집으로 전면의 초석은 기둥모양초석으로 누집 형식을 이루고 있다. 기둥위에 첨차를 놓아 굴도리 밑의 장혀를 받친것이나, 난간두겁대의 받침기둥을 계자각 비슷하게 다듬은 것 등이 이 건물의 특징이다. 당모당 부근에는 100여명 정도가 앉아서 놀 수 있는 평평한 바위가 있는데 이 바위 밑으로는 왕궁천이라는 냇물이 흐르고 있어서 주변의 경치가 매우 좋다.",
+   "modifiedtime": "20251223162420"
   },
   "1346871": {
    "overview": "광양 형제의병장마을은 임진왜란 당시 의병을 일으켜 큰 전공을 세우고 전사한 강희보, 강희열 형제 의병장이 태어난 마을이다. 두 형제는 임진왜란 당시 위기에 처한 진주성에서 김천일 장군과 함께 10만 왜군에 맞서 전투를 벌이다 1593년 6월 27일과 29일 각각 장렬히 전사했다. 뒷날 선조는 강희보, 강희열 형제의 충절을 높이 사 진주 창렬사에 배향했고, 1970년에 이르러 고향인 봉강면 신룡리에 묘소와 묘비를 보수하고 사당을 건립했다. 현재 형제의병장마을에 남아 있는 사당은 1998년에서 2003년에 걸쳐 광양시에서 건립하였고, 이곳 쌍의사에서 매년 형제 의병장의 충의정신을 기리고 있다. 강희보, 강희열 두 형제 의병장의 묘소는 바구산 등산로 중턱에 나란히 위치해 있다. 묘소까지는 생태탐방로를 따라 완만한 산책로가 이어져 가벼운 마음으로 다녀오기에 좋다. 주위로 백운산 자연휴양림과 성불계곡, 질매제 계곡이 있어 여름이면 피서객들이 모이고 있다.",
@@ -21969,6 +23096,11 @@
    "overview": "남평문씨열녀비는 산서면 소재지에서 임실 성수면으로 가는 도로의 하오마을 입구 도로변에 위치하고 있다. 현재 정려각 안에는 ‘열녀학생권희언처남평문씨지려’라고 새긴 비석과 남쪽 벽면에는 문 씨 정문기가 걸려 있다. 이 정문기의 내용에 의하면 남평 문 씨는 시집온 지 3일 만에 남편과 사별하고 홀로 살다가 양자를 두었으나 양자마저 병으로 죽게 되자 그도 3년 만에 죽었다. 그는 유언에서 내가 죽게 되면 내 남편의 무덤 옆에 묻어달라라고 하여 그 후손들이 문 씨의 유언에 따라 남편 무덤 옆에 나란히 묻어주고 이 비각을 세웠다고 한다. 현재 정려각은 높이가 70㎝ 정도 되는 초석 위에 기둥을 세운 정면 1칸 측면 1칸의 지붕으로 되어 있다.",
    "modifiedtime": "20250306145519"
   },
+  "1623801": {
+   "homepage": "<a href=\"https://www.jangsu.go.kr/tour/index.jangsu\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">https://www.jangsu.go.kr/tour/index.jangsu</a>",
+   "overview": "문태서 호남의병대장은 1905년 을사보호조약이 강제로 조인되자 덕유산을 거점으로 호남의병단을 결성하여 신출귀몰한 병법으로 덕유산 일대에서 500여 회 왜병을 섬멸하였고, 이원역 습격작전, 장수주둔 일본수비대 기습작전 등 혁혁한 전과를 올렸으나 고향 안의에서 왜병에 체포되었다가 경성형무소에서 34세로 옥사했다.\n박춘실 호남의병선봉장은 1905년 을사보호조약이 강제 조인되자 의병 50여 명을 이끌고 남덕유산에 들어가 토옥동 어구 양악에서 호남의병장 문태서장군과 호남의병단을 조직하고 장수, 무주, 진안, 안의, 함양, 거창 등지에서 유격전을 펼쳐 빛나는 전과를 올렸다. 1913년 11월 토옥동 전투에서 결사항전했으나 일군에 체포되어 대구로 이송, 감옥을 부수고 동지 100여 명을 탈옥시켜 투쟁케 하는 등 끝까지 굴하지 않다가 1914년 6월 3일 40세에 옥중에서 자결했다.\n(출처: 장수군 문화관광)",
+   "modifiedtime": "20250318210324"
+  },
   "1623923": {
    "homepage": "전승지원통합플랫폼 https://support.nihc.go.kr/iptl",
    "overview": "진도군무형유산전수관은 진도를 기반으로 전승되고 있는 무형유산 10종목이 입주한 공간으로, 체험 및 교육을 통해 전통문화예술을 향유할 수 있는 복합문화공간이다. 4개 분야와 도지정 무형유산 2개 분야를 전수시키는 장소로 1984년 10월 18일에 개관됐으며, 전수받고 싶은 사람을 한 달에 한 번씩 모집하여 각 분야별로 전수시키고 있다. 또한 기·예능 보유자들의 공연을 관람할 수 있어 관광객들의 발길이 끊이지 않는다. 전통문화 예술 보급을 위해 공연 관람에서 그치지 않고 체험 프로그램도 진행하고 있다.",
@@ -22028,6 +23160,11 @@
    "overview": "강경천의 채운교가 있는 강둑을 조금 거슬러 올라가면 시멘트로 만들어진 다리가 놓여 있고, 그 옆으로 작은 미내다리가 설치되어 있다. 전국 교역의 중요한 거점이 되었다는 강경포구가 있던 곳으로, 이 강을 ‘미내(渼奈)’라고 부른 것에서 유래하여 ‘미내다리’라고 부른다. 강경미내다리는 조선시대에 충청도와 전라도를 잇는 삼남에서 가장 큰 다리였다. 다리의 규모는 길이 30m, 너비 2.8m, 높이 4.5m이다. 긴 돌을 가지런히 쌓아 3칸의 무지개 모양을 만들고, 그 사이마다 정교하게 다듬은 돌을 가지런히 쌓아 올렸다. 다리의 강둑 쪽 중간쯤에는 형태를 정확히 알 수 없는 동물의 얼굴이 조각되어 있는데, 눈은 마치 장승의 눈과 같고, 코는 뭉툭하며, 얼굴 양옆으로 귀 모양과 갈기가 있다. 다리 옆에 놓여 있던 ‘은진미교비’는 국립부여박물관에 보관 중인데, 비문에 의하면, 조선 영조 7년(1731) 주민의 필요에 따라 강경촌 사람인 송만운이 주도하여 이 다리를 만들게 되었다고 한다.",
    "modifiedtime": "20251216163057"
   },
+  "1627066": {
+   "homepage": "<a href=\"https://tour.chungnam.go.kr/prog/trsrcn/kor/sub02_01_01/view.do?trsrcnNo=857\"target=\"_blank\" title=\"새창 : 충남 문화관광 이동\">https://tour.chungnam.go.kr/prog/</a>",
+   "overview": "윤보선 대통령은 대한민국 제4대 대통령을 역임하였으며, 헌정 사상 최초의 의원 내각제 하 대통령이다. 본적은 충청남도 아산, 호는 해위(海葦), 기독교 집안인 중추원의관 동야 윤치소 씨와 중추원의관을 지낸 전주 이 씨 이재룡 씨의 장녀인 이범숙 씨 사이에서 맏아들로 태어났다. 1913년 일본 유학길에 올랐던 윤보선은 이후 여운형을 따라 상하이로 건너가 상해임시정부에 들어가 약관의 나이에 독립운동에 투신하였으며 영국에서 옥스퍼드와 에든버러 대학에서 고고학을 전공하였다. 해방 후 서울시장 및 상공부장관을 맡으며 출세가도를 달렸으나 대통령 직선제 개헌안과 사사오입 등의 개헌을 통해 이승만의 장기집권을 도모하자 야당들을 통합하여 민주당을 탄생시켰고, 야당인 민주당 소속으로 3, 4, 5대 국회의원에 당선되었다. 1960년 4.19 혁명이 일어나자 윤보선은 민의원과 참의원의 양원합동회의에서 내각제 대통령으로 당선되었으나 1961년 5.16 군사정변으로 신군부에 의해 강제적으로 물러나게 되었으며 74년 정계를 은퇴하여 부인 공덕귀 여사와 함께 유신체제에 항거하는 재야지도자가 되었다. \n\n윤보선 대통령이 태어난 생가는 충남 아산시 둔포면 신항리 143번지에 위치해 있으며, 1984년 12월에 국가민속문화유산 제196호로 지정되었다. 3138㎡의 생가 터에 사랑채, 안채, 문간채, 행랑채 등의 구조로 윤보선 대통령의 부친인 윤치소가 1907년에 지었다고 하며, 주변은 해평 윤 씨 집성촌으로 현재는 전통가옥(윤일선가옥, 윤승구가옥, 윤제형가옥)들과 함께 하나의 권역을 이루고 있다. 평생을 나라사랑과 민주화된 조국을 염원했던 윤보선 대통령의 일생은 불의에 대한 저항과 사회에 대한 책임 등 그 정신적 바탕에는 아산이라는 지역정서가 크게 담겨 있으며, 둔포면 신항리는 우리나라 개화기 시대의 선각자들인 윤 씨 가문의 전통이 녹아 있는 지역이기도 하다.",
+   "modifiedtime": "20250319192734"
+  },
   "1627095": {
    "homepage": "<a href=\"https://www.jeongeup.go.kr/culture/board/view.jeongeup?boardId=BBS_0000004&menuCd=DOM_000000601004008000&paging=ok&startPage=2&categoryCode1=AE01&dataSid=1306706\" target=\"_blank\" title=\"새창 : 정읍시 문화관광으로 이동\">https://www.jeongeup.go.kr/culture/index.jeongeup</a>",
    "overview": "고부군수 조병갑의 수탈을 위한 구실이었으며 크게는 반봉건 의미를 담은 만석보 철거는 매우 상징적인 사건이었다. 만석보 철거 요구는 당시 백성들의 민심을 헤아릴 수 있는 동시에 이들의 요구를 거절할 수 없을 정도로 백성들의 의식이 커졌음을 의미하며 결국 신임 고부군수 안길수로 하여금 민심수습을 위해 철거를 결심할 수밖에 없게 만든 정치적 사건이었다. 1894년 동학농민혁명 당시 농민들은 고부관아를 점령한 뒤 수탈의 구실이었던 만석보를 부수었는데, 1898년 새로 고부군수로 부임한 안길수가 남아있던 만석보를 완전히 철거하였다. 이에 동년 9월 농민들이 ‘군수 안후길수 만석보 혁파 선정비’를 세웠다. 1994년 동학농민혁명 100주년을 맞아 풍우로부터 비석의 훼손을 예방하기 위해 비각을 세웠다. \n\n( 출처 : 정읍관광)",
@@ -22037,6 +23174,11 @@
    "homepage": "<a href=\"https://www.yesan.go.kr/prog/clturAst/tour/sub03_02_03/02/09/view.do\" target=\"_blank\" title=\"새창: 예산군 문화관광 홈페이지로 이동\">https://www.yesan.go.kr/</a>",
    "overview": "향교는 훌륭한 유학자의 제사를 지내고 지역민을 교육하기 위하여 설립한 고려·조선시대의 국립 지방 교육기관이다. 조선시대에는 국가로부터 토지와 노비 등을 지급받아 교관이 교생을 가르쳤으나, 1894년 갑오개혁으로 근대 교육이 본격화되면서 교육적 기능은 폐지되었다. 예산군 덕산면에 있는 덕산향교는 처음 건립한 정확한 연대는 알 수 없으나, 조선 인조 때 세운 것으로 전한다. 대성전은 숙종 8년에 수리하였다는 기록이 있으며 1987년에 다시 한번 보수했다. 건물 배치는 외삼문 없이 앞쪽에 바로 교육 공간인 명륜당이 있고, 뒤쪽에 제사 공간인 대성전이 있어 전학후묘의 형태를 따르고 있다. 덕산향교 앞의 평지에는 공자상이 세워져 있으며 여름에는 향교 주변으로 배롱나무가 붉은 꽃을 피워 그 풍경이 아름답다. 덕산향교는 가을 선진 지역을 답사하고 전임 강사를 초빙 교양 강좌를 개최하는 등 지역 사회 유림 활동에 힘쓰고 있다.",
    "modifiedtime": "20250709160005"
+  },
+  "1646664": {
+   "homepage": "<a href=\"https://www.riverguide.go.kr/kor/page.do?menuIdx=431\" target=\"_blank\" title=\"우리강이용도우미 사이트로 이동\">http://www.riverguide.go.kr</a>",
+   "overview": "봉황경은 한강 8경 중 제7경에 해당하는 곳으로 자연학습장과 산책로로 좋은 곳이다. 다양한 종류의 철새가 서식하는 곳으로 원앙, 큰고니도 볼 수 있다. 그리고 철새와 함께 물억새, 갈대 군락지가 장관을 이루고 있어 많은 사진작가들이 찾는 곳이다. 수변 산책로를 통해 야생 조류원을 볼 수 있고 전망 관찰대에서는 갈대숲의 전경과 소나무 숲, 철새들의 비상을 감상할 수 있다. \n수변 잔디광장을 중심으로 자전거 도로, 제방길, 청소년 야영장이 있으며, 목계 나루터 재현 및 체험장, 수변 광장과 관찰 데크 등이 있다.",
+   "modifiedtime": "20250402155150"
   },
   "1646676": {
    "homepage": "<a href=\"https://tour.daegu.go.kr/index.do?menu_id=00002942&menu_link=/front/tour/tourMapsView.do?tourId=KOATTR_90\" target=\"_blank\" title=\"새창 : 대구 관광안내 사이트로 이동\">http://tour.daegu.go.kr</a>",
@@ -22136,6 +23278,10 @@
    "homepage": "<a href=\"https://www.instagram.com/jejuhorsepark/\"target=\"_blank\" title=\"새창: 조랑말체험공원 홈페이지로 이동\">https://www.instagram.com/jejuhorsepark/</a>",
    "overview": "제주의 말 문화를 쉽고 재밌게 이해하고 체험할 수 있는 조랑말체험공원은 조선시대 최고의 말을 사육했던 갑마장이 있었던 가시리 마을 그 자리에 600년 목축문화의 역사를 고스란히 간직하고 있다. 농림부가 지원하는 ‘신문화공간 조성사업’의 일환으로 조성된 조랑말 박물관에 마을회의 노력으로 따라비 승마장, 마음 카페, 아트숍, 체험장, 축제공간 등이 어우러진 복합 문화공간으로 확대 조성되었다. 마을에서 설립한 국내 최초의 리립 박물관이자, 마을의 역사와 문화를 주제로 한 문화공간으로 새로운 형식의 커뮤니티 비즈니스 모델로서도 큰 의미가 있다.",
    "modifiedtime": "20250718102627"
+  },
+  "1828249": {
+   "overview": "대구광역시 동구 신기동 반야월 시장 내에 있는 부부식당은 국밥을 주메뉴로 한다. 부부식당에서 사용하는 모든 음식의 재료는 국내산을 사용하며 24시간 주문이 가능하다. 소머리를 넣고 고아낸 국물로 만드는 선짓국을 끓이는데 칼칼하면서도 깔끔한 맛이다. 또한 커다란 미꾸라지가 들어가는 추어탕은 개운한 맛이 느껴져 인기가 좋다. 매장 내부에는 입식좌석과 좌식좌석 모두 있으며 테이블수가 많아 단체로 이용도 가능하다.",
+   "modifiedtime": "20250317200017"
   },
   "1828958": {
    "overview": "경산시 남산면에 있는 남산식육식당은 번호표를 뽑고 기다려야 할 만큼 유명한 소고기 전문점이다. 이곳은 옛날 정육점처럼 유리로 된 냉장고에 고기를 걸어두고 판매한다. 소고기는 국내산 한우 암소를 사용하며 토시살, 안창살, 구이, 육회, 생고기(뭉티기), 된장찌개 등의 메뉴가 있다. 예약이 불가능하며, 방문 대기하여야 한다. 남산식육식당에서는 소고기를 따로 구매할 수 있다.",
@@ -22292,6 +23438,10 @@
    "overview": "충주고구려비전시관은 2012년에 개관한 곳으로 국내 유일의 고구려 석비인 충주 고구려비를 볼 수 있는 곳이다. 충주는 계립령과 죽령, 남한강 등이 있어 전략적 요충지였는데 고구려가 충주를 70여 년의 오랜 시간 동안 점령했던 흔적을 보여주는 것이 바로 충주 고구려비이다. 오래전부터 가금면 용전리 입석마을 앞에 서 있었던 충주 고구려비는 1979년에 이르러서야 그 가치가 세상에 알려졌고 그 후 장수왕이 남한강 유역을 공략한 후 세운 기념비로 추정되어 고구려비로 명명됐다. 이 밖에도 충주고구려비전시관은 충주 고구려비뿐만 아니라 고구려의 유산, 설화, 생활상 그리고 안악 3호 분, 광개토대왕 비, 충주 고구려비의 발견 과정 등도 소개하고 있다.",
    "modifiedtime": "20250910182031"
   },
+  "1939620": {
+   "overview": "하얀민들레한옥마을은 보은군에 위치하고 있다. 한옥마을 객실은 윗동과 아랫동으로 분리되는데, 윗동은 숙박실과 식사공간으로, 아랫동은 숙박실과 사랑채, 갤러리로 이루어져 있다. 자수 및 천연염색 체험, 판화찍기 체험, 뻥튀기 체험, 조선시대 생활체험 등 다양한 프로그램을 체험할 수 있으며, 단체 손님의 경우 숙박도 가능하다. 최근 K-POP 아이돌이 출연한 예능프로그램의 촬영지로도 사용된 하얀민들레한옥마을은 방문한 사람들이 제대로 쉴 수 있고 치유받을 수 있는 공간이다.",
+   "modifiedtime": "20250710110214"
+  },
   "1941044": {
    "overview": "금수저은수저는 퓨전 한정식을 제공하는 음식점이다. 특색 있는 다양한 메뉴를 저렴한 가격으로 맛볼 수 있다. 주요 메뉴는 계절 죽인 완도 콩죽, 오이무침, 미나리 무침, 약선 보쌈, 떡갈비, 싱건지, 야채샐러드, 궁중잡채, 연어 밀쌈, 해파리냉채, 파래 전, 떡 잡채, 간장게장, 복어 미역국 등이 있다. 한 달에 2개 이상의 메뉴를 개발해 선보이고 있다.",
    "modifiedtime": "20260630184428"
@@ -22417,6 +23567,11 @@
    "overview": "제주고씨 고인상이 선조 문충공 고경을 주벽으로, 문영공 고용현과 화당 고만욱을 추배하기 위해 건립한 서원이다. 고창군 신림면 무림리 만화마을에 위치해 있다. 문충공파 파조 고경은 고려말의 문신으로 호는 휴옹, 시호은 문충 또는 문영으로 이부상서 백연의 아들로 다섯 살에 시를 지었고 열두 살에 논어를 외우니 당시에 옥산의 신동이라 하였다. 충렬왕 18년(1292) 16세에 친명으로 문과에 급제하여 벼슬길에 올랐다. 목은 이색, 포은 정몽주, 야은 길재 등이 공을 스스의 예로 존경하고 충효가 동방의 으뜸이 된다 하였다. 또한, 고용현은 고려 후기의 충신이며 고만욱은 고인상의 부친으로, 부모상을 당했을 때 예를 극진히 하였다고 한다. 만화서원의 사당은 3칸, 강당은 4칸으로 모두 팔작지붕이며 동재는 4칸, 서재는 3칸이다. 그 외에 외삼문 1동이 있다. 문충고파 고씨 후손들은 전라북도 옥구군 옥산면의 염의원과 이곳 만화서원에서 공을 주벽으로 모시고 매년 제향을 올리고 있다. 만화서원은 고려 후기의 제주고씨 고경과 고용현의 충신으로서의 성격을 파악하는 데 중요한 자료이다.",
    "modifiedtime": "20250313110723"
   },
+  "1956980": {
+   "homepage": "<a href=\"https://www.wanju.go.kr/tour/index.9is\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">https://www.wanju.go.kr/tour</a>",
+   "overview": "반곡서원은 수선리 산정마을에 있는 조선 후기에 건립한 서원이다. 이 지방에 살고 있던 담양국씨들이 선조들의 절의와 효행의 높은 뜻을 기리기 위하여 1871년(고종 8년) 2월에 세워 1995년에 중건하였다. 반곡서원 입구에는 반곡사 중건기념비가 세워져 있고, 그 뒤로 반곡서원으로 들어가는 충효문이 있다. 경내에는 사당과 강당 외에 내삼문과 외삼문이 있고, 교직사 1동이 있다. 반곡서원의 사당은 전면 3칸, 측면 2칸의 맞배지붕 건물이며, 강당은 전면 4칸, 측면 2칸의 팔작지붕 건물이다. 현재 국유, 국함, 국침, 국명 등의 위패를 모시고, 음력 2월과 8월 중정일에 향사를 시행하고 있다.",
+   "modifiedtime": "20250318211144"
+  },
   "1957338": {
    "overview": "강덕사는 강덕서원이라고도 한다. 조선 헌종 12년(1846)에 후손들의 협력으로 시조 장경공 최사전을 비롯하여 최표, 최부, 최극충을 배향하고 있다. 최사전은 어려서부터 무술에 정통하여 여러  대에 걸쳐 임금을 섬기던 중 고려 인종 때 이자겸의 난을 평정하여 나라를 보존시켜 강진의 명예를 드높인 인물이다. \n경내에는 외삼문, 내삼문, 강덕서원, 효인재, 강덕사 묘정비, 위패를 모시는 강덕사, 관세위, 망예위 등이 현존하고 있으며, 매년 음력 3월 15일과 10월 15일에 제를 올리고 있다.",
    "modifiedtime": "20260630184428"
@@ -22497,6 +23652,11 @@
    "overview": "금산서원은 1707년(숙종 33년)에 지방유림의 공의로 허진수의 학문과 덕행을 추모하기 위해 창건하여 위패를 모셨다. 허진수는 퇴계 이황의 문인으로 천품이 온화하고 재기가 뛰어난 영재였으나 벼슬을 단념하고 도산서원에 들어가 학문에 전념하였다. 1574년(선조 7년) 나라에서 그의 학행을 가상히 여겨 통정대부의 품계를 내렸으며, 만년에는 고향에서 정자를 짓고 후진양성에 진력하니 이때부터 그곳을 금곡이라 불렀다. 금산서원은 선현배향과 지방교육의 일익을 담당하여 오던 중 흥선대원군의 서원철폐령으로 1868년(고종 5년)에 훼철되었다가 1909년 유림에 의해 사당을 중건하여 지금에 이르고 있다. 경내의 건물로는 3칸의 경모사, 4칸의 수덕헌, 3칸의 동재, 외문, 4칸의 고사 등이 있다. 사당인 경모사에는 허진수의 위패가 봉안되어 있다. 수덕헌은 강당으로서 방과 마루로 되어 있는데, 방은 헌관 및 별유사, 재석실로 사용하며, 마루는 여러 행사와 유림의 회합장소로 사용되고 있다. 신문은 향사 때 재원의 출입문으로만 사용하고 있으며, 동재는 재원숙소로 사용하고 있다. 고사는 서원을 관리하는 고자가 사용하는 곳이다.",
    "modifiedtime": "20251030095410"
   },
+  "1958090": {
+   "homepage": "<a href=\"https://www.gbgs.go.kr/open_content/tour/page.do?mnu_uid=3726&tree_uid=97&step=2&tsite_uid=149\" target=\"_blank\" title=\"새창 : 경산시 문화관광으로 이동\">https://www.gbgs.go.kr</a>",
+   "overview": "경산 금호서원은 문경공 허조의 위패를 모시기 위해 건립한 서원이다. 1922년부터는 허후와 허조를 함께 배향하고 있다. ‘준도문’이라 편액 한 외삼문을 들어서면 정면 하여 강당인 수교당이 자리 잡고 있으며, 마당의 좌측에는 평기와를 얹은 4칸 규모의 맞배기와집인 성경재를 두었다. 성경재와 마주 보는 마당 우측의 경사진 대지 위에는 사당이 배치되어 있는데, 사당의 주위에는 방형의 토석담을 둘러 별도의 공간을 이루게 하였으며 담의 정면에는 3칸 규모의 평대문인 내삼문을 세웠다.",
+   "modifiedtime": "20250624152734"
+  },
   "1959464": {
    "homepage": "http://gaho.kr",
    "overview": "임진왜란 때 의병장으로 활약한 정문부를 모시기 위해 세운 서원이다. 함북에 있는 네 개의 사우에 향사하였다가 1970년에 진주 향교 사람들의 공의와 후손들의 협찬에 의해 현 위치에 사우를 건립하였다. 그 후에 서원 내에 정문부 장군 유물전시관도 건립되었다. 충의공 농포 정문부(1565~1624)는 조선 중기의 문신으로 1585년(선조 18) 생원이 되고 1588년 식년 문과에 갑과로 급제해 한성부참군이 되었다. 1590년 사헌부 지평으로 지제교를 겸했으며 함경북도 병마평사가 되어 북변의 여러 진을 순찰하였다. 1592년 임진왜란 때 의병을 조직하여 장덕산 전투, 쌍포 전투, 백탑교 전투에서 대승하여 관북 지방을 수복하였다. 시화에 연루되어 억울한 죽임을 당했으나 후에 복권되어 좌찬성에 추증되었다. 서원에는 가호서원, 충의사, 유물전시관, 보조묘, 장판각, 북관대첩비, 농포정문부사적비 등이 있으며 저서로는 이 있다.",
@@ -22562,6 +23722,10 @@
   "1959571": {
    "overview": "창원시 마산회원구 두척동에 위치한 두곡서원은 현종 12년(1864)에 창건하였고 고종 4년(1867에) 옮겨 세웠으며 통일신라시대 학자 최치원 선생을 배향하는 곳이다. 최치원 선생은 9세기 통일신라의 학자로 중국 당나라에서 토황소격문으로 문장가로서 이름을 떨쳤으며 신라로 돌아온 뒤에는 진성여왕에게 시무책을 올려 정치 개혁을 추진하였다. 유교·불교·도교에 모두 이해가 깊었고, 유·불·선 통합 사상을 제시하였으며 수많은 시문을 남겨 한문학의 발달에도 기여하였다.",
    "modifiedtime": "20250414150527"
+  },
+  "1959573": {
+   "overview": "함안군 여항면 외암리 음촌마을에서 내곡으로 가는 길옆에 두릉서원(杜陵書院)이 있는데 이는 조선 순조 32년 (1832)에 고향을 생각하는 사림(士林)들이 안민(安慜), 안희(安憙), 안신갑(安信甲) 세분을 봉 향하기 위해 세워진 서원이다. 고종 5년(1868)에 철폐된 후 1930년에 중건(重建)을 거쳐 1984년 복원(復元) 하였다.",
+   "modifiedtime": "20250316213306"
   },
   "1960620": {
    "overview": "부산 지하철 자갈치역 10번 출구를 나오면 바로 앞 골목에 자갈치 양곱창 골목이 있다. 자갈치 시장 인근에 있어 자갈치 양곱창 골목이라 부르며, 오래전부터 양곱창집이 성업하던 곳으로 곱창을 즐기는 사람들이 많이 찾는 곳이다. 자갈치 양곱창 골목의 식당은 특이하게 한 가게 안에 들어가면 여러 식당이 입점해 있는 방식이라 한 가게 안에서도 식당을 선택해야 하는 방식의 식당이 과거부터 운영되어 오고 있으며, 한 가게만 있는 단일식당도 영업하고 있다. 식당 별 영업시간도 제각각이라 방문 시 알아보고 방문하는 게 좋다. 자갈치 양곱창집은 연탄불에 양곱창을 구워 먹는 방식이 과거부터 이어져 내려오고 있으며, 양곱창의 종류는 소금구이, 양념구이, 전골이 있으며, 특정 부위별로 섞여 나온다.",
@@ -22778,6 +23942,11 @@
    "overview": "가마골백숙은 전통의 맛을 그대로 살린 백숙전문점이다. 다양한 건강 식재료와 좋은 품질의 원료육을 사용하여 오랜 시간 끓여낸 깊은 맛의 닭, 오리백숙을 정식 스타일로 제공한다. 백숙종류로는 누룽지백숙, 녹두백숙, 오리능이백숙, 황제능이삼계탕, 들깨삼계탕, 삼계탕 등 다양하게 준비되어 있다. 넓은 룸을 갖추고 있어 가족식사, 회식 등 다양한 모임을 가지면서 식사를 하기에 좋다.",
    "modifiedtime": "20251110172223"
   },
+  "2530632": {
+   "homepage": "<a href=\"https://www.jincheon.go.kr/site/tour/sub.do?menukey=1614&mode=view&no=3200094\" target=\"_blank\" title=\"새창 : 진천군 문화관광으로 이동\">https://www.jincheon.go.kr/site/tour/</a>",
+   "overview": "‘보배로운 연꽃’이라는 뜻의 보련마을은 연꽃을 물 위에 띄워 놓은 듯한 모습을 하고 있는 아름답고 깨끗한 청정 자연마을이다. 이름에서부터 알 수 있듯이 마을 입구부터 연들이 심어져 있고, 마을 전체가 연꽃보존마을로 지정되어 있어 7월이면 보련마을에는 연꽃이 만개한다. 마을 뒤쪽으로는 진천에서 제일 높고 경관이 수려한 만뢰산(611.7m)이 솟아 있으며, 산 정상에 있는 만노산성은 병자호란 때 유창국과 조감이 의병을 모아 청군에게 항전하여 승리를 거둔 곳이라고 전한다. 또한, 보련계곡을 따라 다양한 생물들이 서식하고 있으며, 여름철에 반딧불을 볼 수 있을 정도로 깨끗한 환경을 자랑한다.",
+   "modifiedtime": "20250317111257"
+  },
   "2540131": {
    "homepage": "대구트립로드 <a href=\"https://tour.daegu.go.kr/index.do?menu_id=00002913&menu_link=/front/tour/tourMapsView.do?tourId=KOATTR_364\"target=\"_blank\" title=\"새창: 대구트립로드 문화관광\">https://tour.daegu.go.kr/</a>",
    "overview": "대구 북구 8경 중 1경인 금호꽃섬은 2021년 9월 시민공모전을 통해 하중도에서 금호꽃섬으로 명칭이 변경된 곳이다. 팔달교와 노곡교 사이에 위치한 섬으로 봄에는 유채꽃과 보리, 가을에는 코스모스와 메밀이 있어 아름다운 풍광을 연출하며 하중도 하류에는 하천 정화력을 가진 물억재가 식재되어 있다. 상습 침수지이자 환경 오염원이던 땅을 정비해 계절별로 피는 꽃을 심어 시민들의 휴식처가 된 장소로, 연인들의 데이트 장소, 가족 단위의 관광객이 많이 찾는 대구 대표 관광지이다.",
@@ -22903,6 +24072,11 @@
    "overview": "목포시민들이 자주 찾는 숨은 맛집이다. 전남광주통합특별시 목포시에 있는 삼계탕 전문점이다. 대표메뉴는 전복삼계탕이다.",
    "modifiedtime": "20260630212627"
   },
+  "2588908": {
+   "homepage": "<a href=\"https://www.yellowmohang.co.kr/\" target=\"_blank\" title=\"모항갯벌체험장\">https://www.yellowmohang.co.kr/</a>",
+   "overview": "모항갯벌체험장은 변산반도의 모항해수욕장과 해안 마실길이 조화롭게 어우러진 곳이며, 갯벌 체험(조개 캐기), 진흙 놀이 등을 통하여 갯벌에 대한 호기심과 자연생태에 대한 이해를 높일 수 있는 가족 휴양 및 생태체험 학습 관광지이다. 갯벌 체험을 위해서는 헌 양말, 장갑, 모자, 타월, 잡은 조개를 담아 갈 통을 준비해야 한다. 매표소에서 체험 이용권을 구매하고 체험장 입구의 곡괭이와 바구니를 이용해 갯벌 체험을 시작하면 된다. 어렵지 않게 갯벌의 모시조개 등을 캘 수 있어서 아이들이 무척 좋아하는 체험이다. 이곳에서는 숙박도 가능하여, 갯벌 체험을 하고 1박을 하며 서해의 일몰을 감상할 수 있다.",
+   "modifiedtime": "20250319191321"
+  },
   "2592885": {
    "homepage": "공식 홈페이지 <a href=\"https://lcreer.imweb.me/\" target=\"_blank\">https://lcreer.imweb.me/</a><br>공식 인스타그램 <a href=\"https://www.instagram.com/lcreer2017/\"target=\"_blank\" title=\"새창 : 엘크레 인스타그램으로 이동\">https://www.instagram.com/lcreer2017</a>",
    "overview": "엘크레는 대한민국 최초 뷰티 이색 체험을 할 수 있는 새로운 개념의 뷰티 플랫폼이다. 유명 여배우들의 메이크업 아티스트가 항시 상주하여 K-뷰티 멘토링을 받을 수 있다. 또한 간단한 음료 카페존과 여심을 저격한 포토존, 코리아 코스메틱 체험 프로그램이 준비되어 있다. 프로그램 예약 후 시간 맞춰 방문을 하면 대기하는 동안 설문지 및 동의서 작성을 한다. 본인이 원하는 느낌을 조사한 후 이목구비의 특징을 바탕으로 컨설팅이 시작되며 진행이 되는 동안 당사자가 원하는 스타일에 충족하기 위해 중간중간 의견을 물어 더욱 만족스러운 결과물을 만날 수 있다.",
@@ -22962,6 +24136,11 @@
    "overview": "서귀포시에 위치한 사진갤러리이다. 폐교된 가시초등학교를 활용해 90평 규모의 넓은 전시 공간을 가진 것이 특징이다. 제주는 천혜의 자연경관으로 이루어진 화산섬으로, 섬 곳곳에 독특한 경관과 문화가 서려 있다. 이런 제주의 자연과 민속을 담은 사진가 서재철의 작품을 한눈에 볼 수 있도록 전시했다. 자연사랑미술관은 가시초등학교의 옛 모습을 담은 사진 전시실, 사진과 책을 판매하는 공간과 쉼터로 구성되어 있다. 땅 할아버지라는 의미의 따라비전시장에서는 제주오름(기생화산)의 다양한 모습을 만날 수 있고, 바람이 머무는 곳이라는 뜻의 바람자리전시장에서는 한라산과 바다를 통해 제주의 비경과 사계절을 느낄 수 있다. 그 외에 화산탄을 전시한 야외 화산탄 갤러리가 있다.",
    "modifiedtime": "20251023143000"
   },
+  "2606913": {
+   "homepage": "충남 문화관광 <a href=\"https://tour.chungnam.go.kr/prog/trsrcn/kor/sub02_01_01/view.do?trsrcnNo=862\" target=\"_blank\" title=\"새창 : 충남 문화관광 홈페이지로 이동\">https://tour.chungnam.go.kr/</a>",
+   "overview": "아산만방조제는 서해 아산만으로 흘러들며 충남 아산과 경기 평택의 경계를 이루는 안성천 하구에 1974년에 축조된 방조제이다. 본래 축조 목적은 간척 사업을 통해 농경지를 늘리고 홍수 및 염해 피해를 줄이는 것이었지만, 경관이 아름다워 1977년 국민관광지로 지정되었다.\n이 방조제는 서쪽에 서해 바다, 동쪽에 아산호(평택호)가 위치하여 방조제 위에 건설된 국도 39호선을 따라 바다와 호수를 동시에 볼 수 있는 드라이브의 낭만을 즐길 수 있다. 1980~90년대에는 수학여행 단골 코스로 각광받기도 했으며 일몰 시 노을이 특히 아름답고 바다낚시와 민물낚시가 모두 가능하여 많은 관광객이 찾아오고 있다. 또한 조수간만의 차가 최대 9.6m로 세계적인 수준이라 썰물 때 드러나는 넓은 갯벌도 장관이다. 최근에는 배수갑문에 대형 수조창을 설치해 통선문 가동 시 어류가 이동하는 모습을 관찰할 수 있게 되었다. 이 외에도 배수갑문 관리동에는 공원, 전망대, 전시관 등의 시설이 있다.\n이곳을 둘러보기 위해서는 주차장, 배수갑문, 숙박시설, 음식점, 편의점 등이 있는 북쪽의 경기 평택호관광단지를 이용하는 것이 편리하다. 주변에는 아산호의 쌀조개섬, 공세리성당, 삽교천방조제, 평택호예술공원 등이 있어 연계하여 관광하기 좋다.",
+   "modifiedtime": "20250424102353"
+  },
   "2607179": {
    "homepage": "http://www.sokchomuse.go.kr/main/",
    "overview": "속초시 노학동 시립박물관 옆에 있는 발해역사관은 전국에서 유일하게 ‘해동성국’ 발해를 재조명하는 곳이다. 지하 1층과 지상 1층의 2층 규모로 전시실과 야외 조경시설을 갖추고 있으며 발해 문화를 진흥하고 발해의 역사를 통해 민족의 자긍심과 자존심을 드높이기 위해 마련됐다. 지상 1층에는 발해의 발자취를 더듬어 볼 수 있는 시청각 자료와 함께 2006년에서 2007년 방영된 KBS 드라마 ‘대조영’에서 사용한 각종 소품과 의상 등을 전시·소개하고 있다. 지하 1층은 1980년 지린성 허륭현에서 발견된 발해 제3대 문왕의 넷째 딸인 정효공주의 고분을 소개하고 고분에서 확인되는 인물상과 복식 등을 재현했다. 발해인의 복색을 입어보고 각종 발해문양을 스탬프로 찍어 볼 수 있는 발해체험실도 있어 흥미롭다.",
@@ -22975,6 +24154,11 @@
   "2609826": {
    "overview": "신라의 찬란한 문화유산이 산적해 있어 도시 전체가 유적지라 할 수 있는 경주는 맛의 고장이기도 하다. 황남빵을 비롯해 해장국거리, 불고기단지, 매운탕단지 등 유명한 맛집 골목이 많다. 특히 대릉원 일대는 쌈밥 골목으로 명성이 자자하다. 주 메뉴인 쌈밥 정식은 맛깔스러운 생선과 고기, 집된장으로 끓여낸 된장찌개 등 푸짐한 반찬과 신선하고 다양한 쌈 채소가 제공되어 언제 즐겨도 맛있다. 가게별로 석쇠구이, 석쇠불고기쌈밥과 소불고기쌈밥 등 메뉴가 다양하다.",
    "modifiedtime": "20250718112734"
+  },
+  "2610497": {
+   "homepage": "휴윗제천 <a href=\"https://www.jecheon.go.kr/tour/base/tour/contents/view?clturCntntsNo=336&menuLevel=3&menuNo=52\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">https://www.jecheon.go.kr/tour/</a>",
+   "overview": "충북 제천에 있는 비봉산은 청풍 호수에 둘러싸인 높이 531m의 산이다. 남한강 상류의 남쪽에 해당하며 멀리서 보면 산 정상부가 평탄하고 서쪽으로 경사를 이룬 후 다시 평탄해지는 모습을 보인다. 주변 산에 비해서 해발 고도가 매우 높아 한눈에 주변을 바라볼 수 있는 위치에 해당한다. 새가 비상하는 모습이라는 뜻을 가졌으며, 매가 날아가는 것처럼 보여 ‘매봉산’이라고도 한다.\n산 정상에 오르면 내륙의 바다로 불리는 짙푸른 청풍호의 그림 같은 풍광이 눈앞에 펼쳐진다. 청풍호 물길이 만들어 낸 반도들이 마치 다도해를 보는 듯하고, 퇴계 이황이 극찬했던 금수산을 비롯해 적성산, 용두산, 월악산은 물론 멀리 소백산 비로봉까지 아스라이 보인다. 산길이 험하지 않아 둘레길 걸어가듯이 올라가다 보면 정상에 도착할 수 있다. 관광 모노레일과 케이블카가 설치되어 있어 쉽게 올라갈 수 있어 더욱 많은 사람이 찾고 있다.",
+   "modifiedtime": "20250404092321"
   },
   "2610501": {
    "homepage": "<a href=\"http://www.pohang.go.kr/phtour/wmap/tourInformation/view.do?menu_idx=46&tour_info_idx=109\" target=\"_blank\" title=\"새창: 포항 문화관광 \">http://phtour.pohang.go.kr/phtour</a>",
@@ -23008,6 +24192,11 @@
    "homepage": "https://www.namwon.go.kr/tour",
    "overview": "남원시의 추어탕 거리는 춘향전의 주 무대인 남원 광한루원 주변에 약 20개의 식당이 모여 형성된 거리이다. 추어탕은 미꾸라지를 익현 통째로 갈아 넣고 채소와 된장을 함께 끓여 내는 음식으로, 사계절 보양식으로 잘 알려져 있다. \n남원 사람들은 아주 오랜 옛날부터 논두렁이나 수로에서 미꾸리를 잡아 보양식으로 즐겼다. 남원의 청정하고 기름진 땅에서 자란 토종 미꾸리로 만든 추어탕은 남원 지역 식당에 공급하기에도 부족하기 때문에 남원에서만 맛볼 수 있다. 추어탕 거리에 있는 식당들은 인근에서 직접 잡은 민물 미꾸라지를 사용하여 저마다의 양념과 비법으로 추어탕을 요리하여 손님을 맞이하고 있다.",
    "modifiedtime": "20250306095154"
+  },
+  "2613659": {
+   "homepage": "<a href=\"https://www.swcf.or.kr/?p=59&listGubun=list&page=2&viewMode=view&idx=35\" target=\"_blank\" title=\"새창: 수원문화재단 홈페이지로 이동\">https://www.swcf.or.kr</a>",
+   "overview": "1796년 완성된 수원 화성의 봉돈(烽墩)은 밤에는 횃불, 낮에는 연기로 전하는 군사신호체계이다. 일반적인 봉수대가 주변을 잘 살필 수 있는 산 정상에 별도의 시설로 만들어진 것과 달리 봉돈은 축조방식이 독특하다. 화성 성벽 일부를 밖으로 돌출시켜 화강석으로 기초를 쌓고, 윗부분은 벽돌로 성벽보다 높게 축조했다. 우리나라 성곽 양식에서는 보기 드문 형식인 수원화성의 봉돈에는 적군의 공격에 대비해 포혈과 총안은 물론 봉수군들이 사용할 구들방과 창고 등도 갖췄다. 신호체계는 남쪽 첫 번째 화두부터 평상시에는 밤낮으로 봉수 1개, 적군이 국경 가까이 나타나면 봉수 2개, 국경에 이르면 3개, 국경을 침범하면 4개, 전투를 시작하면 5개를 모두 올렸다.",
+   "modifiedtime": "20250919152424"
   },
   "2613660": {
    "homepage": "<a href=\"https://www.suwon.go.kr/web/visitsuwon/tour03/tour03-01/pages.do?seqNo=124\" target=\"_blank\" title=\"새창: 수원시 문화관광 \">www.suwon.go.kr</a>",
@@ -23428,6 +24617,10 @@
    "overview": "​바늘꽃 피우다는 자수와 바느질을 기반으로 체험상품과 기념품 개발을 진행하고 있는 주민사업체이다.  자수 공예 등에 종사했거나 좋아하는 주부 5명으로 결성됐다. 재활용품에 서산 특색을 담는 업사이클링 제품에 관심이 많다. \n\n- 여행자 베개시트 해미읍성 시리즈\n서산의 대표 관광지인 해미읍성을 자수로 담아낸 베개시트 제품. 여행을 자주 다니는 관광객들을 위한 상품으로, 숙소를 다닐 때에도 나만의 베개시트를 사용해 훨씬 더 위생적이며 편리함과 실용성까지 담아낸 수공예 기념품.\n\n- 상품명 : 수공예 체험 (작품 상담 후 가격 책정)\n텀블러백, 동전지갑, 파우치, 티 코스터, 앞치마, 주방장갑 등등 다양한 상품을 직접 제작하고 자수도 놓을 수 있는 1대 1 수공예 체험프로그램. 천을 선택하는 것에서부터 디자인, 실 선택까지 자유롭게 나만의 상품 제작 가능.",
    "modifiedtime": "20250120095201"
   },
+  "2717604": {
+   "overview": "어슬티굿밤은 도시에서 보기 어려운 수많은 별을 보며, 마음 편히 쉬어갈 수 있는 펜션이다. 이곳에 찾아온 사람들에게 편안한 잠자리와 쉼을 제공하고자 ‘어슬티굿밤’이라는 이름을 붙였다. 다락방이 있는 독채 펜션, 사랑채와 카라반이 있어 인원에 맞춰 숙박시설을 선택할 수 있다. 직접 기른 쌈 채소와 맛깔스러운 김치와 밑반찬, 항아리 속에서 담백하게 구워진 훈제구이를 맛볼 수 있다.",
+   "modifiedtime": "20250430135152"
+  },
   "2717813": {
    "homepage": "https://anianpark.com",
    "overview": "울산광역시에 위치한 반려동물 문화센터 ‘애니언파크’는 동물과 사람이 함께 어우러지는 행복한 공간을 뜻하는 합성어로, 반려동물과 보호자가 함께 즐기고 배우는 복합문화공간이다. 2020년 가을에 문을 연 애니언파크는 반려동물 문화 향상의 시대를 여는 선도적인 시설로, 반려동물과 관련한 다양한 프로그램과 체험을 제공하는 국내 대표적인 반려동물 복합센터 중 하나이다. 센터는 실내 공간과 야외 부지를 갖추고 있으며, 실내에는 다양한 교육 공간과 휴게시설이 마련되어 있다. 야외 공간에는 반려견의 감각과 운동 능력을 향상할 수 있는 행동 풍부화 시설들이 체계적으로 구성되어 있어, 반려견과의 활발한 야외 활동을 즐기기에 안성맞춤이다. 이곳에서는 ‘반려견 예절 교육 프로그램’을 비롯해 다양한 교육 과정이 운영되고 있으며, 예절 교육을 통해 올바른 반려문화 정착에 기여하고 있다. 또한 반려동물 직업학교를 통해 관련 분야의 전문 인력도 양성하고 있어 교육적 가치 또한 높다. 아울러 애니언파크는 반려견 스포츠 교육 및 대회도 정기적으로 개최하고 있어, 사람과 반려동물이 함께하는 생활체육 문화 확산의 중심지로 자리매김하고 있다. 다양한 콘텐츠 보급과 행사를 통해 애니언파크는 울산이 국내 반려동물 문화 산업의 중심 도시, 일명 ‘애니언시티’로 도약하는 데 중요한 역할을 하고 있다. 반려동물과 함께 특별한 시간을 보내고 싶은 이들에게 애니언파크는 꼭 한 번 방문해 볼 만한 새로운 명소이다.",
@@ -23437,6 +24630,11 @@
    "overview": "서울웨이브아트센터는 서울시 서초구 잠원한강공원에 위치한 아트센터이다.  물과 뭍이, 하늘과 땅이, 사람과 자연이, 강남과 강북이, 그리고 사람과 사람이 만나는  한강과 동화되는 가장 아름다운 공간이다. 2020년 1월 개관으로 서울과 한강의 아름다움과 예술 문화를 알려나갈 명소로 부족함 없도록 언제나 새롭고 모두에게 사랑받는 전시 콘텐츠를 지원한다.\n\n◎ 한류의 매력을 만나는 여행 정보 - 드라마 <셀러브리티>\n드라마 <셀러브리티>에서는 주인공 서아리가 동창 오민혜의 초대를 받아 셀럽 파티에 참여하게 되는 장면이 나온다. 화려한 조명으로 반짝이던 이 파티장의 실제 장소는 ‘서울웨이브아트센터’로 잠원 한강 공원의 랜드마크다. 특히나 밤에 조명이 켜지면 더욱 아름다운 장소로, 한강에서 밤 산책을 즐길 예정이라면 한 번쯤 들러보는 것을 추천한다.",
    "modifiedtime": "20251027164341"
   },
+  "2725025": {
+   "homepage": "충남 문화관광 <a href=\"https://tour.chungnam.go.kr/prog/trsrcn/kor/sub02_01_01/view.do?trsrcnNo=1044\"target=\"_blank\" title=\"새창 : 충남 문화관광 홈페이지 이동\">https://tour.chungnam.go.kr/</a>",
+   "overview": "청양군 운곡면 향적선원의 공부모임에서 만나 동네 어르신을 위한 음식봉사를 하던 불자들이 2020년 8월 한국관광공사 관광두레 주민사업체로 선정되어 2021년 소찬협동조합을 설립했다. 스님 셰프를 모시고 비건음식 쿠킹클래스와 예약제 식사를 운영 중이다. 비건음식은 채소를 재료로 하지만 한식, 양식, 일식의 범위를 넘나들며 음식의 종류, 맛, 모양에서 뛰어나 채식에 대한 새로운 경험을 제공한다.",
+   "modifiedtime": "20250424110851"
+  },
   "2725051": {
    "overview": "다올재는 순천 문화의 거리에 위치한 펜션 겸 카페로 밤에는 한옥스테이로 운영되지만 낮에는 누구나 마루에 앉아 소박한 정원을 보며 차와 음료를 마실 수 있다. 한국관광공사가 선정한 300여 개의 관광두레 주민사업체 중 2024년에 으뜸두레로 선정된 곳이다. 전통 한옥에 4개의 온돌방과 차 체험장, 120평 잔디밭, 금목서 한 그루가 자리해있다. 순천 여행 숙박을 찾는다면 고즈넉한 분위기에서 한옥스테이를 즐길 수 있으며, 매실쌍화 모주 만들기, 차 훈증 체험, 말차 체험 등 특별한 체험을 할 수 있다.",
    "modifiedtime": "20260630184428"
@@ -23445,6 +24643,11 @@
    "homepage": "<a href=\"https://www.visitbusan.net/kr/index.do?menuCd=DOM_000000201001001000&uc_seq=444&lang_cd=ko\" target=\"_blank\" title=\"새창 : 홈페이지로 이동\">https://www.visitbusan.net</a>",
    "overview": "가덕도는 부산에 속한 섬 중 가장 큰 섬으로 신석기시대부터 사람이 살았던 것으로 추정되며, 임진왜란과 일제강점기까지 우리나라의 아린 역사를 지켜본 섬이다. 연대봉은 해발 459미터의 높이로 2~3시간이면 다녀올 수 있는 산으로 높이가 그리 높지도 않아 오르기도 어렵지 않지만 정상에 오르면 높은 산에 오른 듯한 기분과 전망을 경험할 수 있다. 산세가 원만하여 가족단위로 가볍게 등산하기에 알맞으며 정상에 가까이 오르면 가덕도 바다와 거가대교를 한눈에 볼 수 있다. 연대봉 정상에는 임진왜란 당시 최초로 왜적을 발견해 불을 피워 올렸던 봉수대를 볼 수 있다. 산과 바다의 청취를 동시에 느낄 수 있는 곳이다. \n\n(출처 : 비짓부산 홈페이지)",
    "modifiedtime": "20250325102838"
+  },
+  "2727740": {
+   "homepage": "<a href=\"https://www.gwgs.go.kr/tour/index.do#\" target=\"_blank\" title=\"새창 : 고성군 문화관광 홈페이지로 이동\">https://www.gwgs.go.kr/tour/index.do#</a>",
+   "overview": "반암항은 강원도 고성군 거진읍 반암리에 위치한 어항이다 반암항이 위치한 반암리는 간성읍과 거진읍의 중간지점에 위치한 지역으로 국도변에 접하여 찾기 쉽다. 간성에서 화진포 방면으로 조금 가면 반암해수욕장의 입간판이 보인다. 모래사장의 길이는 12㎞이다. 군사지역 내에 있어 오염되지 않은 깨끗한 물이 자랑이며, 다른 해수욕장들보다 한적한 맛을 즐길 수 있다. 또한, 이곳은 바다낚시가 아주 잘 되며, 아침, 저녁 멸치잡이가 잘 되어 찾는 이들이 많다. 해안선은 둥글게 굴곡이 져 있고 백사장 끝에는 바위가 드러나 있다. 해수욕장과 백사장을 사계절 운영하며, 한적한 곳을 선호하는 사람들이 주로 찾는다.",
+   "modifiedtime": "20250317135347"
   },
   "2728939": {
    "homepage": "<a href=\"https://daewangam.donggu.ulsan.kr/Pgswaybridge.do\" target=\"_blank\" title=\"새창 : 대왕암공원 홈페이지로 이동\">https://daewangam.donggu.ulsan.kr/</a>",
@@ -23505,6 +24708,11 @@
    "overview": "충남 홍성군에 위치한 내당한우는 채널 Olive 예능 프로그램 <신동엽, 성시경은 오늘 뭐 먹지?>, 채널 IHQ 예능 프로그램 <맛있는 녀석들>에 출연한 맛집이다. 대표 메뉴는 ‘오늘 뭐 먹지’로 한우 모둠 세트다. 이 밖에 안창살, 새우살, 살치살, 특수부위, 꽃등심, 육회, 육사시미 등 단품 메뉴와 다양한 식사 메뉴도 맛볼 수 있다. 정육점도 함께 운영하고 있어 신선한 한우를 집에서도 즐길 수 있다.",
    "modifiedtime": "20250108104526"
   },
+  "2734949": {
+   "homepage": "<a href=\"https://www.instagram.com/the_malthouse_buldang\" target=\"_blank\" title=\"새창 : 공식 인스타그램으로 이동\">https://www.instagram.com/the_malthouse_buldang</a>",
+   "overview": "더몰트하우스는 외관부터 내부까지 유럽풍의 감각적인 인테리어가 눈에 띄는 이탈리안 레스토랑이다. 전문적인 셰프들이 이탈리안 요리를 내놓는다. 대표 메뉴는 파스타이며, 이 밖에 피자, 리소토, 스테이크, 샐러드를 맛볼 수 있다. 주류는 와인을 비롯해 위스키, 맥주 등을 판다. 더몰트하우스 불당점은 물총새공원 주변과 신불당 맛집, 천안 데이트 코스, 천안 파스타 맛집 등 모임장소들이 밀집되어 있는 중심지에 위치해 있으며 매력적인 환경과 품격 있는 맛, 차별화된 서비스로 특별한 경험을 선사한다.",
+   "modifiedtime": "20250703135320"
+  },
   "2734980": {
    "homepage": "<a href=\"https://blog.naver.com/kimyeam\" target=\"_blank\" title=\"딸기랑소풍가기좋은날로 이동\">https://blog.naver.com/kimyeam</a>",
    "overview": "신선한 딸기를 관찰하고 직접 따서 담아 올 수 있는 체험농장이다. 딸기 열매와 꽃을 관찰하고 냄새를 맡아보며 직접 딸기를 따서 맛볼 수 있다. 딸기 따기 뿐 아니라 아이스크림 만들기 등의 체험과 놀거리가 풍부해 어린이들과 함께 즐겁고 유익한 시간을 보낼 수 있다. 딸기 판매도 겸하고 있으며 딸기초코 만들기 등의 체험은 포장만 가능하고 온실 내 취식은 불가하다. 3~4개의 체험교실에 시간대 별로 1~2팀이 나눠서 입장하기 때문에 동선이 겹치지 않고 안전하게 체험할 수 있다. 어린이가 체험활동에 참여할 경우, 반드시 보호자가 동반해야 한다.",
@@ -23551,6 +24759,11 @@
    "overview": "곰골식당은 2006년부터 지금까지 공주시의 대표 생선구이 맛집이다. 곰골식당의 대표메뉴는 생선구이인데 선어를 3년 이상 간수를 뺀 천일염을 이용하여 모든 손질과 염장 처리를 직접 시행하고 500도 이상의 화덕으로 빠르게 구워 겉은 바삭하고 속은 촉촉한 생선구이를 맛볼 수 있다. 그 외에 갈치조림도 인기가 좋은데 제주 갈치 특유의 향과 고소함과 매콤 달콤한 조림 양념이 더해져 밥 한 공기는 금방 해치울 수 있다. 이밖에 참숯제육석쇠한판과 제주 통갈치구이도 맛볼 수 있다. 그리고 매장 내에 단체석이 있어 회식장소로 안성맞춤이다.",
    "modifiedtime": "20250512161330"
   },
+  "2736685": {
+   "homepage": "<a href=\"https://tour.chungnam.go.kr/prog/trsrcn/kor/sub02_01_01/view.do?trsrcnNo=423\"target=\"_blank\" title=\"새창 : 충남 문화관광 홈페이지 이동\">https://tour.chungnam.go.kr/</a>",
+   "overview": "유채꽃 군락이 절정을 이루고 있는 이곳은 음악분수와 더불어 아름다운 장관을 연출한다. 석문산단 유채꽃은 주변 호수와 바다, 그리고 음악분수와 어우러지며 산업단지에 밟은 색을 입혀주고 있다. 주변에 장고항, 왜목마을과도 가까워 함께 둘러보기 좋은 여행 명소이다. 또한, 인근에 있는 당진 관광정보센터에서 당진 관광 정보를 얻을 수 있고, 내부에 있는 전망대에서는 한눈에 전경을 내려다볼 수 있다.",
+   "modifiedtime": "20250318214123"
+  },
   "2736701": {
    "overview": "착한 가격의 배추 된장국부터, 갈비탕, 재첩국, 김치찌게,냉면 등 한식과 생등심, 특수부위, 생삼겹살 등 고기를 먹을 수 있는 한식 전문음식점이다. 배추 된장국과 김치찌게, 재첩국, 갈비탕 메뉴가 백반 메뉴로 휼륭하다. 근처에 이동저수지가 있어 식사 후  저수지 둘레를 산책하며 잠시 쉬어 갈 수 있다. 또한 인근에 골프장이 있어 골퍼들이 아침 식사를 해결하기에도 좋은 곳이다.  편의점, 주유소가 함께 있어 주유도 하고 편의점에서 필요한 물건을 구입하기에도 좋다.",
    "modifiedtime": "20250617120623"
@@ -23567,9 +24780,18 @@
    "overview": "팔당호가 한눈에 보이는 뷰를 가지고 있어, 멋진 뷰와 맛있는 식사를 동시에 즐길 수 있는 뷰 맛집이다. 서울 근교에 위치해 접근성도 좋고 나들이 삼아 찾는 손님들이 많다.  분위기 좋고 경치 좋은 레스토랑이다.",
    "modifiedtime": "20250115171148"
   },
+  "2736712": {
+   "homepage": "<a href=\"https://tour.chungnam.go.kr/prog/trsrcn/kor/sub02_01_01/view.do?trsrcnNo=425\"target=\"_blank\" title=\"새창 : 충남 문화관광 홈페이지 이동\">https://tour.chungnam.go.kr/</a>",
+   "overview": "석문 선착장은 석문방조제를 가기 전에 가볍게 들리기 좋다. 선착장을 따라 뻗어있는 길로 쭉 걷다 보면 바다 내음을 맡을 수 있으며, 한적한 곳에서 여유를 즐기며 편히 산책을 하는 사람들을 볼 수 있다. 또한 석문 선착장은 낚시 명소로 알려진 곳이라 선착장 군데군데 낚싯대를 잡고 있는 사람이 많다. 이곳에서의 여유를 즐긴 후에 석문방조제에서 드라이브를 즐길 수 있다. 석문방조제는 당진시 송산면 가곡리에서 석문면 장고항리를 잇는 방조제로 10.6km의 길이다.",
+   "modifiedtime": "20251118093705"
+  },
   "2736715": {
    "overview": "궁림바지락칼국수는 불국사역으로부터 4㎞가량 떨어져 있다. 대표 메뉴는 바지락 칼국수다. 전북 고창에서 공수해 온 싱싱한 바지락과 부추를 다져 넣어 숙성시킨 칼국수면이 어우러져 시원하고 감칠맛 가득한 요리가 된다. 이 외에도 보쌈, 모두부, 해물 파전 등을 맛볼 수 있다. 대개 바지락칼국수에 보쌈을 곁들여 먹는다. 모든 메뉴는 포장해 갈 수 있다. 음식점 내부에는 단체석이 있으며 예약도 가능하다. 주변에는 세계문화유산 석굴암을 비롯해 불국사, 첨성대 등 경주의 유명 관광지가 있다.",
    "modifiedtime": "20251023143000"
+  },
+  "2736720": {
+   "overview": "밥을짓다는 팔공산 인근에 자리 잡은 한정식 맛집이다. 계절별로 제공되는 한정식 세트와 함께 전복죽, 더덕구이, 한우육회물회 등 다양한 메뉴를 즐길 수 있다. 특히 전복죽은 부드럽고 고소하며, 넓은 주차장과 깔끔한 내부, 가족 모임에 적합한 분위기로 인기가 높다.",
+   "modifiedtime": "20250910085847"
   },
   "2737299": {
    "homepage": "https://www.gochang.go.kr",
@@ -23583,6 +24805,10 @@
   "2737995": {
    "overview": "구산항은 울진군 기성면에 위치한 항구로, 1991년에 국가어항으로 지정되었다.  깨끗한 동해 바다와 함께 평화로운 어촌 풍경을 즐길 수 있는 매력적인 항구이다. 인근에는 구산해수욕장이 위치해 있다. \n구산항에서는 주로 오징어, 문어, 대게, 가자미 등이 잡힌다.",
    "modifiedtime": "20251212163428"
+  },
+  "2737998": {
+   "overview": "기성항은 울진군 기성면에 있는 어항으로, 1984년에 지방 어항으로 지정되었다. 특히 낚시를 좋아하는 사람들이 많이 찾는 명소로, 약 430m 길이의 방파제에서 다양한 물고기를 잡을 수 있다. 기성항에서는 가자미, 숭어 등이 잡힌다. 항구 분위기를 느끼며 조용히 휴식을 취하고 싶거나 바다를 바라보며 가볍게 산책을 즐기기에도 좋다.\n기성항 인근에는 구산항이 있으며, 기성망양해수욕장과 구산해수욕장이 위치해 있다.",
+   "modifiedtime": "20251212165628"
   },
   "2738652": {
    "overview": "남도예담은 수작업으로 만든 떡갈비를 미리 찌거나 굽지 않고, 주문 즉시 참숯에 구워내는 대한민국 3대 떡갈비 중의 하나다.  100% 담양 암소 한우와 한돈만을 고집하며, 최고의 요리, 최고의 서비스를 하는 최고의 식당이며, 떡갈비 외에도 국내산 찹쌀, 흑미, 잡곡 등을 사용하여 40분가량 압력솥에 쪄 내는 대통밥, 직접 담근 장아찌류, 청류, 초류, 효소류, 국내산 배추를 사용한 김치 등 식재료 하나하나에 정성을 담아낸 건강한 남도음식 전문점으로 이름을 알리고 있다.",
@@ -23704,10 +24930,18 @@
    "overview": "함안군 법수면에 소재하고 있는 강주 마을은 주민들이 힘을 합쳐 자체적으로 해바라기 꽃밭을 조성했다. 함안군 법수산권역 마을 주민들이 재배 및 관리를 하고 있으며, 전체 해바라기 식재 면적은 법수면 강주리 주변에 이른다. 또한 매년 7월에는 전통과 문화를 부흥시켜 보자는 취지로 축제 한마당도 함께 펼쳐진다. 해바라기 축제는 강주해바라기축제위원회에서 주최 주관하여 강주마을 일원에서 매년 여름 개최하고 있다. 사전에 축제 날짜를 확인하고 방문하면 아름다운 해바라기와 다양한 행사들을 함께 즐길 수 있다.",
    "modifiedtime": "20251023143000"
   },
+  "2745610": {
+   "overview": "버들식당은 KBS 2TV 생생정보통 등 여러 방송에 소개된 맛집이다. 대표 메뉴는 환상의 맛 전골이다. 곱창, 대창, 불고기가 어우러진 전골로, 느끼하지 않으며 적당히 자극적인 맛이다. 이밖에 곱창전골, 대창전골, 한우불고기전골 등도 맛볼 수 있다. 쉬는 날 없이 매일 정오부터 오후 10시까지 영업한다. 모든 메뉴는 포장이 가능하다.<br>*사진 출처: 대구달서구청",
+   "modifiedtime": "20250116110039"
+  },
   "2746222": {
    "homepage": "<a href=\"https://tour.chungnam.go.kr/prog/trsrcn/kor/sub02_01_01/view.do?trsrcnNo=417\"target=\"_blank\" title=\"새창 : 문화관광 홈페이지 이동\">https://tour.chungnam.go.kr/</a>",
    "overview": "맷돌포선착장은 고깃배가 정박하는 아담한 포구다. 물이 들어오면 뱃머리가 오른쪽으로 돌고 반대로 물이 빠지면 뱃머리가 왼쪽으로 도는 것이 마치 맷돌 같다 하여 맷돌포라 불린다. 이곳은 낚시를 즐기려는 사람들이 많이 찾는다. 선착장 한편에 간이 의자를 펴고 앉아 맷돌포 앞바다를 감상하며 낚시하는 사람들을 볼 수 있다.  싱싱한 해산물을 맛보려고 주변 음식점을 찾는 이도 많다. 선착장에서 멀지 않은 곳에 삽교호 함상공원, 당진해양캠핑공원 등이 있어 연계 관광하기 좋다.",
    "modifiedtime": "20251118093120"
+  },
+  "2746237": {
+   "overview": "장항 송림갯벌은 2007년 5월 17일 374만 평의 매립을 대신하여 국립생태원, 국립해양생물자원관, 내륙의 장항 국가생태산업단지 조성을 선택하는 ‘갯벌보전과 생태산업 중심’의 정부 대안을 수용함으로써 보전을 선택한 서해안의 마지막 갯벌로 남아있다. \n갯벌 생물들은 오염물질을 정화하고, 사구식물들은 사구의 유실을 막아 자연재난을 막아주며, 계절에 따라 이동하는 새와 사람에게 먹거리를 제공하는 갯벌은 다양한 생명체가 함께 공생하기 때문에 그 건강성이 유지된다.\n서천의 군민들에게는 삶의 터전이 되고, 이곳을 찾는 관광객에게는 일상의 치유가 되는 장항송림갯벌은 다음 세대에게도 물려줄 소중한 자연 유산이다.",
+   "modifiedtime": "20250626131924"
   },
   "2746368": {
    "homepage": "<a href=\"https://citypark.dpfc.or.kr/04_228/sub01.php\" target=\"_blank\" title=\"새창 : 2.28기념중앙공원 사이트로 이동\">citypark.dgsisul.or.kr</a>",
@@ -23745,6 +24979,10 @@
    "overview": "KBS는 견학을 원하는 이들을 위해 KBS온(on)을 운영하고 있다. KBS 온(On)은 (구 KBS 견학홀) 한국방송의 역사와 현재를 체험할 수 있는 국내 최초의 방송전시관으로, 방문자에게 방송 제작 현장의 직·간접 체험 기회를 제공하고 있다. 미니박물관, 기타 방송과 관련된 전시자료들을 통해 청소년들에게 방송 학습의 장을 제공하고 국가 기간방송 및 공영방송으로서의 KBS의 역할과 이미지를 알리기 위한 열린 공간으로 KBS 본관 2층에 있다. KBS 온(On)은 우리말 온 과 영어 On (On Air)을 의미한다.",
    "modifiedtime": "20250110114104"
   },
+  "2751941": {
+   "overview": "온양온천은 한국에서 가장 오래된 온천이다. 역사서에 따르면 백제와 통일신라 시대를 거치면서 1300년 역사를 간직하고 있다. 이러한 온양에 자리 잡은 신천탕은 1960년에 처음 문을 열었다. 신천탕의 온천수는 온도 44~60℃에 pH 9.0의 알칼리성 단순천이다. 원탕인 신천탕의 온천수는 중탄산나트륨을 포함한 약알칼리수 및  실리카 온천으로 근육 이완, 혈액순환 개선 등 다양한 효능이 있다.",
+   "modifiedtime": "20250121131825"
+  },
   "2752168": {
    "overview": "다양한 종류의 국수와 호박죽을 무한리필로 즐길 수 있는 대저할매국수는 안전행정부와 부산광역시, 강서구가 지정한 물가 안정 모범업소로 선정된 식당이다. 모든 음식은 직접 원하는 양만큼 담아서 먹을 수 있는데, 면과 김 가루, 단무지 등의 고명을 취향껏 담고 비빔장을 올려 비빔국수로 즐기거나, 간장 양념을 올려 멸치 맛국물 육수를 부어주면 잔치국수로 즐길 수 있다. 고추 절임으로 매운맛도 조절할 수 있다. 멸치 맛국물 육수는 아궁이를 이용해 가마솥에 끓이는데, 흔치 않은 아궁이를 구경하는 재미도 있다. 저렴한 가격으로 손맛을 느낄 수 있는 이곳은 ‘포도밭 대저할매국수’로도 알려져 있는데 가게 앞에 포도밭을 직접 가꾸어 휴게공간으로 개방하고 있다.",
    "modifiedtime": "20251023143000"
@@ -23775,6 +25013,10 @@
    "homepage": "<a href=\"http://www.instagram.com/brown_picnic\" target=\"_blank\" title=\"새창 : 브라운피크닉 사이트로 이동\">http://www.instagram.com/brown_picnic</a>",
    "overview": "부산 기장군 철마에 위치한 브라운피크닉은 동화 속에 나오는 집처럼 예쁜 공간이다. 숲 속에 조그맣게 지어진 하얀색 건물 외관이 주변 자연과 조화를 이룬다. 실내로 들어가면 브라운 계열 컬러를 사용한 인테리어와 소품에서 카페 이름이 브라운피크닉임을 상기한다. 노란 파라솔과 테이블이 펼쳐진 야외 정원 곳곳에 소박하게 핀 야생화에 눈길이 간다. 브라운피크닉 원두는 밸런스가 좋은 마일드한 블랜드로 차분한 바디감과 후미에 은은하게 느껴지는 산미와 단맛이 부드러운 게 특징이다. 수제로 만든 바닐라빈라테와 달달한 생크림이 올라간 비엔나커피 아인슈페너도 인기가 좋다. 또한 시즌 메뉴로 옛날 팥빙수와 호두파이가 유명하다. 근처에 있는 아홉산 숲을 둘러보고 쉬어가기 좋은 코스이다.",
    "modifiedtime": "20251124180757"
+  },
+  "2753006": {
+   "overview": "바다가 바로 앞에 펼쳐지고 넓고 고급스러운 인테리어와 일광해수욕장을 바라보는 오션뷰로 연인들의 데이트 코스로 각광받고 있는 ‘어느멋진날’은 전복과 새우 요리가 일품이다. 대표 메뉴는 전복 내장을 넣어 볶은 전복밥과 고소한 버터에 노릇노릇 구워진 전복버터구이며 주문 즉시 조리를 하기 때문에 시간이 다소 걸리지만 품질 좋은 전복의 풍미를 맛보면 기다린 시간이 아깝지 않다. 해수욕장에서 즐거운 시간을 보냈다면 넓은 주차장에 분위기도 좋고 맛도 좋은 부산 기장 맛집 ‘어느멋진날’에서 보양식을 즐겨보자. 전복죽과 전복밥은 포장도 가능하다.",
+   "modifiedtime": "20250902113815"
   },
   "2753037": {
    "homepage": "<a href=\"https://blog.naver.com/eorlwjd2006\" target=\"_blank\" title=\"새창 : 대기정 블로그로 이동\">https://blog.naver.com/eorlwjd2006</a>",
@@ -23871,6 +25113,10 @@
    "overview": "전남광주통합특별시 화순군에 위치한 구지가는 운치 있는 황토 외관이 주는 멋이 느껴지는 식당이다. 큼지막한 갈치가 무, 감자, 두부, 고구마순과 함께 주물 불판에 조려져 나오는 갈치조림 정식과 쌈밥 정식 두 가지 메뉴만을 취급한다. 갈치조림 정식은 갈치의 비린 맛이 전혀 없고, 진한 국물 속 재료들이 갈치와 함께 졸여지면서 국물이 진해지고 깊어진다. 느긋한 마음으로 약한 불에 졸여가며 먹다 보면 마지막 국물에 밥을 비벼 먹을 때까지도 그 깊은 맛이 지속된다. 국내산 나물과 김치 등 10여 가지의 맛깔스러운 밑반찬과 쌈밥정식도 맛볼 수 있다.",
    "modifiedtime": "20260630212627"
   },
+  "2758172": {
+   "overview": "신두리 해안사구는 태안반도 북서부의 태안군 원북면 신두리에 자리 잡고 있으며, 규모는 해변을 따라 길이 약 3.4km, 너비 500m~1.3km이다. 사구의 원형이 잘 보존된 북쪽지역 일부가 2001년 11월 30일에 천연기념물 제431호로 지정되었다. 독특한 지형과 식생이 잘 보전되어 있고, 모래언덕의 바람자국 등 사막지역에서만 볼 수 있는 독특한 경관과 해당화 군락, 조류의 산란장소 등으로 경관적·생태학적 가치가 높으며, 규모가 우리나라에서 가장 크다.\n신두리 해안사구 내에 위치한 신두리사구 쉼터공원은 탐방객의 편의를 위한 휴식공간이다. 공원에는 쉼터를 비롯해 잔디광장, 야외무대 등이 갖춰져 있다. 야외무대 뒤로 가면 신두리해수욕장을 조망할 수 있다. 공원은 태안신두리해안사구 여행의 기점으로 삼기 좋다. 공원이 신두리 사구센터와 태안신두리 해안사구로 이어지는 동선에 놓였기 때문이다.",
+   "modifiedtime": "20250317144048"
+  },
   "2758274": {
    "overview": "충청남도 태안군에 있는 내포항은 낚시객들 사이에서 유명한 항구이다. 낚시객들은 선착장 근처에서 낚시하거나 낚시 어선을 타고 연해로 나가 좌대 낚시를 한다. 대상 어종은 계절에 따라 다르지만, 우럭을 비롯해 참돔, 점성어 등을 잡을 수 있다. 내포항은 조용한 바다 풍경을 감상하며 산책하기에도 좋은 곳으로, 여유로운 휴식을 원하는 이들에게도 적합하다. 주변에는 안면도자연휴양림, 꽃지해수욕장, 밧개해수욕장 등 태안의 대표 관광지들이 가까이 있어 연계 관광 코스로도 좋다.",
    "modifiedtime": "20251023143000"
@@ -23925,6 +25171,10 @@
   "2759603": {
    "overview": "직접 손으로 반죽해서 뽑은 초록색 생면과 진한 닭 국물이 인상적인 교래손칼국수는 제주의 느낌을 살린 건물 외관이 특징적이다. 넓은 주차장은 물론 버스 정류장 바로 앞에 있어 방문하기에도 매우 편하다. 내부도 매우 넓은 편이지만 항시 손님들로 붐벼 대기해야 하는 일이 잦으니 3시 이전 방문자들은 예약하는 게 좋다. 인기 메뉴는 진한 국물이 일품인 토종닭 칼국수와 바지락 칼국수이며 곁들여 먹는 깍두기와 배추김치도 깔끔하다. 든든한 식사 후 근처에 있는 거문오름과 사려니숲길을 산책하는 것도 좋다.",
    "modifiedtime": "20250106141011"
+  },
+  "2759609": {
+   "overview": "쌍둥이돼지국밥 본점은 다양한 부위의 고기와 내장을 활용한 국밥과 수육 메뉴로 유명하다. 특히 섞어국밥은 내장과 돼지고기의 조화로운 맛이 특징이며, 수육백반은 부드러운 항정살과 쫄깃한 순대가 인기다. 깔끔한 국물과 신선한 재료로 맛의 깊이가 뛰어나며, 매장도 넓고 청결해 편안한 식사를 즐길 수 있다.",
+   "modifiedtime": "20250916090438"
   },
   "2759629": {
    "overview": "디저트시네마는 매일 영업하지 않아서 사람들을 안달나게 하는 베이커리 맛집이다. 2년 연속 블루리본서베이에 선정되었을 만큼 빵지 순례의 필수 코스로 손꼽힌다. 주말에는 앤티크 하고 빈티지한 우드 스타일 인테리어로 꾸며진 가게에서 직접 구운 다양한 빵을 맛볼 수 있다. 친근한 동네 빵집 같은 분위기 속에서 맛있는 빵과 음료를 함께 즐길 수 있다. 오픈하자마자 줄을 서서 기다릴 만큼 손님이 많으며 재료 소진 시 영업을 마감하므로 미리 이곳의 SNS를 확인하고 방문하는 게 좋다.",
@@ -24011,6 +25261,10 @@
   "2766484": {
    "overview": "더함뜰은 대전시 유성구 덕명동에 자리 잡고 있다. 쾌적하고 정갈한 분위기에서 즐길 수 있는 한정식 맛집이다. 대표 메뉴는 간이 세지 않고 깔끔하며, 한우떡갈비와 보리굴비 정식이다. 이 밖에 나연 정식, 보리굴비 정식, LA갈비 정식, 불고기 정식 등을 판다. 내부에는 단체석이 마련되어 있어 각종 모임을 하기에 좋고, 예약도 가능하다.",
    "modifiedtime": "20250915171612"
+  },
+  "2766489": {
+   "overview": "앞산분식은 대구시 남구 대명동에 자리 잡고 있다. 대표 메뉴는 시그니처 떡볶이인 ‘맥앤치즈국물떡볶이’와 통통한 새우살을 가득 넣은 ‘에비산도’다. 이 밖에 생등심을 넣어 만든 두툼한 ‘카츠산도’와 각종 ‘키토김밥’, 튀김류 등을 판다. 모든 메뉴는 포장이 가능하며 내부에는 단체석이 마련되어 있어 각종 모임을 하기에 좋고, 예약도 가능하다.",
+   "modifiedtime": "20250114172141"
   },
   "2766502": {
    "homepage": "<a href=\"https://www.instagram.com/galbi_man\"target=\"_blank\" title=\"새창 : 업체인스타그램 이동\">https://www.instagram.com/galbi_man</a>",
@@ -24196,6 +25450,11 @@
    "overview": "고려회관은 강원도 평창군 용평면에 위치한 음식점으로 장평 5일장과 함께 장날의 분위기를 느낄 수 있는 곳이다. 대표 메뉴는 황태구이정식, 더덕구이정식, 코다리전골 등을 취급한다. 최고의 요리와 정성으로 방문하는 이들을 만족시켜 준다. 메뉴 주문 시 나물무침, 연근무침, 파김치 등 다양하고 정갈한 밑반찬이 구성되어 푸짐한 식사가 가능하다.",
    "modifiedtime": "20250729132518"
   },
+  "2777931": {
+   "homepage": "<a href=\"https://www.instagram.com/saengsanso/\"target=\"_blank\" title=\"새창 :  홈페이지 이동\">https://www.instagram.com/saengsanso/</a>",
+   "overview": "주식회사 생산소는 농경사회 생활상을 재해석한 생활도구 제작소로, 예측 불가능한 시대에 필요한 생활도구에 대해 질문하고 매달 새롭게 기획 상품을 선보인다. 생산소의 계절상품(繼絕商品) 시리즈는 계절(季節/繼絕)을 재해석한 상품으로 예술과 기술을 결합하고 여러 분야의 예술가와 협업하여 관광객에게 새로운 경험을 제공한다. 사람의 손길로 공간을 만들고 여러 세대가 만나는 장소로, 특별함과 독특함 그리고 따뜻함을 주는 곳이다.",
+   "modifiedtime": "20251023143000"
+  },
   "2778425": {
    "homepage": "공식 홈페이지 <a href=\"https://www.kuno1988.co.kr/www/main/index.php\"target=\"_blank\" title=\"새창 : 군산오징어 본점 공식 홈페이지로 이동\">https://www.kuno1988.co.kr</a><br>공식 인스타그램 <a href=\"https://www.instagram.com/kuno_1988/\"target=\"_blank\" title=\"새창 : 군산오징어 본점 공식 인스타그램으로 이동\">https://www.instagram.com/kuno_1988</a>",
    "overview": "송파구 삼전동에 위치한 군산오징어 본점은 오징어 요리 전문점이다. 대표 메뉴로는 오징어불고기로 기호에 따라 매운맛을 조절해서 주문할 수 있다. 이 밖에도 오징어 전골, 오삼불고기, 오징어 닭갈비, 오낙불고기, 오징어튀김, 오징어 숙회 등의 메뉴를 맛볼 수 있다. 음식점은 서울 지하철 9호선 석촌고분역과 2호선 잠실역에서 가깝다. 주변 관광지로는 롯데월드, 롯데월드 타워, 석촌호수가 있다.",
@@ -24217,6 +25476,10 @@
    "homepage": "<a href=\"https://www.gonggamsonyoo.com/\"target=\"_blank\" title=\"새창 : 공감선유 홈페이지로 이동\">https://www.gonggamsonyoo.com/</a>",
    "overview": "군산시 옥구읍에 위치한 공감선유는 군산 새만금 근교의 자연 지형을 활용한 갤러리 카페다. 각기 다른 다섯 개의 공간 A, B, C, D, E에 큰 창이 나 있어 보이는 뷰마다 그림 같은 풍경을 자랑하며 핫플레이스로 자리매김하고 있다. 카페 전체 공간이 넓어 시끄럽지 않고 힐링되는 공간이다. 카페 내부에는 아름답고 멋진 예술 사진들이 전시되어 있으며 다양하고 감성적인 포토 존이 있다. 카페 외부 곳곳에 마련된 소나무 숲 정원과 넓은 들에서 산책하면서 아름다운 자연을 즐길 수 있다.",
    "modifiedtime": "20251027175705"
+  },
+  "2778892": {
+   "overview": "남해 상상 양떼목장 편백숲으로 향하는 길목에 자리한 식당으로 잔치국수 한 가지 메뉴만 판매한다. 멸치로 육수를 낸 이곳 잔치국수는 계절에 따라 따뜻하게, 또는 시원하게 즐길 수 있다. 멸치 특유의 향을 꺼린다면 양념장을 넣어 매콤하게도 즐길 수 있다. 국수에 들어가는 재료뿐 아니라 김치 등 밑반찬도 모두 직접 기른 농작물로 만들어 신선한 맛과 저렴한 가격이 특징이다. 국수도 푸짐하지만, 제철 야채를 이용해 갓 구워낸 부침개도 서비스로 제공된다. 주인장이 직접 만들었다는 수제 막걸리도 인기 메뉴다. 널찍한 야외테이블과 전용 주차장도 갖추고 있어 관광객들도 부담 없이 들르기 좋다.",
+   "modifiedtime": "20250114093731"
   },
   "2779506": {
    "overview": "전라북도 부안군 변산면 궁항로에 위치한 궁항리조트는 변산의 유명 관광지인 채석강에서 차로 5분 거리에 있다. 전 객실에서 바다를 볼 수 있도록 설계되어 있으며 다양한 모임과 행사를 진행할 수 있는 150석 규모의 연회장이 있다. 조식도 메뉴 선택 예약 후 유료 이용이 가능하며 넓은 주차공간을 확보하고 있어 주차 걱정이 없고, 노래방, 수영장, 놀이시설 등 다양한 편의시설이 구비되어 있어 여행 중 편한 휴식을 즐길 수 있다.",
@@ -24247,6 +25510,10 @@
    "homepage": "<a href=\"https://www.instagram.com/deokmi_official/\" target=\"_blank\" title=\"새창 : 덕미 인스타그램 사이트로 이동\">https://www.instagram.com/deokmi_official/</a>",
    "overview": "기장읍에 위치한 카페 덕미는 심플하고 세련된 인테리어에 이색적인 음료와 디저트를 판매하는 곳이다. 매장 내부는 어디에서 찍어도 멋진 사진이 나올 수 있도록 깔끔하고 군더더기 없는 공간과 감성적인 공간을 자랑한다. 앞마당에 테이블이 있어 반려동물과도 함께 갈 수 있다(실내 동반 불가). 해안 산책로와 붙어 있어 커피 한잔 마시고 가볍게 바다를 보면서 걷기 좋은 곳이다.",
    "modifiedtime": "20250709135536"
+  },
+  "2782126": {
+   "overview": "보원탄산온천은 경기 구리시 구리역 인근에 위치한 곳이다. 이곳의 온천수는 1998년 온천 개발 도중 알칼리탄산수가 용출되어 생긴 탄산천이다. 알칼리 성분은 산성화 된 인체를 중화시켜 피부미용에 좋고, 피로해소, 신진대사 증진, 빈혈, 신경통, 만성습진 등에 좋다. 또한, 탄산천은 탄산가스가 피부에 깊숙이 흡수되어 피부를 자극함으로써 모세혈관이 확장되기 때문에 혈액순환에 좋은데 이는, 일반 대중목욕탕과의 차이점이다. 전용 주차장이 있으며, 걸어서 3분 거리에 구리 재래시장이 있어 먹거리를 즐길 수도 있다.",
+   "modifiedtime": "20250110170728"
   },
   "2782229": {
    "homepage": "<a href=\"https://www.seocheon.go.kr/prog/tursmCn/v2/tour/sub01_02_02/view.do?cnt_no=33\" target=\"_blank\" title=\"새창 : 서천군 문화관광 홈페이지로 이동\">https://www.seocheon.go.kr/</a>",
@@ -24653,10 +25920,20 @@
    "overview": "창녕우리동네협동조합은 창녕군 남지읍에 거주하는 남지 사람들이 모여 만든 협동조합이다. 매력적인 낙동강 강물이 흐르는 남지읍에서 편안한 휴식과 외할머니의 감성을 느낄 수 있는 음식 그리고 자연의 조화된 경험을 체험하는 하루 코스 투어상품과 1박 2일 상품을 판매 중이다.  외할머니밥상 체험과 요가클래스, 쿠킹클래스, 캠프닉을 단순화하여 지역관광자원 활용도를 높여 시골외갓집 나들이를 리마인드 하여 나를 위로하고 외갓집의 정을 나누고자 한다. 지역 특산물인 땅콩 등 농작물로 다양한 음료를 개발하여 판매. 편안한 스테이 공간을 보유하고 소규모 모임을 위한 공간대여 서비스가 가능한 외갓집 콘텐츠를 운영하고 있다.",
    "modifiedtime": "20250812095854"
   },
+  "2820629": {
+   "homepage": "공식 홈페이지 <a href=\"http://www.xn--or3b27m5e521d.com/index.php\" target=\"_blank\" title=\"새창 : 부여북포한옥마을 홈페이지로 이동\">http://www.부여북포한옥마을.com/</a>",
+   "overview": "뒷개한옥촌민박협의회는 부여읍에 위치한 한옥 단지에 위치해 있다. 10여 개의 한옥이 단지를 이루고 있으며, 현 사업체는 나성한옥, 월함지, 의자왕한옥, 서동선화한옥 4곳의 한옥이 참여 중이다.  한옥 카페가 있는 나성한옥, 단체 숙박하기 좋은 의자왕한옥, 연인들이 사랑을 키우는 서동선화한옥, 가족 숙박객들이 편히 쉬어가는 월함지 등 한옥마다 색다른 특징으로 숙박 프로그램을 운영 중이다. 특히 평일 단체와 기관 등이 부여 방문 시 한옥 단제 전체가 숙박이 연계된 있어 100여 명도 동시 숙박이 가능하다.",
+   "modifiedtime": "20250502110915"
+  },
   "2820640": {
    "homepage": "<a href=\"https://blog.naver.com/garim-\"target=\"_blank\" title=\"새창 : 공식 네이버블로그로 이동\">https://blog.naver.com/garim-</a>",
    "overview": "가림상회는 관광두레 주민사업체로 선정되고 3년이 지난 2023년 7월에 정식 오픈을 했다. 가림상회를 운영하는 만세장터영농조합법인은 60세 이상 여성으로 구성된 만세장터 봉사회가 그 전신이다. 가림상회에서는 슈페너, 스프레드 브레드 등을 판매하고 있으며, 음료 주문 시 오란다도 함께 제공된다. 김밥, 밑반찬도 함께 판매 중이다. 체험 프로그램으로는 수제 하트 오란다 만들기(2인 이상), 수제 하트 영양바 만들기(2인 이상)가 준비되어 있다.",
    "modifiedtime": "20250701151301"
+  },
+  "2820659": {
+   "homepage": "<a href=\"https://www.instagram.com/buyeo.sunshine\" target=\"_blank\" title=\"새창 : 부여 선샤인 홈페이지로 이동\">https://www.instagram.com/sunshine</a>",
+   "overview": "㈜ 부여 선샤인은 부여에서의 가장 행복한 순간을 선사하고자 만든 관광두레이다. 부여의 진정한 가치를 알리기 위한 가든과 공예체험 여행 관련 상품을 주로 개발하고 있다. 피크닉 렌털 상품인 ‘One Green Day’와 정원의 보테니컬 작품을 패브릭으로 제작하여 만든 홈데코 제품 ‘오키의 정원’과 같은 상품을 개발하여 부여에서의 웰니스를 추구하고 있다. 가든을 중심으로 한 여행상품은 여행전문 가이드의 안내로 부여에서의 편안한 휴식과 치유의 시간을 보낼 수도 있다.",
+   "modifiedtime": "20250701171934"
   },
   "2821071": {
    "homepage": "<a href=\" https://www.instagram.com/nox.gorge_official\" target=\"_blank\" title=\"새창 : 녹스고지 인스타그램으로 이동\"> https://www.instagram.com/nox.gorge_official</a>",
@@ -24758,6 +26035,10 @@
   "2831973": {
    "overview": "나비산 기사식당은 경상북도 영덕군 강구면 오포리에 있다. 다양한 종류의 생선 매운탕이 있는 찌개 전문점으로 현지인들에게도 소문난 맛집이다. 단체석이 준비돼 있지만 점심시간엔 대기도 감수해야 한다. 밑반찬이 다양하고 테이블 형태에 따라 입식과 좌식을 선택할 수 있다. 대표 메뉴는 동해에서 잡은 물가자미로 요리한 미주구리 찌개다. 이 밖에 겨울철 별미인 물곰탕(곰치탕)을 비롯해 도루묵찌개, 해물탕(바다 메기탕) 등도 맛볼 수 있다.\n영덕 IC에서 가깝고 인근에 영덕대게거리, 공원해파랑, 삼사해상공원이 있다.",
    "modifiedtime": "20251023143000"
+  },
+  "2831991": {
+   "overview": "연화식당은 경북 군위군 군위읍에 위치한 닭요리 전문점으로 군위군 행정복지센터 인근에 자리하였다. 메뉴는 옻닭, 능이백숙, 한방백숙, 닭볶음탕 등 다양한 닭요리를 제공한다. 그중 대표 메뉴는 눈맞은옻닭이다. 겨울철 눈을 맞고 자란 옻나무를 재료로 쓴다고 해서 눈맞은옻닭이라 이름 붙여졌다. 보양식으로 몸보신할 수 있는 음식으로 알려져 있다. 읍내에 위치하고 있어 시민들이 주로 방문하며 지역의 관광객들도 가볍게 들르기 좋은 곳이다.",
+   "modifiedtime": "20250116101137"
   },
   "2832133": {
    "homepage": "<a href=\"https://www.instagram.com/dal_chef/\"target=\"_blank\" title=\"새창 : 달식당 인스타그램으로 이동\">https://www.instagram.com/dal_chef/</a>",
@@ -24966,6 +26247,11 @@
    "overview": "가시어멍김밥은 제주특별자치도 제주시 노형동에 위치한 분식집이다. 제주 공항과 10분 거리인 시내 중심가에 있어 공항 도착 전후의 한 끼 식사로 좋다. 가시어멍은 제주도 방언으로 장모님을 뜻한다. 제주 톳을 넣은 김밥으로 유명해지면서 지금은 전국에 체인점을 가진 가시어멍김밥의 본점이 되었다. 제주에서 자란 신선한 재료를 사용하며, 대표 메뉴는 가시어멍김밥과 김밥도시락세트이고 가시어멍충무김밥과, 한우 떡국도 많이 찾는다. 관광객의 경우 김밥을 포장하여 여행 다니는 사람들이 많다. 오전 7시에 영업을 시작해 아침식사로 먹기에도 좋다. 함께 둘러보기 좋은 주변 관광지로는 이호테우 해변과, 내도 알작지 해변 등이 있다.",
    "modifiedtime": "20250530104902"
   },
+  "2837331": {
+   "homepage": "<a href=\"http://instagram.com/mellow.autumn\"target=\"_blank\" title=\"새창 : 멜로우어텀 사이트로 이동\">http://instagram.com/mellow.autumn</a>",
+   "overview": "멜로우어텀은 전주 혁신도시 내 위치한 디저트 카페이다. 입구에서부터 아기자기한 소품들을 활용해 빈티지한 느낌으로 꾸몄다. 또 SNS를 통해 소문이 나면서 지역 주민들뿐 아니라 관광객들이 즐겨 찾는 관광 명소로 자리매김하고 있다. 대표메뉴는 아몬드 코코넛 파우더를 사용한 라떼로, 위에 생크림 폼과 구운 코코넛칩이 올라간 아몬드 코코넛 라떼이다. 또 마다가스카르산 바닐라빈을 사용하여 만든 바닐라빈 라떼와 일반 라떼보다 우유양이 더 적고 더 고운 우유폼이 들어가 부드럽고 진한 플랫화이트도 인기가 많은 메뉴 중 하나이다.",
+   "modifiedtime": "20250718090000"
+  },
   "2837554": {
    "overview": "가조가마솥육개장순두부는 한우로 직접 조리한 한우 육개장 전문점이다. 실내로 들어서면 셀프바 옆에 가방이 전시 및 판매 중이라 인상적이다. 전 좌석 입식 테이블과 의자가 배치되어 있으며 아기 전용 의자도 준비되어 있다. 대표 메뉴인 육개장순두부를 비롯한 육회비빔밥이 인기 메뉴이다. 모든 메뉴의 고기는 한우만 사용하고 있다. 주메뉴와 잘 어울리는 백김치와 같은 반찬도 다양하다. 손님의 재방문율이 높다고 한다.",
    "modifiedtime": "20250903162805"
@@ -25008,6 +26294,19 @@
   "2838121": {
    "overview": "가마솥회관은 경기도 과천시 갈현동에 있는 곰탕 전문점이다. 대표 메뉴는 사골곰탕으로 탕에 들어가는 재료인 고기와 사골과 뼈로 고아내며 다른 첨가물을 넣지 않은 진한 국물이 특징이다. 사골곰탕 외에도 꼬리곰탕, 양곰탕, 만두 곰탕 등 다양한 곰탕을 맛볼 수 있다. 또한, 얼큰한 소고기 해장국과 내장탕, 모둠 수육 등의 메뉴도 있다. 매장 앞에 주차장이 마련되어 있다. 대중교통 이용 시 지하철 4호선 정부과천청사역이나 인덕원역에서 도보로 약 20분 정도 소요된다. 덜어 먹기 가능한 도구 비치·제공, 위생적 수저 관리, 종사자 마스크 착용을 준수하는 곳으로 소재지 지자체의 인증을 받은 안심식당이다.",
    "modifiedtime": "20250424152011"
+  },
+  "2838382": {
+   "overview": "부산 토성역 3번 출구에서 250m 거리에 있는 신창국밥 본점은 맑은 육수에 순대, 내장 등 다양한 부위를 넣어 끓인 국밥 맛집이다. 메뉴도 국밥, 밥과 국 따로 나오는 따로국밥, 수육밥, 수육으로 간단하다. 기본 찬은 생양파, 마늘, 새우젓, 깍두기, 배추김치가 나온다. 추가 김치는 테이블마다 넉넉히 준비되어 편하게 먹을 수 있고 나머지 반찬은 셀프바를 이용하면 된다. 신창국밥은 수육, 국밥 주문 시 지방 없는 살코기만, 내장, 순대 없이 등 개인의 취향에 따라 주문할 수 있다.   \n※ 반려동물 동반 불가",
+   "modifiedtime": "20250828104304"
+  },
+  "2838418": {
+   "homepage": "<a href=\"https://www.instagram.com/el16.52_/\"target=\"_blank\" title=\"새창 : EL16.52 사이트로 이동\">https://www.instagram.com/el16.52_/</a>",
+   "overview": "부산광역시 서구 동쪽 해안에 있는 이엘 16.52 (EL16.52) 카페는 건물이 시작되는 해발고도 16.52m와 해발고도(Elevation)의 EL을 뜻한다. 카페 3층에서 음료와 베이커리 주문이 가능하며 5층 루프탑에 올라가면 파노라마 뷰로 바다를 즐길 수 있다. 3, 4층 실내 공간을 복도식으로 길게 자리 배치하여 어디에 앉든 바다 뷰를 볼 수 있는 것이 이 카페의 장점 중 하나다. \n※ 반려동물 동반 야외 가능",
+   "modifiedtime": "20250828104758"
+  },
+  "2838432": {
+   "overview": "엄용백 돼지국밥은 부산광역시 수영구 광안동에 돼지국밥 전문점으로 수영역 인근에 자리하였다. 메뉴는 맑은 돼지국밥, 진한 돼지국밥, 수육, 오소리감투 등이 있다. 엄용백 돼지국밥엔 맑은 국물의 부산식 국밥과 진한 국물의 밀양식 국밥 두 가지가 있어 취향대로 선택할 수 있다. 돼지 특유의 누린내가 나지 않아 초보자도 누구나 부담 없이 즐길 수 있다. 식당을 찾는 인원에 비해 좌석이 적어 웨이팅이 길어질 수 있다. 오후 3시부터 5시까지는 브레이크 타임도 있어 시간을 잘 맞춰 가는 게 좋다.",
+   "modifiedtime": "20250116111621"
   },
   "2838595": {
    "overview": "주남저수지 입구 가월 마을에 있는 가월돈가스는 지리산 흑돼지 생고기를 수타 방식으로 만드는 돈가스 전문점이다. 기본부터 퓨전 돈가스까지 골라 먹는 재미가 있다. 기본 돈가스는 가월돈가스로 90번의 망치질을 해 육질이 부드럽고 맛이 고소하다. 이외에 일식 스타일의 도톰한 정통돈가스, 치즈와 각종 야채를 넣은 코돈부르, 자연산 치즈를 가월돈가스 위에 올린 치즈돈가스, 야채 토핑과 매콤 새콤달콤한 소스가 조화로운 깐풍돈가스, 흑돼지와 신김치의 조합으로 얼큰하고 시원한 흑돼지김치가락국수 그리고 키즈세트가 있다. 돈가스에는 참깨 소스가 올려진 샐러드와 계란 프라이가 올려진 밥이 같이 나온다. 2층으로 올라가는 계단 옆에 커피 머신이 있어 식사 후 커피를 즐길 수 있다. 주차장이 넓어 주남저수지나 주남저수지생태학습관 등 주변 관광을 한 후 식사하기에 편리하다.",
@@ -25100,6 +26399,11 @@
    "overview": "담박집은 깔끔한 외관과 내부 인테리어가 돋보이며 일본 가정식 전문점으로 소문난 맛집이다. 일본에서 배워온 전통 방식 그대로 만들며 최고의 재료가 아니면 사용하지 않는다. 카츠류는 주문과 동시에 저온튀김과 고온튀김, 지리산 참숯 레스팅 3단계의 조리 과정을 거쳐 만들어진다. 하지만 조리과정이 번거롭고 오래 걸리는 만큼 맛은 최고이다.",
    "modifiedtime": "20250910172813"
   },
+  "2839248": {
+   "homepage": "<a href=\"https://www.instagram.com/thejari_/\"target=\"_blank\" title=\"새창 : 더자리카페 인스타그램으로 이동\">https://www.instagram.com/thejari_/</a>",
+   "overview": "더자리카페는 경상북도 포항시 남구 호미곶면 대보리에 있다. 모던한 느낌의 외관과 인테리어가 돋보인다. 1~2층으로 이루어져 있으며, 2층은 안전사고 방지를 위해 어린이 제한 구역(노키즈존)으로 운영된다.\n널찍한 정원이 갖추어져 있으며, 포항 앞바다를 조망하며 음료를 즐길 수 있다. 반려동물을 동반한 관광객은 야외 정원만 이용해야 한다.\n대표 메뉴는 반딧불 에이드이며, 이 밖에 수제 청 자몽에이드, 아메리카노, 수박 주스, 파인애플주스 등을 맛볼 수 있다.\n남포항 IC에서 가깝고, 인근에 호미곶 해맞이광장, 호미 반도해안 둘레길 4코스가 있다.\n※반려동물 동반 가능(목줄, 배변봉투 지참)",
+   "modifiedtime": "20250113133408"
+  },
   "2839494": {
    "homepage": "<a href=\"http://www.gdbansang.com/\"target=\"_blank\" title=\"새창 : 강동반상 홈페이지로 이동\">http://www.gdbansang.com/</a>",
    "overview": "강동반상은 지하철 5호선 상일동역 3번 출구 부근에 있다. 입구에 커다란 나무 조형물이 있어 정겨운 시골에 온 느낌이다. 전체적으로 차분한 분위기의 인테리어 덕분에 가족행사나 각종 중요한 단체 행사에 많이 이용된다. 특히나 상견례 장소로 유명하다. 음식은 메인 요리와 정갈한 밑반찬으로 나뉜다. 대표 요리로 궁중갈비, 간장게장, 보쌈수육, 소 불고기에 각종 계절 밑반찬이 나온다. 주차장이 넓어 편리하다. 주차요금은 출차 시 정산 기계를 이용 사전 정산을 해야 한다. 주변에 승상산, 고덕산, 이성산이 가까이 있어 트레킹 하기가 좋다.",
@@ -25118,6 +26422,10 @@
    "overview": "제주의 카페 니모메는 공항 근처에 위치해 있어 바다를 바라보며 여유로운 시간을 보낼 수 있는 장소이다. 빈티지한 소품들로 아늑하게 꾸며진 인테리어가 특징이며, 커피와 함께 제공되는 다양한 디저트가 일품이다. 실내뿐만 아니라 마당에서도 커피를 즐길 수 있어 날씨 좋은 날에는 야외에서 편안하게 시간을 보낼 수 있다. 제주 여행 중 여유로운 한때를 보내기에 적합한 카페로, 바다와 빈티지 분위기를 동시에 즐길 수 있는 공간이다.",
    "modifiedtime": "20250320113918"
   },
+  "2839793": {
+   "overview": "1965년부터 그 역사를 이어온 속초 학사평 순두부 마을에 위치한 순두부 전문 식당이다. 메뉴는 순두부 한 가지로 자리에 앉으면 바로 인원수만큼 국산콩 순두부와 몇 가지 밑반찬이 소박하게 차려진다. 순두부 고유의 맛을 즐기거나, 취향껏 양념장을 넣어서 즐겨도 좋다. 영업시간이 오후 2시까지로 일찍 문을 닫지만, 오전 7시부터 영업을 시작하니 아침식사로 즐길 수 있다는 점이 매력적이다. 항상 대기시간이 있지만, 회전율이 높아 오래 기다리진 않는다. 영랑호, 청초호, 속초해수욕장과 가까이 있어 함께 둘러보기 좋다.",
+   "modifiedtime": "20250114165439"
+  },
   "2839811": {
    "overview": "강의리추어탕은 <생생정보통>, <생방송 오늘 저녁> 등 다양한 TV 프로그램에 맛집으로 소개된 추어탕 전문점이다. 시골 고향 집이 떠오르는 건물 외벽에는 담쟁이넝쿨이 빼곡하며 입구로 이어지는 길가에는 꽃과 나무들이 정겹게 피어있다. 대표 메뉴인 추어탕 맛도 일품이지만 전라도 밥상답게 반찬 하나하나 정성 가득한 맛이 더욱더 인상적이다. 무엇보다 솥밥과 누룽지가 일품이어서 메뉴의 맛을 더욱 돋보이게 한다. 맛집으로 소문난 만큼 대기할 때가 많지만, 먼 길 마다치 않고 찾는 손님들을 보면 그 이유를 짐작할 수 있을 것이다.",
    "modifiedtime": "20260630184428"
@@ -25129,6 +26437,15 @@
   "2840125": {
    "overview": "부안의 유정자고개 시작 지점에 있는 개암곰탕은 매일 아침 직접 끓인 육수의 진한 사골 국물을 맛볼 수 있는 한식당이다. 대표 메뉴는 사골곰탕이며 우족 곰탕과 육전도 인기 메뉴 중에 하나다. 특히 사골곰탕은 어떤 첨가물도 넣지 않아 특유의 풍미를 느낄 수 있다. 5월부터 8월에는 여름 특선 메뉴로 개암냉면을 판매한다. 개암냉면은 매일 아침 사골 고기로 내린 육수에 주문과 동시에 직접 뽑은 고구마 전분 면을 활용한 함흥식 냉면이다. 과일과 동치미를 더해 더욱 시원한 맛을 자랑한다. 아침부터 운영해 아침 식사도 할 수 있으며 포장 시 할인 혜택도 있다. 반려동물은 동반이 불가능하다.",
    "modifiedtime": "20250912161719"
+  },
+  "2840149": {
+   "overview": "변산의 대표적인 관광지인 채석강, 격포해수욕장, 격포항에 가까운 마식당은 화덕 생선구이 전문 한식당이다. 500도의 화덕에서 고등어, 삼치, 박대, 가자미 등 맛 좋기로 유명한 생선을 구워내 현지인과 관광객들에게 인기가 좋다. 메뉴는 뽕잎 고등어와 박대, 가자미가 포함된 2인 정식부터 시작하며 3인 정식에는 삼치, 4인 정식에는 갈치가 추가로 제공된다. 이외에도 소머리국밥과 육개장 등 식사류 메뉴도 있으나 여름 성수기 기간에는 생선구이 정식만 제공한다. 예약은 할 수 없고 재료 소진 시 마감되니 방문 전 식당에 문의하는 것을 추천한다. 반려동물은 동반이 불가능하다.",
+   "modifiedtime": "20250912163112"
+  },
+  "2840362": {
+   "homepage": "<a href=\"https://www.instagram.com/keungoal_house\"target=\"_blank\" title=\"새창 : 앞산큰골집 인스타그램 이동\">https://www.instagram.com/keungoal_house</a>",
+   "overview": "앞산 큰골집은 대구광역시 남구 대명동에 있다. 대표 메뉴는 캡사이신을 사용하지 않고 고춧가루와 과일로 맛을 낸 매콤한 등갈비찜이다. 가마솥에 지은 밥과 국산 곤드레가 어우러진 가마솥 곤드레밥도 인기다. 이 밖에 메밀전, 강원도 옥수수 막걸리 등도 맛볼 수 있다. 외관과 인테리어가 깔끔하며, 내부에는 단체석이 마련되어 있어 각종 모임을 하기 좋다. 대구 지하철 1호선 안지랑역과 파동IC에서 가깝다. 주변에는 앞산 해넘이 전망대, 앞산 카페거리, 안지랑 곱창거리가 있어 연계 여행에 나서기 쉽다.",
+   "modifiedtime": "20250909173100"
   },
   "2840374": {
    "overview": "까사드테하는 대구광역시 달성군 가창면 삼산리에 위치한 한옥카페로 '카사'는 스페인어로 집을 '테하'는 기와를 의미한다. 내부는 한옥의 전통적인 틀 아래 현대적인 감각이 돋보이는 인테리어로 꾸몄다. 한옥에서 브런치를 즐기는 색다른 경험을 할 수 있는 곳이다. 대표 메뉴는 아메리카노이고, 카페라테, 카푸치노, 차 등도 맛볼 수 있다. 파동IC에서 가깝고, 인근에 워터파크 스파밸리가 있어 연계 여행에 나서기 좋다.",
@@ -25149,6 +26466,10 @@
   "2840714": {
    "homepage": "<a href=\"http://instagram.com/rollercoffee\"target=\"_blank\" title=\"새창 : 롤러커피 사이트로 이동\">http://instagram.com/rollercoffee</a>",
    "overview": "롤러커피는 대구 반월당 인근에 위치해 있으며, 대구에서 라떼가 맛있기로 소문난 카페이다. 어두운 색의 벽돌 건물에 크림색 어닝과 흰색 창틀로 포인트를 주었으며, 내부는 우드 가구로 인테리어가 되어 있어 빈티지한 느낌을 물씬 풍긴다. 메뉴는 다른 카페와는 달리 라떼, 아메리카노, 싱글오리진초코 등으로 간단하게 구성되어 있으며, 커피종류는 원두를 헬베티카와 길산스 두 가지 중 하나를 선택해서 마실 수 있도록 되어 있다.",
+   "modifiedtime": "20250909173100"
+  },
+  "2840766": {
+   "overview": "방천 가족 족발&보쌈은 대구광역시 중구 대봉동 경대병원역 인근에 위치해 있다. 이곳은 족발과 보쌈 전문점으로, 족발을 만들 때 캐러멜 대신 100% 한약재만 사용한다. 대표 메뉴는 반반 족발 세트다. 이 밖에 가족족발 쟁반세트, 가족 족발, 쟁반국수 등을 맛볼 수 있으며, 포장과 배달 모두 가능하다.",
    "modifiedtime": "20250909173100"
   },
   "2840883": {
@@ -25296,6 +26617,10 @@
    "overview": "가현산 잔치국수는 인천광역시 가현산 인근에 있는 국수 전문점으로 복잡한 도시를 벗어나 푸짐한 국수를 맛볼 수 있는 식당이다. 주차장이 넉넉한 곳으로 2층 가정집을 식당으로 꾸며 마치 시골집에 온 것처럼 느껴진다. 멸치육수로 만든 깔끔한 잔치국수와 새콤달콤한 비빔국수, 시원한 열무국수가 인기 메뉴다. 유부오뎅국수, 비빔밥, 떡국 등 다양한 식사 메뉴도 준비되어 있어 선택의 폭이 넓다.",
    "modifiedtime": "20260630212627"
   },
+  "2844638": {
+   "overview": "부산광역시 기장군 일광읍 신평리에 있는 어보는 '바다가 차린 식탁' 이라는 뜻을 가진 한정식집이다. 해물갈비찜과 보리굴비, 암꽃게장 등 다양한 한상 메뉴를 제공하는 맛집이다. 주차장이 넓고 쾌적하며, 오션뷰와 정자에서 휴식할 수 있는 분위기가 매력적이다. 음식은 정갈하고 간이 잘 맞아 가족이나 어른들과 함께 방문하기 좋으며, 특히 해물갈비찜은 푸짐한 재료와 매콤한 양념이 조화롭다.",
+   "modifiedtime": "20250828112258"
+  },
   "2844673": {
    "homepage": "<a href=\"https://www.instagram.com/godosik92/\"target=\"_blank\" title=\"새창 : 고도식 사이트로 이동\">https://www.instagram.com/godosik92/</a>",
    "overview": "고도식 식당은 지하철 9호선 송파나루역 1번 출구 송리단길 석촌호수 인근에 있다. 알등심, 삼겹살, 천겹살 등 다양한 구이 메뉴와 더불어 청어알 한우육회, 트러플 계란찜, 메밀냉면 등 특별한 메뉴도 제공한다. 고기를 직접 구워주는 서비스와 기본 제공되는 순두부찌개가 인상적이며, 철판 볶음밥과 된장술밥도 인기 메뉴다.",
@@ -25438,6 +26763,10 @@
    "overview": "공향샤브칼국수는 인천광역시 영종하늘도시에 있다. 이곳은 음식점 바로 앞에 주차를 할 수 있다. 좌식 테이블과 의자 테이블이 모두 마련되어 있어 원하는 좌석을 선택할 수 있으며, 홀이 넓어 단체 모임에도 적합하다. 이곳의 대표 메뉴는 공항샤부샤부다. 인근에 인천국제공항, 영종역사관, 을왕리해수욕장, 캠핑장 등이 있어 연계 관광을 즐길 수 있다.",
    "modifiedtime": "20260630212627"
   },
+  "2847519": {
+   "overview": "고풍스러운 분위기, 부담 없는 가격, 푸짐한 양으로 상견례 장소로도 인기가 좋은 담양애꽃은 퓨전 한정식 전문 음식점이다. 국내산만 사용하는 담양애꽃의 반반정식은 한우 떡갈비와 돼지 떡갈비가 하나씩 나와 각각 맛볼 수 있는 장점이 있다. 식전에 나오는 들깨죽은 수제비 사리가 같이 나와 구수한 들깨수제비로 속을 따뜻하게 데워준다. 한정식 맛집답게 도라지오이무침, 가지튀김샐러드, 호박전, 갓보리물 백김치 등 입맛을 돋우는 밑반찬이 정갈하다. 네이버 예약은 평일만 가능하고 주말 예약은 전화로만 가능하다. 죽화경, 면앙정 등이 주변에 있어 연계 관광하기 수월하다.",
+   "modifiedtime": "20260630184428"
+  },
   "2847736": {
    "overview": "김해 장유에 있는 갑오삼계탕 본점은 큰 규모의 삼계탕 전문점이다. 식당 옆으로 넓은 주차장이 있고 복날, 주말 등 차량이 많을 땐 근처 사설 주차장에 주차하면 무료 주차권을 제공한다. 넓은 내부에는 입식과 좌식 테이블이 마련되어 있고 아기 전용 의자도 구비되어 있다. 육수에 들어가는 재료에 따라 선택할 수 있어 다양한 삼계탕을 맛볼 수 있다. 진한 육수의 맛과 쫄깃한 닭고기가 맛있는 이곳은 식전 인삼주가 제공되고 기본 찬으로 김치, 고추, 샐러드, 양파장아찌가 나온다. 여름 성수기인 7월~8월에는 삼계탕 메뉴만 판매하고 5월~8월까지는 휴무 없이 영업한다. 도보 5분 거리에 가볍게 산책하기 좋은 대청공원이 있다.",
    "modifiedtime": "20251023143000"
@@ -25459,6 +26788,10 @@
    "homepage": "<a href=\"http://instagram.com/jeju.snail\"target=\"_blank\" title=\"새창 : 달팽이식당 사이트로 이동\">http://instagram.com/jeju.snail</a>",
    "overview": "달팽이식당은 제주특별자치도 서귀포시 안덕면 창천리에 있다. 일주서로와 한창로가 만나는 삼거리 근처에 있는 달팽이식당은 귤 창고를 리모델링한 조용하고 소박한 공간이다. 직접 농사지은 콩으로 할머니가 직접 띄운 청국장과 석쇠구이 세트 단일 메뉴를 제공한다. 보리밥과 함께 집밥 같은 한상을 받아볼 수 있는 곳으로 동그란 소반에 나오는 상차림이 SNS용으로 인기이다. 재료 소진 시 영업을 마감하고, 2인부터 주문 가능하다. 주변 여행지로 논짓물, 용머리해안, 중문색달해수욕장, 본태박물관 등이 있다.",
    "modifiedtime": "20250115151235"
+  },
+  "2847845": {
+   "overview": "매드에스프레소로스터리는 커피와 빵을 만들어 판매, 납품하는 로스터리, 베이커리 카페이다. 플랫화이트에 코코넛크림을 넣은 코코넛비안코와 코코넛밀크에 에스프레소를 섞은 코코넛프레도가 시그니처 메뉴다. 모든 커피 메뉴는 디카페인으로 선택할 수 있다. 바닐라빈 밀크티, 루주시트론, 말차라테, 루이보스 등도 준비되어 있다. 시그니처인 이서빵을 비롯해 갈릭크림볼, 스콘, 루스틱, 치아바타 등을 직접 만들고, 당일 생산된 제품만을 24시간 이내에 판매하는 베이커리이기 때문에 항상 신선한 빵을 맛볼 수 있다. 인테리어가 고풍스럽고 뷰가 좋아 포토존으로도 손색이 없다.",
+   "modifiedtime": "20250317224200"
   },
   "2847878": {
    "overview": "이조갈비는 합리적인 가격에 돼지갈비를 즐길 수 있는 곳이다. 국내산 흑돼지 생삼겹살과 수제 떡갈비, 그리고 목살과 등갈비로 구성된 돼지갈비가 유명하다. 밑반찬으로는 청국장, 양배추샐러드, 오이무침, 어묵볶음, 김치 등이 정갈하게 나온다. 매장은 전부 입식 테이블이고 아기 의자도 있어 가족 단위로 방문해도 편하게 식사할 수 있다. 춘향사당, 관서당남성재, 광한루원 등 주변에 관광지가 많아 여행 코스로 함께 방문해 볼 것을 추천한다.",
@@ -25615,18 +26948,36 @@
    "overview": "﻿﻿ ﻿구리시 갈매동에 있는 콩, 두부 요리 전문점이다. 갈매에서 신내동으로 넘어가는 길목에 있다. 식당 주차장이 넓어 주차가 편하다.  실내는 오래된 맛집임을 느끼게 해주는 오래된 물건으로 꾸며져 있다. 직접 두부를 만드는 곳이 별도로 있고 식사 후 집에 돌아가는 길엔 콩비지를 무료로 가져갈 수 있다. 황태를 넣어 국물이 시원한 두부전골과 순두부찌개, 콩탕 등의 콩 요리 이외에 코다리 두부찜, 오리 한방 능이백숙, 닭 한방 능이백숙이 있다. 주변에 가볼 만한 곳으로는 화랑대 철도공원과 불빛 정원 등이 있다.",
    "modifiedtime": "20250113145811"
   },
+  "2850406": {
+   "overview": "보백관 본점은 대구광역시 달성군 다사읍 서재리에 있다. 깔끔한 외관과 인테리어가 눈에 띈다. 내부에는 단체석이 마련되어 있어 각종 모임하기 좋다. 대표 메뉴는 감자탕+전복이다. 전복만 추가해서 판매하기도 한다. 이 밖에 뚝배기, 촌돼지찌개, 아바이 백순대, 수제돈가스, 왕냉면 등을 맛볼 수 있다. 감자탕은 냉동 보관했다가 내놓지 않고, 매일 손질한 등뼈를 삶아 사용한다. 어린이 손님을 위한 놀이방이 있다. 북다사IC에서 가깝고, 인근에 마천산산림욕장, 대한불교조계종 불은사가 있다.",
+   "modifiedtime": "20250110163034"
+  },
   "2850460": {
    "homepage": "<a href=\"https://www.instagram.com/lately92__\"target=\"_blank\" title=\"새창 : https://www.instagram.com/lately92__ 사이트로 이동\">https://www.instagram.com/lately92__</a>",
    "overview": "레이틀리92는 대구광역시 동구 숙천동에 있다. 세련된 느낌의 외관과 고급스러운 인테리어가 눈에 띈다. 내부에는 단체석이 마련되어 있어 각종 모임에 적당하다. 무엇보다 4,000㎡ 규모의 대지 위에 나무가 가득 식재되어 있다는 점이 가장 큰 장점이다. 인기 메뉴인 베이컨 크림 파스타는 꾸덕한 크림과 베이컨의 조화가 뛰어나며, 치킨 스테이크는 촉촉한 식감이 일품이다. 경산IC에서 가깝고, 인근에 금호강 안심습지, 반야월연꽃단지가 있다.",
    "modifiedtime": "20250909101223"
   },
+  "2850496": {
+   "overview": "미소팔공한우는 대구광역시 동구 덕곡동에 있다. 현대적인 외관과 깔끔한 인테리어가 눈에 띈다. 내부에는 단체석이 마련되어 있어 각종 모임에 적당하다. 대표 메뉴는 한우갈비살이다. 입구에서 고기를 구입해서, 상차림 비용을 추가해 구워 먹는 시스템이다. 이 밖에 한우꽃살, 한우살치살, 제비추리, 부채살, 안창살, 생삽겹살, 돼지갈비, 곰탕 등을 맛볼 수 있다. 한우가마솥 곰탕은 포장 판매도 한다. 외부에는 어린이를 위한 트램펄린과 수영장 등의 부대시설이 갖추어져 있다. 어른들을 위한 족구장도 마련되어 있다. 농림축산식품부가 인정한 안심식당이다. 파군재IC에서 가깝고, 인근에 팔공산도립공원, 대구동화사, 팔공산케이블카가 있어 연계 여행에 나서기 좋다.",
+   "modifiedtime": "20250114091728"
+  },
   "2850515": {
    "overview": "낭만짜장은 충청북도 제천시 모산동에 있다. 예스러운 외관과 깔끔한 분위기를 연출하는 인테리어가 눈에 띈다. 대표 메뉴는 마늘탕수육, 중식당면잡채, 해물쟁반짜장, 새우볶음밥, 사이다 등이 상에 오르는 4인 가족세트다. 2인에 적합한 낭만세트는 마늘탕수육, 짜장, 짬뽕이 나온다. 이 밖에 낭만짜장, 고추간짜장, 짬뽕, 불짬뽕, 탕수육 등도 맛볼 수 있다. 제천 IC에서 가깝고, 인근에 의림지, 교동민화마을, 에콜리안제천 CC가 있다.",
    "modifiedtime": "20250116135930"
   },
+  "2850538": {
+   "homepage": "<a href=\"https://www.facebook.com/sm0163/\"target=\"_blank\" title=\"새창 : 서민수산회 사이트로 이동\">https://www.facebook.com/sm0163/</a>",
+   "overview": "서민수산회는 대구광역시 수성구 매호동에 있다. 신선한 대방어회와 해산물로 인기 있는 횟집이다. 대방어는 김, 백김치, 무순과 함께 먹으면 고소한 맛이 더욱 살아나며, 멍게는 비리지 않고 달짝한 맛이 특징이며, 새우오징어튀김 등 다양한 메뉴가 준비되어 있어 선택의 폭이 넓다. 대구 지하철 2호선 신매역과 수성 IC에서 가깝다. 인근에는 아이니테마파크, 대구삼성라이온즈파크가 있어 연계 관광에 나서기 좋다.",
+   "modifiedtime": "20250909102318"
+  },
   "2850555": {
    "overview": "똘똘이식당은 대구광역시 서구 내당동 소재 반고개무침회골목에 있다.  오징어, 가오리, 아나고 무침회와 수육, 미나리전, 납작만두 등을 맛볼 수 있는 한식 전문점이다. 특히 미나리전과 무침회의 조합이 일품이며, 수육 세트나 미나리전 세트 등 다양한 세트 메뉴로 합리적인 가격에 여러 메뉴를 즐길 수 있다. 대구 지하철 2호선 반고개역과 서대구 IC에서 가깝다. 인근에는 청라언덕, 대구근대역사관, 두류공원, 이월드 등 관광자원이 풍부하다.",
    "modifiedtime": "20250909102533"
+  },
+  "2850573": {
+   "homepage": "<a href=\"https://enolja.com/t/053-761-0008\"target=\"_blank\" title=\"새창 : 살맛나는집 사이트로 이동\">https://enolja.com/t/053-761-0008</a>",
+   "overview": "살맛나는집은 대구광역시 수성구 중동에 있다. 고풍스러운 멋을 풍기는 외관과 인테리어가 돋보인다. 내부에는 단체석이 마련되어 있어 각종 모임을 하기 좋다. 대표 메뉴는 백탄 참숯에 구워서 먹는 생 갈비살과 꽃등심이다. 수성IC에서 가깝고, 인근에 대구어린이교통랜드, 국립대구박물관이 있다.",
+   "modifiedtime": "20250909102825"
   },
   "2850597": {
    "overview": "공심옥은 대구광역시 수성구 욱수동에 위치해 있다. 현대적인 감각이 돋보이는 외관과 고급스러운 분위기를 연출하는 인테리어가 눈에 띈다. 내부에는 단체석이 마련되어 있어 각종 모임을 하기 좋다. 소고기 비빔냉면과 물냉면, 소갈비찜이 인기 메뉴로, 신선한 재료와 정성스러운 조리가 돋보인다.",
@@ -25787,6 +27138,10 @@
    "overview": "넓은 주차장이 마련된 옛날에 금잔디는 향토 음식을 즐겨 찾는 가족 단위 손님들의 맛집으로 유명하다. 정갈하고 맛있는 보리밥 및 향토 음식을 정성껏 준비하는 만큼 어르신들과 함께 방문하는 손님들이 많다. 고풍스러운 인테리어와 깔끔한 실내 공간은 소중한 손님을 모시고 방문하기에도 손색이 없다. 단체 룸도 마련되어 있어 예약하고 방문하기 편리하다. 금잔디 정식을 주문하면 보리굴비 외 15가지 정도의 반찬이 제공되는데, 반찬 하나하나 정갈하게 잘 차려져 나온다. 도산역이 인근에 있어 대중교통을 이용하기도 수월하다.",
    "modifiedtime": "20260630184428"
   },
+  "2855307": {
+   "overview": "전남광주통합특별시 광산구 수완지구대 먹자골목에 있는 초돈은 돼지고기 맛집으로 유명하다. 모든 고기 메뉴는 바로 먹을 수 있는 상태로 구워져 나오기 때문에, 굽는 수고를 덜 수 있어 편하게 즐길 수 있다. 단, 한 번에 많은 양의 주문을 받을 수 없기 때문에 예약 후 방문하길 추천한다. 숙성 생 삼겹살이 이 집의 대표 메뉴인데, 숙성된 고기를 사용하는 만큼 고기의 풍미가 특별하다. 고기가 구워져 나오기 때문에, 일정한 육즙 가득 머금은 고기의 참 맛을 즐길 수 있다. 수완지구대 먹자골목에 있어 맛집 여행을 즐기기 편하다.",
+   "modifiedtime": "20260630212627"
+  },
   "2855743": {
    "homepage": "<a href=\"https://www.instagram.com/kyoungchun2237/\" target=\"_blank\" title=\"새창 : 경천애인 2237 인스타그램으로 이동\">https://www.instagram.com/kyoungchun2237</a>",
    "overview": "경천애인2237은 최상급 한우를 최소 21일간 1.2도의 저온숙성하여 선보이는 곳으로 알려져 있다. 선릉역과 가까운 거리에 위치해 있어 접근성이 좋다. \n메뉴는 특안심, 꽃등심, 경애 등안채, 소갈비살, 치마살, 설화 살치살 등 다양한 부위가 준비되어 있다. 특히, 특안심이나 채끝살 같은 부위가 인기 메뉴이다.",
@@ -25810,9 +27165,17 @@
    "overview": "냉면은 대체로 내륙지방의 음식이다. 고흥은 바다가 많은 지역이다. 하지만 고흥에서도 맛있는 냉면을 먹을 수 있는 곳이 바로 관산식당이다. 이곳에서는 물냉, 비냉, 회냉면, 평양, 함흥 이런 말은 전혀 들리지 않는다. 그냥 물냉 보통, 곱빼기만 있다. 살짝 검은 칡 면에 보라색 양배추와 오이, 계란 반쪽이 다인 냉면이다. 심지어 물냉인데 육수는 보이지 않는다. 다만 깻가루가 뿌려진 살얼음 한 덩어리가 전부이다. 이제 할 일은 얼음이 녹을 때까지 살살 비비기만 하면 된다. 한입 베어 물면 눈으로 예상했던 모든 예상은 사라진다.",
    "modifiedtime": "20260630184428"
   },
+  "2856337": {
+   "overview": "아라한참치는 대구광역시 수성구 덕화중학교 인근에 위치한 일식당이다. 황다랑어나 새치류가 아닌 참다랑어 비율이 80% 이상인 참치회 전문점이다. 이곳의 대표메뉴는 최상의 품격을 자랑하는 특수부위들로 참치를 제대로 즐길 수 있는 아라한 참치이다. 참다랑어 1급 배꼽도로, 가마도로, 울대, 볼살, 참다랑어 1급 뱃살 등이 제공되며, 원하는 부위가 있을 경우 그 부위로 대체 주문이 가능하다. 또한 대중적으로 인기가 높고 품질이 뛰어난 부위들을 모아 가격 대비 만족도가 높은 코스인 스페셜 코스, 참치의 다양한 참맛을 느낄 수 있는 골드코스 등도 있어 취향에 맞게 선택하여 먹을 수 있다.",
+   "modifiedtime": "20250909113829"
+  },
   "2856361": {
    "overview": "메종듀미디는 대구광역시 동구 송정동에 있다. 현대적인 감각의 외관과 고급스러운 분위기를 연출하는 인테리어가 눈에 띈다. 내부에는 단체석이 있어 각종 모임을 하기 좋다. 2층 테라스에서는 탁 트인 풍경을 감상할 수 있다. 대표 메뉴는 수제 먹물 치아바타 듀 미디다. 파군재 IC에서 가깝고, 인근에 신숭겸장군유적지, 대구섬유박물관이 있다.",
    "modifiedtime": "20250909114257"
+  },
+  "2856371": {
+   "overview": "브런치달랏은 대구광역시 동구 봉무동에 있다. 모던한 분위기의 외관과 인테리어가 돋보이는 카페다. 다양한 음료는 물론, 베이커리와 브런치 메뉴가 가득하다. 버섯 불고기 리조또, 차돌박이 샐러드 파스타 등 메뉴가 다양하며, 바닐라라떼와 카페라떼 등 음료도 맛볼 수 있다. 파군재 IC에서 가깝고, 인근에 팔공산도립공원, 신숭겸장군유적지, 대구섬유박물관이 있다.",
+   "modifiedtime": "20250909162917"
   },
   "2856866": {
    "homepage": "공식 인스타그램 <a href=\"https://www.instagram.com/gwejjak\"target=\"_blank\" title=\"새창 : 궤짝카페 공식 인스타그램 이동\">https://www.instagram.com/gwejjak</a>",
@@ -26033,6 +27396,10 @@
    "overview": "송정 해수욕장 근처에 있는 송정물총칼국수는 쫄깃한 면발이 일품인 칼국수 맛집이다. 해감 과정에서 물총처럼 물을 뱉어내는 동죽조개와 홍합, 가리비 등 다양한 조개를 푸짐하게 넣어 국물맛이 깊고 시원하다. 어린이들도 먹을 수 있는 기본 맛과 어른들이 좋아하는 얼큰 맛이 있어 선택 주문할 수 있다. \n단, 매장 내 화구 부족으로 테이블당 메뉴는 한 종류로 통일해야 한다, 칼국수와 곁들여 먹기 좋은 해물파전은 새콤달콤 양배추무침과 함께 먹으면 별미다. 가게 앞 주차 공간이 마련되어 있지만 협소하여 점심시간에는 근처 해변 공영주차장을 이용해야 한다. 식사 후 걷기 좋은 죽도 공원이 인근에 있다.\n※반려동물 동반 가능",
    "modifiedtime": "20250114105143"
   },
+  "2861159": {
+   "overview": "게으쭈루는 평택시 이충동에 있는 샤부샤부 전문점이다. 양식집을 개조해서 만든 인테리어는 고전적이고 멋스럽다. 테이블마다 키오스크가 있어서 주문도 받고 결제도 자리에서 할 수 있다. 주문을 하면 간장소스, 매콤한 쌈장 느낌의 땅콩소스, 칠리소스와 등심, 버섯, 야채, 면, 만두, 죽이 세팅된다. 육수는 냄비를 기준 반반으로 나뉘어 한쪽은 약간 맵게, 또 한쪽은 안 맵게 되어 있어서 아이들도 잘 먹는다. 육수가 끓으면 야채와 해산물 등을 넣고 그다음 우동면과 만두를 넣고 마지막에 계란을 넣고 죽을 끓여 먹으면 된다.",
+   "modifiedtime": "20250731175350"
+  },
   "2861291": {
    "overview": "해운대 마린시티 맛집으로 알려진 사마정은 일본식 샤브샤브 전문점이다. 지하철 2호선 동백역 1번 출구에서 가깝다. 건물 2층에 있는 사마정은 아늑한 분위기에 개별 룸과 단체석이 완비되어 있고, 내부 홀 좌석은 칸막이로 분리되어 있어 조용하게 식사할 수 있다. 평일과 주말 점심시간에는 사람이 많아서 미리 예약하고 가는 게 좋다. 사마정에는 한돈과 1등급 이상의 한우를 무제한으로 먹을 수 있는 타베호다이가 있다. 테이블 이용 시간을 120분으로 제한하고 있지만 고기와 사이드 메뉴 야채, 버섯, 치킨, 탕수육, 육회, 완자 등을 마음껏 먹을 수 있는 시간이다. 육수는 불고기 맛, 멸치 다시 맛, 얼큰한 맛 총 3가지로 2가지 선택이 가능하다. 또 정해진 시간 동안 다양한 종류의 술을 무제한 마실 수 있는 노미호다이도 있어 가족 식사나 회식 등 모임을 하기 좋은 곳이다. 식사 후 근처 걷기 좋은 해운대 해수욕장과 동백섬이 가까이 있어 함께 방문해 보는 것도 좋다.",
    "modifiedtime": "20250829152511"
@@ -26095,6 +27462,11 @@
    "overview": "고사리커피는 제주의 바다와 오름만큼 아름다운 제주의 숲을 담고 있는 공간이다. 측면으로 낸 통창으로 고사리가 피어난 깊고 몽환적인 제주의 숲에 앉아 잠시 쉬어갈 수 있다. 가마솥에 덖어낸 귤피차와 스페셜티 원두의 에스프레소가 블렌딩 된 티커피인 고사리커피와 제주 수제 청귤청과 스페셜티 아메리카노가 블렌딩 된 청귤커피는 오직 고사리커피에서만 맛볼 수 있는 음료이다. 또 고소한 우리 쌀 누룽지와 1등급 원유 크림치즈로 만든 글루텐프리 치즈케이크와 국내산 쌀가루와 프랑스산 천연발효버터를 사용해 만든 글루텐프리 쌀 다쿠아즈도 판매하고 있다.",
    "modifiedtime": "20250618175453"
   },
+  "2864251": {
+   "homepage": "<a href=\"https://www.instagram.com/ground62_\"target=\"_blank\" title=\"새창 : GROUND62 사이트로 이동\">https://www.instagram.com/ground62_</a>",
+   "overview": "그라운드62(GROUND62)는 서울 종로구 평창동 평창동행정복지센터, 의천왕상해망명 은신처 인근 주택가에 있다. 주차는 매장 옆 전용 공간에 할 수 있다. 카페 건물 외부는 도심 속 자연경관을 느낄 수 있도록 설계했으며 실내 좌석 방향은 외부를 볼 수 있는 창 쪽으로 되어 있다. 정원 및 실내 공간의 이용은 센터 운영 스케줄에 따라 유동적이다. 대표 메뉴는 아메리카노다. 카페 인근에 의친왕상해망명 은신처, 세검정, 김영종미술관, 쉼박물관, 화정박물관 등이 있어 연계 관광을 할 수 있다.\n※ 반려동물 동반 불가",
+   "modifiedtime": "20250902135803"
+  },
   "2864685": {
    "overview": "구백 가든은 화순중흥골드레이크 cc와 인접한 곳에 있는 맛집으로, 골프장을 방문한 손님들이 즐겨 찾는 곳이다. 주차장이 마련되어 있지만, 소문난 맛집답게 주차장이 꽉 차 있는 경우가 있으니, 이 점 참고하고 방문해야 한다. 하모 샤부샤부와 키조개+소고기구이가 이 집의 대표 메뉴다. 하모 샤부샤부와 새조개 샤부샤부는 시가에 따라 가격이 변동된다. 그중 새조개 샤부샤부는 겨울과 봄에만 맛볼 수 있는 계절 메뉴다. 소고기와 키조개 그리고 잘 익은 묵은지까지 이 세 가지 재료의 만남을 삼합이라 부르는데, 그 맛이 뛰어나 전국 각지에서도 찾아올 정도다. 단체 방문도 가능하여 회식 장소로도 적합하다.",
    "modifiedtime": "20260630184428"
@@ -26103,6 +27475,10 @@
    "homepage": "<a href=\"https://www.instagram.com/nammaesikdang.official/\"target=\"_blank\" title=\"새창 : 남매식당 인스타그램이동\">https://www.instagram.com/nammaesikdang.official</a>",
    "overview": "진주 영천강로에 있는 남매식당은 분위기 좋은 이탈리안 레스토랑이다. 전용 주차장은 가게에서 조금 떨어진 곳에 있어 주차 후 걸어오면 된다. 전용 주차장에 주차를 해야 하며 주중 점심시간과 주말에는 대기가 많아 별도로 마련된 공간에서 대기해야 한다. 메뉴는 크게 에피타이저, 파스타, 스테이크, 밥, 피자, 사이드 메뉴로 구성되어 있다. 가족 단위로 많이 방문하는 남매식당에는 유아용 의자와 메뉴가 따로 준비되어 있다. 또 다양한 와인 리스트가 있어 생일, 데이트 등 특별한 날을 기념하기 좋다. 식사 후 가볍게 걷기 좋은 따스하리공원과 생기율공원이 가까이 있다.",
    "modifiedtime": "20250725100505"
+  },
+  "2865384": {
+   "overview": "부산광역시 초읍동에 위치한 아시오 카페는 2층 건물을 전체 사용하는 큰 규모의 베이커리 카페이다. 아시오의 모든 빵은 당일 생산과 당일 판매를 원칙으로 한다. 또 천연발효로 빵을 만들고 화학 개량제를 일절 사용하지 않는다. 1층과 2층 모두 통창으로 되어 있어 개방감을 느낄 수 있으며, 유리창 너머로 보이는 풍경, 그리고 차 한잔과 함께 여유를 느낄 수 있는 공간이다.",
+   "modifiedtime": "20250829152835"
   },
   "2865847": {
    "overview": "델빠네는 대전광역시 서구 도안동에 있다. 현대적인 감각이 돋보이는 외관과 고급스러운 분위기를 연출하는 인테리어가 눈에 띈다. 내부에는 단체석이 마련되어 있어 각종 모임을 하기 좋다. 외부에는 포토존이 갖추어져 있다. 단호박 크림치즈케익과 같은 디저트는 은은한 단맛이 특징이며, 에스프레소에서 카페모카까지 다양한 커피 메뉴가 준비되어 있다. 서대전IC에서 가깝고, 주변에 대전시립박물관과 유성온천이 있다.",
@@ -26126,6 +27502,10 @@
    "overview": "걸리버막창은 대구광역시 북구 노원동1가에 있다. 깔끔한 외관과 포장마차가 연상되는 인테리어가 눈에 띈다. 대막창은 통통하고 고소하며, 삼겹살과 목살도 부드럽고 맛있다. 버섯된장찌개는 고기와 함께 먹으면 환상적인 조합을 이루며, 포장 시에도 가게에서 먹는 것처럼 푸짐하게 제공한다. 북대구IC와 대구 지하철 3호선 북구청역에서 가깝다. 주변에는 대구근대역사관과 달성공원 동물원이 있다.",
    "modifiedtime": "20250909164310"
   },
+  "2866165": {
+   "overview": "벽강물회식당은 대구광역시 북구청 인근에 위치한 해물요리 전문점이다. 이곳은 넓은 홀과 룸이 마련되어 있어 단체 방문이 용이하며, 주차 공간이 넉넉해 차량 이용 고객에게도 편리하다. 신선한 재료로 만든 물회와 푸짐한 반찬이 조화를 이루며, 물회와 우럭탕이 유명한 곳이다. 이외에도 모듬회와 자연산 도다리회, 광어회 등도 있고, 초밥과 대구탕 등의 식사류도 판매하고 있다.",
+   "modifiedtime": "20250909164615"
+  },
   "2866237": {
    "overview": "고모역쭈꾸미는 대구광역시 수성구 고모동에 있다. 깔끔한 외관과 예스러운 분위기를 연출하는 인테리어가 눈에 띈다. 내부에는 단체석이 마련되어 있어 각종 모임을 하기 좋다. 대표 메뉴는 매콤한 맛이 일품인 주꾸미다. 쭈꾸미는 비린내 없이 탱글탱글하며, 차돌박이를 추가하면 풍미가 더욱 깊어진다. 볶음밥은 꼭 먹어봐야 할 필수 메뉴로, 고소한 맛이 일품이다.",
    "modifiedtime": "20250909170733"
@@ -26137,6 +27517,10 @@
   "2866275": {
    "overview": "비래키키는 대전광역시 대덕구 비래동에 있다. 현대적인 감각이 돋보이는 외관과 고급스러운 분위기를 연출하는 인테리어에  단체석이 마련되어 있어 각종 모임을 하기 좋다. 다양한 메뉴와 쾌적한 분위기로 가족 모임에 적합한 레스토랑이다. 아메리카노, 에스프레소 등 각종 음료도 판다. 대전IC에서 가깝고, 주변에 계족산 황톳길과 우암사적공원이 있다.\n※반려동물 동반 가능(목줄, 배변봉투 지참)",
    "modifiedtime": "20250910133236"
+  },
+  "2866276": {
+   "overview": "안심농장직영식육식당은 대구광역시 동구 숙천동에 있다. 깔끔함이 돋보이는 외관과 예스러운 분위기를 연출하는 인테리어가 눈에 띈다. 내부에는 단체석이 마련되어 있어 각종 모임을 하기 좋다. 대표 메뉴는 당일 도축한 신선한 한우를 손질한 생고기다. 이 밖에 로스구이, 뭉티기, 육회, 장국시 등도 준비되어 있다. 무엇보다 합리적인 가격에 품질 좋고 맛도 좋은 한우를 먹을 수 있다는 게 매력적이다. 경산IC에서 가깝고, 주변에 팔공산 도립공원과 팔공산케이블카가 있다.",
+   "modifiedtime": "20250909171047"
   },
   "2866277": {
    "overview": "명동돼지한마리는 대구광역시 수성구 범어동에 있다. 깔끔한 외관과 예스러운 분위기를 연출하는 인테리어가 눈에 띈다. 내부에는 단체석이 마련되어 있어 각종 모임을 하기 좋다. 대표 메뉴는 국내산 돼지를 손질해 나오는 돼지갈비이며, 갈비찜, 김치찌개, 된장밥, 통갈비수육 등도 판다. 면 요리로는 물냉면, 비빔냉면, 잔치국수, 비빔 소면이 준비되어 있다. 파동IC와 대구 지하철 3호선 수성구민운동장역에서 가깝다. 주변에는 아르떼 수성랜드와 고산골 공룡공원이 있다.",
@@ -26158,6 +27542,10 @@
   "2866408": {
    "overview": "창원 해양관광로에 있는 가고파 생삼겹구이는 바다 풍경을 바라보며 삼겹살을 구워 먹는 맛집이다. 바로 앞 테라스는 인기가 많아서 미리 예약해야만 앉을 수 있다. 평일 당일 예약은 가능하지만 주말 당일 예약은 불가하다. 바다 풍경을 앞에 두고 시원한 바람과 노을을 보며 고기를 먹을 수 있는 가고파 생감겹구이의 주메뉴는 삼겹살과 왕새우, 조개찜, 조개탕으로 세트 주문이 가능하다. 기본 찬은 김치, 생마늘, 쌈무, 채소, 번데기 등이 나오고 추가 반찬과 술, 음료수, 물 등은 셀프로 이용하면 된다.",
    "modifiedtime": "20251023143000"
+  },
+  "2866522": {
+   "overview": "신송자 신마산식당은 대구광역시 남구 대명동에 있다. 깔끔한 외관과 예스러운 분위기를 연출하는 인테리어가 눈에 띈다. 내부에는 단체석이 마련되어 있어 각종 모임을 하기 좋고, 1인석도 마련되어 있어 혼자 방문하여도 편하게 식사를 할 수 있다. 대표 메뉴는 돼지국밥이다. 따로국밥, 순대국밥, 인삼국밥, 살코기국밥, 암뽕국밥 등 여러 가지 국밥도 맛볼 수 있다. 이 밖에 모듬수육, 찐순대 등도 판매하고 있다. 성서IC와 대구 지하철 3호선 남산역에서 가깝다. 주변에는 83타워, 이월드 등 대구의 유명 관광지가 많아 함께 둘러보기 좋다.",
+   "modifiedtime": "20251126094912"
   },
   "2866547": {
    "overview": "금산곰탕은 대구 달성군에 위치한 음식점으로 대구에서는 맛있는 곰탕집으로 유명한 곳이다. 매일 신선한 재료로 가마솥에서 곰탕을 고아낸다. 메뉴로는 뽀얀 국물의 곰탕과 살고기곰탕, 양곰탕, 꼬리곰탕 등이 있으며, 곰탕과 함께 먹으면 더욱 맛있는 모듬수육, 양수육, 꼬리수육 등도 함께 판매하고 있다. 또한 이곳의 곰탕은 밀키트를 판매하여 주문 배송이 가능하다.",
@@ -26268,6 +27656,10 @@
    "overview": "경기도 의정부시에 있는 설렁탕 전문점이다. 설렁탕, 갈비탕, 돌솥우족탕, 얼큰이해장국, 속풀이해장국, 칡물냉면, 비빔냉면, 도가니수육 등 여러 가지 메뉴를 맛볼 수 있다. 푹 고아진 육수는 맑은 우윳빛이 나며, 깊은 맛과 여운을 느낄 수 있다. 매장이 넓고 깔끔해 편안한 분위기에서 식사할 수 있다. 매장 앞에 주차장이 있어 주차하기에 편리하다. 의정부 경전철 범골역 1번 출구에서 400m 거리에 있어서 대중교통을 이용해도 좋다. 근처에 한길문화공원, 백석천 근린공원, 우정 어린이공원 등이 있어 식사 후 산책하기에 좋다.",
    "modifiedtime": "20250722163424"
   },
+  "2867517": {
+   "overview": "기사식당이 몰려있는 특색 있는 골목에 있다. 다채로운 메뉴와 양도 푸짐한 반찬이 입맛을 사로잡는다. 택시 기사들이 즐겨 찾는 양정기사식당은 저렴한 가격에 푸짐하게 먹을 수 있어서 가성비 끝판왕으로 불리며 일반인도 많이 찾는다. 기사식당 중에서도 맛있기로 소문난 양정기사식당은 아침부터 늦은 밤까지 영업하며, 음식이 빠르게 나오고 테이블 회전율이 높아 기다림 없이 먹을 수 있다. 24시간 연중무휴로 영업을 해 언제 가도 밥을 먹을 수 있다. 부산MBC 행복한 금요일이라는 프로그램에 소개된 바 있다. 부전시장, 삼광사 등이 인접해 있어 함께 둘러보기 좋다.",
+   "modifiedtime": "20250113150140"
+  },
   "2867519": {
    "homepage": "<a href=\"http://www.instagram.com/glasseas_official\"target=\"_blank\" title=\"새창 : 글래씨스 인스타그램으로 이동\">http://www.instagram.com/glasseas_official</a>",
    "overview": "거제시 망치리에 있는 글래씨스는 망치 몽돌해수욕장에서 차로 5분 거리이다. 입구로 들어서는 길목에는 야자수가 심어져 이국적인 느낌이 들며 포토존이기도 하다. 화이트 톤의 실내 분위기와 넓은 창문 너머로 푸른색 바다가 어우러져 아름다운 풍경을 만들어낸다. 시그니처 메뉴는 카페라테에 흑임자 크림을 올린 몽돌라테, 거제 산 수제 유자청과 히비스커스를 넣은 거제 레드 유자에이드, 레몬, 오렌지, 사과를 넣어 시원하게 즐기는 글래씨스 상그리아가 있다. 베이커리는 에그타르트, 스콘, 크루아상, 케이크 등 다양한 종류가 있다. 실내뿐만 아니라 외부에도 자리가 넉넉하고 대형 카페인만큼 주차장의 규모도 널찍하다.",
@@ -26305,6 +27697,10 @@
    "overview": "강릉시 강문해변과 송정해수욕장 중간에 있는 간장 대게장 맛집이다. 주메뉴는 간장 대게장이지만 간장 홍게장, 전복장, 새우장 등을 정식으로 차려 낸다. 블루리본 맛집에도 등재된 만큼 대기가 있는 편으로 테이블 링이 준비되어 있다. 도착하면 제일 먼저 테이블 링에 등록하고 기다려야 하며 2층에 대기실이 마련되어 있다. 대게는 매일 가격이 바뀌는 것이라 시가라고 표기되어 있고 매일 보드 판에 가격을 공시하고 있다. 게장 정식을 시키면 다양하고 맛깔나는 밑반찬과 함께 한 상 차려 내온다. 게장은 먹기 좋게 손질해서 가져다주어 편리하다. 매장 한쪽에 홍게 라면을 직접 끓여 먹을 수 있도록 셀프 바가 준비되어 있다. 매장 앞에 넓은 전용 주차장을 갖추고 있어 주차하기 편리하다.",
    "modifiedtime": "20250909100820"
   },
+  "2868940": {
+   "overview": "부산 수영구 민락동에 있는 요이쿠마 본점은 일본식 튀김 덮밥 전문점이다. 요이(착한), 쿠마(곰)는 부모님께서 주신 이름 '선웅'을 일본어로 풀어서 만들었다. 전용 주차장이 따로 없어 인근 유료 주차장을 이용 후 방문해야 한다. 요이쿠마 내부는 높은 층고로 개방감이 있고, 긴 바 테이블로 테이블 위에는 수저, 소스, 앞접시, 물 등이 놓여 있다. 튀김 덮밥 전문점인 요이쿠마에는 카키아게동, 토리야마동, 쿠마텐동, 에비텐동, 요이텐동이 있다. 특히 오징어, 양배추, 깻잎, 양파, 당근, 마요 소스가 들어가는 카키아게동은 매일 선착순 10그릇으로 한정 판매하고 있다. 요이쿠마는 주문 즉시 조리하고, 튀김 요리 특성상 시간이 다소 오래 걸려 방문 시 여유 있게 방문하는 걸 추천한다. 근처 산책하기 좋은 민락공원도 가까이 있어 함께 둘러보기 좋다.",
+   "modifiedtime": "20250120144123"
+  },
   "2869158": {
    "overview": "부산 범일동에 있는 감포참가자미는 자연산 활어 전문점이다. 100% 자연산 어종인 참가자미는 수심 깊은 곳에 서식하여 비브리오균이나 세균의 영향을 받지 않는다. 꼬들꼬들한 식감과 고소한 맛이 있는 참가자미는 흰살생선으로 소화 흡수력이 좋다. 자연산 활어 전문점인 감포참가자미는 새콤달콤 시원한 물회 맛집으로도 알려져 있다. 싱싱한 회와 각종 채소, 밥, 면이 나와 푸짐하게 먹을 수 있다.",
    "modifiedtime": "20250829093536"
@@ -26329,6 +27725,10 @@
   "2869301": {
    "overview": "가보는 충청남도 서산시 예천동에 있는 중화요리 맛집이다. 단체 손님을 위한 개별 룸도 마련돼 있다. 대표 메뉴는 강력한 화력으로 볶은 신선한 해물과 채소가 육수와 어우러져 개운하고 깊은 맛을 내는 가보 짬뽕이다. 이 밖에 가보짜장, 삼선울면, 삼선우동, 기스면 등 여러 가지 면요리가 있다. 쇠고기탕수육, 금전우육, 마라우육 등도 판다. 특별한 날 주문하기 좋은 각종 코스 요리도 인기가 많다. 서산 IC에서 가깝고, 주변에 중앙호수공원, 부춘산 유아숲체험원이 있다.",
    "modifiedtime": "20250624173246"
+  },
+  "2869318": {
+   "overview": "덕수네가리비 1호점은 충청남도 서산시 대산읍 독곶리에 있는 조개요리 전문점이다. 세월의 흔적이 엿보이는 외관과 실내 포장마차 분위기를 연상시키는 인테리어가 눈에 띈다. 대표 메뉴는 가리비 찜과 가리비구이며, 키조개양념구이도 많이 찾는다. 신선한 재료를 불판 위에 구워 먹는 재미가 일품이다. 이밖에 붕장어, 소라, 생선회, 간재미무침 등도 판다. 면요리는 해물라면, 해물칼국수가 준비되어 있다. 서산 IC에서 가깝고, 주변에 황금산, 벌천포해수욕장이 있다.",
+   "modifiedtime": "20250624173602"
   },
   "2869363": {
    "overview": "남촌왕만두는 충청남도 아산시 음봉면에 위치한 만두 전문점이다. TV 프로그램에 만두 맛집으로 여러 차례 소개되었다. 대표메뉴는 만두 샤부샤부 전골이며, 이외에도 비빔만두, 군만두, 떡만둣국 등 다양한 만두 요리를 맛볼 수 있다. 매장 내부는 입식좌석으로 구성되어 있으며 건물 전용 주차장이 있어 편안한 식사가 가능하다.",
@@ -26387,6 +27787,10 @@
   "2869819": {
    "overview": "골드피쉬 딤섬퀴진는 지하철 3호선 압구정역 3번 출구 도산공원 인근에 있다. 이곳은 홍콩 길거리에서 흔히 먹을 수 있는 딤섬들과 중국의 다양한 길거리 음식들을 맛볼 수 있는 딤섬 전문점이다. 샤오롱바오의 풍부한 육즙과 새우딤섬의 신선함, 꿔바로우의 바삭함이 매력적이다. 그 외에 우육면과 지삼선 등 다양한 메뉴가 준비되어 있다.",
    "modifiedtime": "20250924111117"
+  },
+  "2869936": {
+   "overview": "해운대 마린시티에 있는 우봉은 한우구이 전문점이다. 안창살, 새우살, 제비추리, 살치살, 꽃살 등 다양한 특수부위를 먹을 수 있고, 육회와 한정으로 판매하는 한우 육사시미도 별미로 먹을 수 있다. 정갈한 반찬과 깔끔한 맛으로 어린아이부터 어른까지 부담 없이 즐길 수 있는 곳이다. 근처 걷기 좋은 송림공원과 해운대 해수욕장이 가까이 있어 함께 방문하기 좋다.",
+   "modifiedtime": "20250829095044"
   },
   "2869963": {
    "overview": "180도씨는 세종특별자치시 고운동에 있는 분식 전문점이다. 현대적인 외관과 깔끔한 분위기를 연출하는 인테리어가 눈에 띈다. 대표 메뉴는 빨간 양념이 아닌 검은색 양념에 쌀로 만든 가래떡이 담겨 나오는 블랙떡볶이다. 이 밖에 수제돈가스, 매운 돈가스, 수제튀김, 찡라면 등도 준비되어 있다. 재료 소진 시 조기 마감할 수 있으므로 방문 전 영업 여부를 확인하는 것이 좋다.",
@@ -26666,6 +28070,10 @@
    "overview": "고창애풍천장어는 순수 국산토종 자포니카 치어로 기른 1종 민물장어 전문점이다. 푸짐한 양은 물론이고 두툼한 담백한 장어를 노릇노릇하게 구워서 먹는 맛이 일품이다. 주메뉴는 풍천장어 한판구이이며 이외에도 장어추어탕과 장어칼국수, 장어탕, 누룽지 등 식사류도 준비되어 있다.",
    "modifiedtime": "20251106102232"
   },
+  "2877165": {
+   "overview": "만남스넥은 군산 현지인들이 좋아하는 메뉴인 잡탕을 파는 분식집이다. 잡탕은 떡, 만두, 라면, 어묵 등을 넣고 같이 끓인 메뉴인데, 떡볶이나 라볶이보다 국물이 많고 부재료가 풍부해 잡탕으로 불리게 되었다고 한다. 군산에서만 맛볼 수 있는 특색 있는 음식이다. 잡탕 외에도 여느 분식집에서 볼 수 있는 떡볶이와 라면, 김밥 등을 판매한다. 또한, 김밥도 초장에 찍어 먹을 수 있도록 새콤한 초장이 함께 나오는데, 현미밥으로 싼 김밥에 초장을 찍어 먹으면 보다 풍성한 맛이 느껴진다. 흔한 메뉴인 분식을 색다르게 경험할 수 있는 군산 맛집이다.",
+   "modifiedtime": "20250120180958"
+  },
   "2877426": {
    "overview": "전주에서 김제 가는 국도에 있는 다솜차반은 대율저수지를 바라보는 풍경이 아름다운 한정식집이다. 넓은 주차장이 있어 주차하기 편리하다. 내부는 홀과 룸으로 구성되어 있다. 조미료를 첨가하지 않은 오리 훈제 호박밥, 한방 수육 정식, 홍어삼합 정식 외에도 약 선식으로 맛과 영양을 챙긴 백반을 즐길 수 있다. 한정식집이지만, 체질에 맞는 음식, 명리, 시 창작 등 문화강좌도 진행하는 문화 공간의 역할도 하고 있다.",
    "modifiedtime": "20251124103748"
@@ -26748,6 +28156,11 @@
    "overview": "설짬뽕은 대전광역시 서구 관저동에 있다.다양한 짬뽕 메뉴와 찹쌀탕수육, 군만두가 인기인 중식당이다. 직화짬뽕, 꼬막짬뽕, 소고기짬뽕 등 다양한 짬뽕 종류를 제공하며, 특히 소고기짬뽕은 고기 양이 푸짐하고 국물이 진한 것으로 유명하다. 서대전IC에서 가깝고, 주변에 흑석유원지와 장태산자연휴양림이 있다.",
    "modifiedtime": "20250911092238"
   },
+  "2899996": {
+   "homepage": "<a href=\"https://instagram.com/dalonghotpot?igshid=1m9czddy3g6c4\"target=\"_blank\" title=\"새창 : 따룽훠궈 송도점 사이트로 이동\">https://instagram.com/dalonghotpot</a>",
+   "overview": "따룽훠궈 송도점은 인천지하철 1호선 인천대입구역 4번 출구 송도국제업무단지 인근에 있는 중식당이다. 중국 현지 맛과 분위기를 재현한 프리미엄 훠궈 전문점이다. 신선한 재료와 풍부한 양, 고급스러운 인테리어가 특징이며, 테이블마다 인덕션이 설치되어 있어 각자 취향에 맞는 육수를 선택할 수 있다.",
+   "modifiedtime": "20251023143000"
+  },
   "2900693": {
    "homepage": "<a href=\"http://www.xn--0z2b59jvthnya.kr/\" target=\"_blank\" title=\"새창 : 개운궁 홈페이지로 이동\">https://www.상주맛집.kr</a>",
    "overview": "경상북도 상주의 토속음식을 제대로 맛볼 수 있는 개운궁이다. 800여 평 대지위에 꾸며진 넓은 정원과 옛 향수를 불러오는 민속품과 소품, 옛 고향집에 온 것 같은 한옥풍의 아늑한 식당이다. 동호회, 세미나, 동창회, 가족모임 등 각종 행사 단체 손님을 위해 최신 음향시스템과 노래방, 어린이를 위한 놀이시설 등을 구비하고 있다. 개운궁은 최고급 오리, 능이버섯, 닭만을 선별하여 취급하고 있다. 메뉴는 능이버섯전골, 가마솥능이오리 또는 토종다락, 두부전골, 돼지갈비찜, 불고기정식 등의 정갈한 자연음식이 준비되어 있다.",
@@ -26805,6 +28218,11 @@
   "2932734": {
    "overview": "익산 1박2일 여행을 계획중이라면 참고하기 좋은 코스를 소개한다. 백제의 역사를 알 수 있는 국립익산박물관, 왕궁리유적부터 익산의 자연을 만날 수 있는 용안생태습지, 새로운 경험을 할 수 있는 익산 교도소 세트장까지 알차게 여행해보자.",
    "modifiedtime": "20240118174312"
+  },
+  "2932742": {
+   "homepage": "<a href=\"https://www.instagram.com/i_am_carpenter_no.1/\"target=\"_blank\" title=\"새창 : 공식 인스타그램으로 이동\">https://www.instagram.com/i_am_carpenter_no.1/</a>",
+   "overview": "복대동사람들은 청주를 대표하는 공방이자 교육사업체이다. 문자 그대로 청주시 흥덕구 복대동을 주요 무대로 하고 있는 복대동사람들은 청주에 새롭게 찾아든 행운이다. 마을에 새로운 활기를 불어넣고, 청주의 미래를 이끌어나갈 아이들에게 다양한 배움의 기회를 선물한다. 복대동사람들의 첫 번째 사업은 동네 환경 개선을 위한 ‘쓰레기 제로 마을’ 만들기였다. 공예선생님들이 모여 업사이클링 공예 수업을 진행하고, 아이들에게 재활용하는 습관을 가르친다. 학생들을 대상으로 한 업사이클링뿐만 아니라, 최 대표는 경력을 살려 요리교실도 함께 진행한다. 배달 음식으로 끼니를 해결하는 맞벌이 가정이 많다 보니 요리를 어려워하는 사람들의 수도 적지 않았기 때문이다. 배달로 나오는 쓰레기들이 지나치게 많다는 점도 고려하여 친환경적인 요리교실을 운영한다.",
+   "modifiedtime": "20250701170819"
   },
   "2936862": {
    "overview": "서울 근교 한적한 강화도에서 여행을 즐기고 싶은 사람들을 위한 당일치기 코스를 소개한다. 막걸리 체험을 즐길 수 있는 금풍양조장, 사적으로 지정된 대한 성공회 강화성당, 유서깊은 전등사까지 즐길 수 있는 강화도 여행코스이다.",
@@ -26971,6 +28389,11 @@
    "overview": "기범이네국수는 기범이네 삼형제가 어릴적 좋아하던 국수로 요리를 잘하는 엄마, 아빠가 멸치, 디포리, 새우, 다시마와 각종 야채로 시원하고 깔끔하게 육수를 내고 소고기와 소량의 인삼을 볶아서 고명을 올리고 지단과 야채로 색깔도 내어 즐겨먹던 건강한 국수이다. 배와 양파, 매실청이 들어간 고추장을 양배추, 오이와 함께 비벼먹었던 비빔국수도 여름 단골 메뉴이며 비가 오면 강가에서 직접 잡아 손질한 다슬기를 올려 지글지글 부쳐 먹던 부추전도 판매가 되고 있다. 국수는 주문 시 곱빼기 요청을 하면 무료로 제공이 가능하다.",
    "modifiedtime": "20251027142533"
   },
+  "2996818": {
+   "homepage": "<a href=\"https://www.instagram.com/banjul_prana\" target=\"_blank\" title=\"새창 : 반줄 인스타그램으로 이동\">www.instagram.com/banjul_prana</a>",
+   "overview": "명상과 요가란 스스로의 힘으로 자신을 돌보는 것이다. 이때만큼은 나를 둘러싼 모든 환경과 타인들을 지워버리고, 오롯이 나에게만 집중해야만 한다. 야외에서 진행하는 요가, 명상 등 원데이클래스가 메인 프로그램이지만 춤 명상 원데이클래스와 싱잉볼 힐링 세션 프로그램도 운영하고 있다. 몸과 자연이 교감하고, 사람과 사람이 교감하는 시간을 선물받는다.<br><br>요가와 명상 프로그램이 끝나고 나면 마음을 갈무리하기 위한 다도 시간을 갖는다. 매번 다른 종류의 찻잎을 준비하고, 체험생들은 주전부리를 챙겨와 차담을 나눈다. 다도는 각자의 도(茶)가 다 다르다는 것이 묘미다. 차 맛은 우리는 사람의 마음여유라 우리는 사람에 따라 다르다. 오래 공들이고 예의를 갖추는 만큼 찻잎이 가진 본연의 가치가 드러난다. 재밌는 건 차를 우리기 전 주전자의 겉에 먼저 뜨거운 물을 적셔 붓질을 한다. 차가운 주전자에 뜨거운 물을 먼저 부으면 겉과 속의 온도 차 때문에 차의 향과 맛이 떨어지기 때문이다. 자연이 주는 고요함 속에서 몸과 마음을 잔잔하게 달래주는 명상과 요가는 반줄의 다도와 닮아있다.",
+   "modifiedtime": "20250514111856"
+  },
   "3001143": {
    "homepage": "<a href=\"https://ecopark.gurye.go.kr/\" target=\"_blank\" title=\"새창 : 지리산정원 홈페이지로 이동\">https://ecopark.gurye.go.kr</a>",
    "overview": "구례군 산동면에 위치한 구례수목원은 54㏊의 산림면적 곳곳에 봄향기원, 겨울정원, 그늘정원, 외국화목원, 기후변화테마원, 자생식물원, 계류생태원 등 13개의 주제정원과 방문자 안내소, 전시온실 및 종자학습관 등이 자리하고 있으며, 다양한 자생나무들과 꽃들로 식재되어 이색적인 공간을 제공하고 있다. 지속적으로 지리산권과 남부내륙의 식물 유전자원을 수집·보전하고 있으며 지리산 야생화와 어우러진 산책길을 즐길 수 있다. 이곳에서 이루어지고 있는 또 하나의 체험은 숲해설가 및 유아숲지도사의 지도하에 숲속 자연물을 이용한 미꾸라지 잡기, 매미 잡기, 앙금 플라워 만들기 및 솔방울 열매 체험 등 관내외 어린이들이 다양하게 참여할 수 있는 유아숲 체험이 있다. 걷고 싶은 길을 조성하고 스토리텔링 특화길을 조성하여 방문자들에게 다양한 볼거리와 휴양서비스를 제공하며 수목원과 함께 식물 판매장과 카페를 개장하여 서비스 질을 한층 더 높혀 만족도가 높다. 계절마다 피어나는 갖가지 꽃을 감상하며 자연의 신선한 공기를 만끽할 수 있는 구례수목원은 숲속체험과 휴양를 결합한 힐링체험형 수목원으로 자리잡고 있다.",
@@ -27075,6 +28498,11 @@
   "3337799": {
    "overview": "레이홉은 유기농, 식물성 재료만 사용하여 디저트를 만드는 비건 베이킹 클래스이다. 1인 클래스, 키즈 클래스, 커플 클래스, 우정 클래스로 구성된 원데이 클래스를 운영하고 있다. 클래스의 메뉴는 매달 바뀌며 마들렌, 휘낭시에, 머핀, 스콘 등을 만든다. 클래스는 네이버 예약을 통해 예약할 수 있으며 약 1시간 30분 정도 진행된다.",
    "modifiedtime": "20250829161305"
+  },
+  "3351556": {
+   "homepage": "https://blog.naver.com/art_seocheon",
+   "overview": "서천군 문화예술창작공간은 일제시대에 미곡창고로 사용된 건물로 이름에서 유추할 수 있듯이, 본래의 목적은 쌀을 보관하기 위해 세워진 건물이다. 일제시대에 일본인들은 자국의 식량부족 사태를 해결하기 위해 식민지 조선으로 부터 쌀을 수탈하기 시작했고, 이곳 역시 일본으로 보낼 쌀을 보관하던 창고로 시대의 아픈 역사를 품은 근대문화유산이다. 이곳의 독특한 건축기법과 역사 교육자료는 인정을 받아 등록문화재 제591호로 지정되었다. 현재 이곳은 건축 원형을 보존한 채로 리모델링하여 지역문화 예술인, 지역민과 관광객이 함께 만들어가는 문화예술창작공간으로 활용되고 있다.",
+   "modifiedtime": "20250120132317"
   },
   "3351638": {
    "homepage": "https://www.railtrip.co.kr/homepage/gokseong/",
@@ -27385,6 +28813,11 @@
    "overview": "자연과 책을 사랑하는 사람들에게 특별한 경험을 선사하는 곳이며 시원하게 쏟아지는 폭포 소리를 배경 삼아 책을 읽으며 여유로운 시간을 보낼 수 있는 도서관이다.",
    "modifiedtime": "20241219174835"
   },
+  "3453008": {
+   "homepage": "https://www.brcn.go.kr/woodedu.do",
+   "overview": "보령목재문화체험장은 충청남도 보령시에 위치한 목재문화체험장으로, 나무와 관련된 다양한 체험과 교육을 제공하는 공간이다. 이 체험장은 나무를 소재로 한 다양한 활동을 통해 방문객들이 목재의 특성과 가공 방법을 배우고, 직접 체험할 수 있는 기회를 제공한다.\n\n체험장 내에는 목재 가공 체험, 목재 공예, 나무 조각 만들기 등 다양한 프로그램이 마련되어 있어, 어린이부터 성인까지 모두 참여할 수 있다. 또한, 목재의 친환경적인 특성을 강조하고, 자연과의 조화로운 관계를 배울 수 있는 교육적인 장소로 알려져 있다. 보령목재문화체험장은 교육적 가치와 함께 가족 단위의 방문객들에게 인기 있는 관광지로 자리잡고 있다.",
+   "modifiedtime": "20241226132315"
+  },
   "3453040": {
    "overview": "녹번서공원은 서울 은평구 녹번동에 위치한 자연친화적인 공원으로, 다양한 식물과 나무들이 자생하는 공간입니다. 특히 봄과 가을에는 꽃과 단풍을 감상할 수 있으며, 자연학습장, 운동기구, 도서관 등 다양한 시설이 마련되어 있다.",
    "modifiedtime": "20241226163300"
@@ -27433,6 +28866,10 @@
   "3456362": {
    "overview": "서울에 있는 대현문화공원은 서울특별시 서대문구 대현동에 위치한 공원이다. 이 공원은 지역 주민들에게 자연과 여가 공간을 제공하며, 주변 도심 속에서 휴식을 취할 수 있는 장소로 사랑받고 있다.\n<br />대현문화공원은 다양한 산책로와 조경이 잘 어우러진 녹지 공간을 갖추고 있으며, 지역 주민들의 건강과 여가 활동을 지원하기 위한 운동기구와 휴식 공간이 마련되어 있다. <br />특히, 근린공원이라는 특성상 지역 주민들이 자주 찾는 친근한 장소로 알려져 있다.",
    "modifiedtime": "20250730161058"
+  },
+  "3456435": {
+   "overview": "부락산분수공원은 넓은 부지에 조성된 공원으로, 특히 여름철 시원한 분수가 가동되어 많은 시민들이 찾는 곳이다. 주변에는 평택북부복지타운, 평택시여성회관, 이충문화체육센터 등 다양한 시설과 연계되어 있어 문화생활을 즐기기에도 좋다.",
+   "modifiedtime": "20250724140144"
   },
   "3456754": {
    "homepage": "https://portal.icbp.go.kr/bpgncce/",
