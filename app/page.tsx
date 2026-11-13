@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Heading } from "@astryxdesign/core/Heading";
 import { Text } from "@astryxdesign/core/Text";
 import { SearchForm } from "@/components/astryx-search-form";
@@ -5,6 +6,10 @@ import { CollectionCard, FeaturedPlace, RegionCard, SectionHeading, ThemePill } 
 import { getCollections } from "@/lib/collections";
 import { getAllTravelItems, getAvailableRegions, getThemesWithItems } from "@/lib/travel";
 import { JsonLd, SITE_NAME, canonicalUrl } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  alternates: { canonical: canonicalUrl("/") },
+};
 
 export default async function HomePage() {
   const [regions, items, collections] = await Promise.all([getAvailableRegions(), getAllTravelItems(), getCollections()]);
