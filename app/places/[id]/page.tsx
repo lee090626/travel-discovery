@@ -3,8 +3,9 @@ import { notFound } from "next/navigation";
 import { Heading } from "@astryxdesign/core/Heading";
 import { Link } from "@astryxdesign/core/Link";
 import { Text } from "@astryxdesign/core/Text";
-import { AffiliateLink, Breadcrumbs, PlaceGallery, SourceNote } from "@/components/travel-ui";
+import { AffiliateLink, Breadcrumbs, CollectionCard, PlaceGallery, PlaceList, SourceNote } from "@/components/travel-ui";
 import { Icon } from "@/components/icons";
+import { getCollections } from "@/lib/collections";
 import { eventPeriod, getAllTravelItems, getTheme, getTravelItem } from "@/lib/travel";
 import { JsonLd, canonicalUrl, faqJsonLd, pageMetadata, parseUpdatedAt, placeFaq } from "@/lib/seo";
 
@@ -29,6 +30,12 @@ export default async function PlacePage({ params }: PageProps) {
   if (!item) notFound();
 
   const theme = getTheme(item.themeSlug);
+  const [allItems, collections] = await Promise.all([getAllTravelItems(), getCollections()]);
+  const inCollections = collections.filter((group) => group.items.some((entry) => entry.id === item.id));
+  // 같은 지역·테마 장소를 현재 장소 다음 순서부터 골라, 페이지마다 서로 다른 장소로 링크가 퍼지게 한다.
+  const peers = allItems.filter((entry) => entry.regionSlug === item.regionSlug && entry.themeSlug === item.themeSlug);
+  const start = peers.findIndex((entry) => entry.id === item.id) + 1;
+  const related = [...peers.slice(start), ...peers.slice(0, start)].filter((entry) => entry.id !== item.id).slice(0, 4);
   const period = eventPeriod(item);
   const url = canonicalUrl("/places/" + item.id);
   const isEvent = item.contentTypeId === "15";
@@ -111,6 +118,22 @@ export default async function PlacePage({ params }: PageProps) {
             <Text as="p">방문 시간과 이용 정보는 바뀔 수 있어요. 출발 전에 원문 안내를 확인해 주세요.</Text>
           </div>
           <SourceNote item={item} />
+          {inCollections.length ? (
+            <section className="content-section" aria-labelledby="place-collections-title">
+              <Heading level={2} id="place-collections-title">이 장소가 담긴 모음</Heading>
+              <div className="region-grid collection-grid">
+                {inCollections.map(({ collection, items }, index) => (
+                  <CollectionCard key={collection.slug} slug={collection.slug} title={collection.title} summary={collection.summary} count={items.length} index={index} />
+                ))}
+              </div>
+            </section>
+          ) : null}
+          {related.length ? (
+            <section className="content-section" aria-labelledby="place-related-title">
+              <Heading level={2} id="place-related-title">{(item.regionName ? item.regionName + "의 다른 " : "다른 ") + (theme?.name || "여행지")}</Heading>
+              <PlaceList items={related} />
+            </section>
+          ) : null}
           <AffiliateLink regionSlug={item.regionSlug} regionName={item.regionName} />
         </div>
       </article>
