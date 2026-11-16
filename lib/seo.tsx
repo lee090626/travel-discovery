@@ -1,17 +1,7 @@
 import type { Metadata } from "next";
+import { getSiteOrigin } from "@/lib/site-origin";
 
-export function getSiteOrigin() {
-  const value = process.env.SITE_URL?.trim();
-  if (!value) return null;
-
-  try {
-    const url = new URL(value);
-    if (url.protocol !== "https:" && !(url.protocol === "http:" && url.hostname === "localhost")) return null;
-    return url.origin;
-  } catch {
-    return null;
-  }
-}
+export { getSiteOrigin };
 
 export function canonicalUrl(path: string) {
   const origin = getSiteOrigin();
