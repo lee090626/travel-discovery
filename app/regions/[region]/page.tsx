@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { AffiliateLink, Breadcrumbs, PlaceList, RegionBanner, RegionThemeNav, SectionHeading } from "@/components/travel-ui";
-import { getAvailableRegions, getRegion, getRegionItems, getThemesWithItems } from "@/lib/travel";
+import { getAvailableRegions, getRegion, getRegionItems, getListedThemeGroups } from "@/lib/travel";
 import { JsonLd, canonicalUrl, pageMetadata } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ region: string }> };
@@ -25,7 +25,7 @@ export default async function RegionPage({ params }: PageProps) {
   const items = await getRegionItems(slug);
   if (!items.length) notFound();
 
-  const themeGroups = getThemesWithItems(items).filter((group) => group.items.length >= 2);
+  const themeGroups = getListedThemeGroups(items);
   const jsonLd = [
     {
       "@context": "https://schema.org",

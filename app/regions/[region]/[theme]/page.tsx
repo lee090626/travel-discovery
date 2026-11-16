@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Breadcrumbs, PlaceList, RegionBanner, RegionThemeNav, SectionHeading } from "@/components/travel-ui";
-import { getAvailableRegions, getRegion, getRegionItems, getRegionThemeItems, getTheme, getThemesWithItems } from "@/lib/travel";
+import { getAvailableRegions, getRegion, getRegionItems, getRegionThemeItems, getTheme, getListedThemeGroups } from "@/lib/travel";
 import { JsonLd, listingJsonLd, pageMetadata } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ region: string; theme: string }> };
@@ -13,8 +13,7 @@ export async function generateStaticParams() {
     items: await getRegionItems(region.slug),
   })));
   return groups.flatMap(({ region, items }) =>
-    getThemesWithItems(items)
-      .filter((group) => group.items.length >= 2)
+    getListedThemeGroups(items)
       .map((group) => ({ region: region.slug, theme: group.theme.slug })));
 }
 
@@ -38,8 +37,8 @@ export default async function RegionThemePage({ params }: PageProps) {
 
   const regionItems = await getRegionItems(regionSlug);
   const items = getRegionThemeItems(regionItems, themeSlug);
-  const themeGroups = getThemesWithItems(regionItems).filter((group) => group.items.length >= 2);
-  if (items.length < 2) notFound();
+  const themeGroups = getListedThemeGroups(regionItems);
+  if (!themeGroups.some((group) => group.theme.slug === themeSlug)) notFound();
 
   return (
     <div className="page-container listing-page">
