@@ -3,14 +3,14 @@ import { notFound } from "next/navigation";
 import { Heading } from "@astryxdesign/core/Heading";
 import { Text } from "@astryxdesign/core/Text";
 import { Breadcrumbs, PlaceList, SectionHeading } from "@/components/travel-ui";
-import { getAllTravelItems, getTheme, getThemesWithItems } from "@/lib/travel";
+import { getAllTravelItems, getTheme, getListedThemeGroups } from "@/lib/travel";
 import { JsonLd, listingJsonLd, pageMetadata } from "@/lib/seo";
 
 type PageProps = { params: Promise<{ theme: string }> };
 
 export async function generateStaticParams() {
-  const groups = getThemesWithItems(await getAllTravelItems());
-  return groups.filter((group) => group.items.length >= 2).map((group) => ({ theme: group.theme.slug }));
+  const groups = getListedThemeGroups(await getAllTravelItems());
+  return groups.map((group) => ({ theme: group.theme.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -24,8 +24,8 @@ export default async function ThemePage({ params }: PageProps) {
   const { theme: slug } = await params;
   const theme = getTheme(slug);
   if (!theme) notFound();
-  const group = getThemesWithItems(await getAllTravelItems()).find((item) => item.theme.slug === slug);
-  if (!group || group.items.length < 2) notFound();
+  const group = getListedThemeGroups(await getAllTravelItems()).find((item) => item.theme.slug === slug);
+  if (!group) notFound();
 
   return (
     <div className="page-container listing-page">

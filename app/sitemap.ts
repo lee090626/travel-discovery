@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getSiteOrigin, parseUpdatedAt } from "@/lib/seo";
 import { getCollections } from "@/lib/collections";
-import { getAllTravelItems, getAvailableRegions, getRegionItems, getThemesWithItems } from "@/lib/travel";
+import { getAllTravelItems, getAvailableRegions, getRegionItems, getListedThemeGroups } from "@/lib/travel";
 
 export const dynamic = "force-static";
 
@@ -29,8 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
     });
 
-    for (const { theme, items: themeItems } of getThemesWithItems(regionItems)) {
-      if (themeItems.length < 2) continue;
+    for (const { theme, items: themeItems } of getListedThemeGroups(regionItems)) {
       routes.push({
         url: origin + "/regions/" + region.slug + "/" + theme.slug,
         changeFrequency: "weekly",
@@ -39,8 +38,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  for (const { theme, items: themeItems } of getThemesWithItems(items)) {
-    if (themeItems.length < 2) continue;
+  for (const { theme, items: themeItems } of getListedThemeGroups(items)) {
     routes.push({
       url: origin + "/themes/" + theme.slug,
       changeFrequency: "weekly",

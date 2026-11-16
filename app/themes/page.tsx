@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Heading } from "@astryxdesign/core/Heading";
 import { Text } from "@astryxdesign/core/Text";
 import { Breadcrumbs, SectionHeading, ThemeCard } from "@/components/travel-ui";
-import { getAllTravelItems, getThemesWithItems } from "@/lib/travel";
+import { getAllTravelItems, getListedThemeGroups } from "@/lib/travel";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata(
@@ -13,7 +13,7 @@ export const metadata: Metadata = pageMetadata(
 
 export default async function ThemesPage() {
   const items = await getAllTravelItems();
-  const themes = getThemesWithItems(items).filter((group) => group.items.length >= 2);
+  const themes = getListedThemeGroups(items);
   return (
     <div className="page-container listing-page">
       <Breadcrumbs items={[{ label: "테마별" }]} />

@@ -356,6 +356,13 @@ function cleanDate(valueToFormat?: string) {
   return digits.slice(0, 4) + "." + digits.slice(4, 6) + "." + digits.slice(6, 8);
 }
 
+// 장소가 이 수 이상인 테마만 목록 페이지로 노출한다. 페이지, 내비게이션, 사이트맵, llms.txt가 모두 이 기준을 공유한다.
+export const MIN_LISTED_THEME_ITEMS = 2;
+
+export function getListedThemeGroups(items: TravelItem[]) {
+  return getThemesWithItems(items).filter((group) => group.items.length >= MIN_LISTED_THEME_ITEMS);
+}
+
 export function eventPeriod(item: TravelItem) {
   const start = cleanDate(item.eventStartDate);
   const end = cleanDate(item.eventEndDate);

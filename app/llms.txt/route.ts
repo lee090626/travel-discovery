@@ -1,6 +1,6 @@
 import { getSiteOrigin } from "@/lib/seo";
 import { getCollections } from "@/lib/collections";
-import { getAllTravelItems, getAvailableRegions, getRegionItems, getThemesWithItems } from "@/lib/travel";
+import { getAllTravelItems, getAvailableRegions, getRegionItems, getListedThemeGroups } from "@/lib/travel";
 
 export const dynamic = "force-static";
 
@@ -12,8 +12,7 @@ export async function GET() {
     const count = (await getRegionItems(region.slug)).length;
     return "- [" + region.name + " 여행지](" + origin + "/regions/" + region.slug + "): " + count + "곳";
   }));
-  const themeLines = getThemesWithItems(items)
-    .filter((group) => group.items.length >= 2)
+  const themeLines = getListedThemeGroups(items)
     .map(({ theme, items: themeItems }) => "- [" + theme.name + "](" + origin + "/themes/" + theme.slug + "): " + theme.description + " (" + themeItems.length + "곳)");
 
   const body = [
