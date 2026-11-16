@@ -4,6 +4,7 @@ import { Heading } from "@astryxdesign/core/Heading";
 import { Text } from "@astryxdesign/core/Text";
 import { Breadcrumbs, PlaceCard } from "@/components/travel-ui";
 import { SearchResults } from "@/components/search-results";
+import { SearchForm } from "@/components/astryx-search-form";
 import { getAllTravelItems } from "@/lib/travel";
 
 export const metadata: Metadata = {
@@ -27,7 +28,8 @@ export default async function SearchPage() {
         <Heading level={1}>궁금한 지역이나<br />여행지를 검색해요.</Heading>
         <Text as="p">장소명, 지역명, 관광 정보에 포함된 단어로 찾아볼 수 있어요.</Text>
       </header>
-      <Suspense fallback={null}>
+      {/* 검색어는 클라이언트에서 읽으므로, 그 전에도 검색 폼이 HTML과 첫 화면에 보이게 한다. */}
+      <Suspense fallback={<><SearchForm /><Text as="p" className="search-hint">검색어 예: 부산, 바다, 한옥마을</Text></>}>
         <SearchResults entries={entries} />
       </Suspense>
     </div>
