@@ -124,6 +124,10 @@ await mapLimit(batch, async (record) => {
   }
 });
 console.log(`details: fetched ${fetched}, failed ${failed}, still pending ${pending.length - fetched}`);
+// Lifecycle summary (see docs/glossary.md): places without an overview get no page.
+const withOverview = records.filter((record) => details[record.contentid]?.overview).length;
+const noDetail = records.filter((record) => !details[record.contentid]).length;
+console.log(`status: ${withOverview} with overview, ${records.length - withOverview - noDetail} hidden (no overview), ${noDetail} awaiting detail`);
 if (batch.length && !fetched) {
   console.error("No detail request succeeded (quota or key problem?); snapshot not written.");
   process.exit(1);
