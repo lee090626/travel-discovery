@@ -31,7 +31,7 @@ export function ShowMore({ children, step = 12, label = "여행지 더보기" }:
     <>
       <div className="place-list">
         {items.map((item, index) => (
-          <div key={isValidElement(item) && item.key != null ? item.key : index} style={{ display: index < visible ? "contents" : "none" }}>{item}</div>
+          <div key={isValidElement(item) && item.key != null ? item.key : index} className="show-more-item" style={{ display: index < visible ? "contents" : "none" }}>{item}</div>
         ))}
       </div>
       {visible < items.length ? (
@@ -41,6 +41,8 @@ export function ShowMore({ children, step = 12, label = "여행지 더보기" }:
           </button>
         </div>
       ) : null}
+      {/* 자바스크립트가 꺼져 더보기 버튼이 동작하지 않으면 전부 펼쳐 보여 준다. */}
+      <noscript><style>{".show-more-item{display:contents!important}.show-more{display:none}"}</style></noscript>
     </>
   );
 }
