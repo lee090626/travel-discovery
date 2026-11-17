@@ -32,6 +32,10 @@ export default async function SearchPage() {
       <Suspense fallback={<><SearchForm /><Text as="p" className="search-hint">검색어 예: 부산, 바다, 한옥마을</Text></>}>
         <SearchResults entries={entries} />
       </Suspense>
+      {/* 정적 사이트라 결과는 브라우저에서만 계산된다. 자바스크립트가 꺼져 있으면 둘러볼 곳을 안내한다. */}
+      <noscript>
+        <Text as="p" className="search-hint">검색 결과는 자바스크립트가 켜져 있어야 보여요. <a href="/">홈</a>이나 <a href="/themes">테마별 여행지</a>에서 둘러보세요.</Text>
+      </noscript>
     </div>
   );
 }
