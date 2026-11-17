@@ -33,7 +33,8 @@ jobs:
             git commit -m "Refresh travel data snapshot"
             git push
           fi
-      # Expired events are filtered at build time, so redeploy daily even without data changes.
+      # Expired events are filtered at build time, so redeploy daily even without data changes,
+      # and even when the fetch failed (the previous snapshot is rebuilt; the run still shows as failed).
       - name: Trigger site rebuild
-        if: env.DEPLOY_HOOK_URL != ''
+        if: always() && env.DEPLOY_HOOK_URL != ''
         run: curl -fsS -X POST "$DEPLOY_HOOK_URL"
