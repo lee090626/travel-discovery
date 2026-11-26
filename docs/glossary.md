@@ -29,7 +29,7 @@
 | 목록에서 빠짐 | 목록 API 응답에 없음 | 행사가 아닌 장소는 이전 스냅샷에서 유지한다. 목록 API가 매번 다른 범위를 돌려주기 때문이다. 행사는 유지하지 않는다. |
 | 행사 종료 | 행사(`contenttypeid` 15)이고 종료일이 빌드일 이전 | 빌드에서 제외되어 404가 된다. 그래서 데이터가 그대로여도 매일 재배포한다. |
 
-행사는 `searchFestival2`로 전국을 한 번에 받는다. 이 API는 `areaCode` 필터에 0건을 돌려주고 `areacode`도 비워 보내므로, 법정동 시도 코드 `lDongRegnCd`를 지역 코드로 바꿔 지역에 넣는다(`LDONG_TO_AREA`, `scripts/fetch-travel-data.mjs`). `/events`는 빌드일(KST) 기준 이번 주말(토·일)에 열리는 행사와 30일 안에 시작하는 행사를 보여 준다.
+행사는 `searchFestival2`로 전국을 한 번에 받는다. 이 API는 `areaCode` 필터에 0건을 돌려주고 `areacode`도 비워 보내므로, 법정동 시도 코드 `lDongRegnCd`를 지역 코드로 바꿔 지역에 넣는다(`LDONG_TO_AREA`, `scripts/fetch-travel-data.mjs`). `/events`는 빌드일(KST) 기준 이번 주말(토·일)에 열리는 행사와 30일 안에 시작하는 행사를 보여 준다. `/events/YYYY-MM`은 빌드일이 속한 달부터 세 달 동안, 그 달에 열리고 아직 끝나지 않은 행사를 지역별로 보여 준다. 행사가 `MIN_LISTED_MONTH_EVENTS`(2) 미만인 달은 만들지 않는다.
 
 상세 대기와 숨김은 겉보기에 똑같이 페이지가 없다. 어느 쪽인지는 데이터 수집 로그의 `status` 줄로 구분한다.
 

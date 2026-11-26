@@ -398,3 +398,35 @@ export function groupEventsByDate(items: TravelItem[], today = koreaDateKey()) {
     nextMonth: events.filter((item) => !isWeekend(item) && (item.eventStartDate || "") <= monthEnd),
   };
 }
+
+// 월별 행사 페이지(/events/YYYY-MM): 빌드일이 속한 달부터 세 달. 해당 달에 하루라도 열리고 아직 끝나지 않은 행사.
+export const EVENT_MONTH_COUNT = 3;
+
+export function getEventMonths(today = koreaDateKey()) {
+  return Array.from({ length: EVENT_MONTH_COUNT }, (_, offset) => {
+    const date = new Date(Date.UTC(+today.slice(0, 4), +today.slice(4, 6) - 1 + offset, 1));
+    return date.toISOString().slice(0, 7);
+  });
+}
+
+export function getMonthEvents(items: TravelItem[], month: string, today = koreaDateKey()) {
+  const first = month.replace("-", "") + "01";
+  const last = addDays(addDays(first, 32).slice(0, 6) + "01", -1);
+  return items
+    .filter((item) => item.themeSlug === "events" && item.eventStartDate && item.eventEndDate
+      && item.eventEndDate >= today && item.eventStartDate <= last && item.eventEndDate >= first)
+    .sort((a, b) => (a.eventStartDate || "").localeCompare(b.eventStartDate || "") || (a.eventEndDate || "").localeCompare(b.eventEndDate || ""));
+}
+
+export function monthLabel(month: string) {
+  return Number(month.slice(0, 4)) + "년 " + Number(month.slice(5, 7)) + "월";
+}
+
+// 행사가 이 수 이상인 달만 월별 페이지로 노출한다. 페이지, /events 링크, 사이트맵이 공유한다.
+export const MIN_LISTED_MONTH_EVENTS = 2;
+
+export function getListedEventMonths(items: TravelItem[], today = koreaDateKey()) {
+  return getEventMonths(today)
+    .map((month) => ({ month, items: getMonthEvents(items, month, today) }))
+    .filter((group) => group.items.length >= MIN_LISTED_MONTH_EVENTS);
+}
