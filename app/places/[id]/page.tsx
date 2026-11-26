@@ -5,6 +5,7 @@ import { Link } from "@astryxdesign/core/Link";
 import { Text } from "@astryxdesign/core/Text";
 import { AffiliateLink, Breadcrumbs, CollectionCard, PlaceGallery, PlaceList, SourceNote } from "@/components/travel-ui";
 import { Icon } from "@/components/icons";
+import { ShareButton } from "@/components/share-button";
 import { getCollections } from "@/lib/collections";
 import { eventPeriod, getAllTravelItems, getTheme, getTravelItem } from "@/lib/travel";
 import { JsonLd, canonicalUrl, faqJsonLd, pageMetadata, parseUpdatedAt, placeFaq } from "@/lib/seo";
@@ -81,6 +82,7 @@ export default async function PlacePage({ params }: PageProps) {
             {period ? <span>{period}</span> : null}
           </div>
           <Heading level={1}>{item.title}</Heading>
+          <ShareButton title={item.title} text={period ? item.title + " (" + period + ")" : undefined} />
         </header>
         <PlaceGallery item={item} />
         <div className="detail-body">
