@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getSiteOrigin, parseUpdatedAt } from "@/lib/seo";
 import { getCollections } from "@/lib/collections";
-import { getAllTravelItems, getAvailableRegions, getRegionItems, getListedThemeGroups } from "@/lib/travel";
+import { getAllTravelItems, getAvailableRegions, getListedEventMonths, getRegionItems, getListedThemeGroups } from "@/lib/travel";
 
 export const dynamic = "force-static";
 
@@ -45,6 +45,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "weekly",
       priority: 0.6,
     });
+  }
+
+  for (const { month } of getListedEventMonths(items)) {
+    routes.push({ url: origin + "/events/" + month, changeFrequency: "daily", priority: 0.7 });
   }
 
   for (const item of items) {
