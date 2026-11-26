@@ -1644,6 +1644,20 @@ h3,
 
 .show-more button:hover { background: #fff4f7; }
 
+.share-button {
+  min-height: 40px;
+  padding: 0 20px;
+  border: 2px solid #f7dbe3;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  font-family: var(--font-cute);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.share-button:hover { background: #fff4f7; }
+
 /* place detail */
 .detail-heading {
   display: flex;
