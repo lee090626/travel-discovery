@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Heading } from "@astryxdesign/core/Heading";
 import { Text } from "@astryxdesign/core/Text";
 import { SearchForm } from "@/components/astryx-search-form";
-import { CollectionCard, FeaturedPlace, RegionCard, SectionHeading, ThemePill } from "@/components/travel-ui";
+import { CollectionCard, FeaturedPlace, PlaceList, RegionCard, SectionHeading, ThemePill } from "@/components/travel-ui";
 import { getCollections } from "@/lib/collections";
-import { getAllTravelItems, getAvailableRegions, getListedThemeGroups } from "@/lib/travel";
+import { getAllTravelItems, getAvailableRegions, getListedThemeGroups, groupEventsByDate } from "@/lib/travel";
 import { JsonLd, SITE_NAME, canonicalUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 
 export default async function HomePage() {
   const [regions, items, collections] = await Promise.all([getAvailableRegions(), getAllTravelItems(), getCollections()]);
+  const weekendEvents = groupEventsByDate(items).weekend;
   const themes = getListedThemeGroups(items);
   const recommendation = items.find((item) => item.id === "anmok-beach")
     || items.find((item) => item.themeSlug === "nature")
@@ -42,6 +43,13 @@ export default async function HomePage() {
         </div>
         {recommendation ? <FeaturedPlace item={recommendation} /> : null}
       </section>
+
+      {weekendEvents.length ? (
+        <section className="content-section">
+          <SectionHeading title="이번 주말 열리는 행사" description={weekendEvents.length + "개 행사가 이번 주말에 열려요."} href="/events" />
+          <PlaceList items={weekendEvents.slice(0, 4)} />
+        </section>
+      ) : null}
 
       {collections.length ? (
         <section className="content-section">

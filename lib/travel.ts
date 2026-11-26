@@ -374,3 +374,27 @@ export async function getTravelItem(id: string): Promise<TravelItem | undefined>
   return (await getAllTravelItems()).find((item) => item.id === id);
 }
 
+
+function addDays(dateKey: string, days: number) {
+  const date = new Date(Date.UTC(+dateKey.slice(0, 4), +dateKey.slice(4, 6) - 1, +dateKey.slice(6, 8) + days));
+  return date.toISOString().slice(0, 10).replace(/-/g, "");
+}
+
+// 빌드일(KST) 기준으로 행사를 나눈다. 정적 사이트라 매일 재배포로 날짜가 갱신된다.
+// 이번 주말: 다가오는 토·일(오늘이 주말이면 이번 토·일)에 하루라도 열리는 행사.
+export function groupEventsByDate(items: TravelItem[], today = koreaDateKey()) {
+  const day = new Date(Date.UTC(+today.slice(0, 4), +today.slice(4, 6) - 1, +today.slice(6, 8))).getUTCDay();
+  const saturday = addDays(today, day === 0 ? -1 : 6 - day);
+  const sunday = addDays(saturday, 1);
+  const monthEnd = addDays(today, 30);
+  const events = items
+    .filter((item) => item.themeSlug === "events" && item.eventStartDate && item.eventEndDate && item.eventEndDate >= today)
+    .sort((a, b) => (a.eventStartDate || "").localeCompare(b.eventStartDate || "") || (a.eventEndDate || "").localeCompare(b.eventEndDate || ""));
+  const isWeekend = (item: TravelItem) => (item.eventStartDate || "") <= sunday && (item.eventEndDate || "") >= saturday;
+  return {
+    saturday,
+    sunday,
+    weekend: events.filter(isWeekend),
+    nextMonth: events.filter((item) => !isWeekend(item) && (item.eventStartDate || "") <= monthEnd),
+  };
+}

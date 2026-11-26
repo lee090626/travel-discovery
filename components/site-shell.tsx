@@ -38,6 +38,7 @@ export function SiteFooter() {
             <Link href="/regions">지역별 탐색</Link>
             <Link href="/themes">테마별 탐색</Link>
             <Link href="/collections">여행지 모음</Link>
+            <Link href="/events">이번 주말 행사</Link>
             <Link href="/search">검색</Link>
           </div>
         </div>
