@@ -73,16 +73,28 @@ async function mapLimit(items, task) {
   return results;
 }
 
-async function fetchRegion(areaCode) {
-  const lists = await Promise.all(LIST_CONTENT_TYPES.map((contentTypeId) =>
-    request("areaBasedList2", { areaCode, contentTypeId, numOfRows: "40", pageNo: "1" })));
-  const festivals = (await request("searchFestival2", {
-    areaCode,
+// searchFestival2 ignores areaCode (it returns nothing) and leaves areacode empty,
+// so festivals are fetched once nationwide and assigned by legal-dong code (lDongRegnCd).
+const LDONG_TO_AREA = {
+  "11": "1", "28": "2", "30": "3", "27": "4", "29": "5", "26": "6", "31": "7", "36110": "8",
+  "41": "31", "42": "32", "51": "32", "43": "33", "44": "34", "47": "35", "48": "36",
+  "45": "37", "52": "37", "46": "38", "50": "39",
+};
+
+async function fetchFestivals() {
+  const records = await request("searchFestival2", {
     eventStartDate: koreaDateKey(-30),
     eventEndDate: koreaDateKey(180),
-    numOfRows: "40",
+    numOfRows: "1000",
     pageNo: "1",
-  })).map((record) => ({ ...record, contenttypeid: "15" }));
+  });
+  return records.map((record) => ({ ...record, contenttypeid: "15", areacode: LDONG_TO_AREA[record.lDongRegnCd] }));
+}
+
+async function fetchRegion(areaCode, allFestivals) {
+  const lists = await Promise.all(LIST_CONTENT_TYPES.map((contentTypeId) =>
+    request("areaBasedList2", { areaCode, contentTypeId, numOfRows: "40", pageNo: "1" })));
+  const festivals = allFestivals.filter((record) => record.areacode === areaCode);
   const seen = new Set();
   return [...lists.flat(), ...festivals]
     .filter((record) => record.contentid && !seen.has(record.contentid) && seen.add(record.contentid))
@@ -93,7 +105,11 @@ async function fetchRegion(areaCode) {
 const previous = JSON.parse(await readFile(SNAPSHOT_FILE, "utf8"));
 
 // 1. Lists: any failure aborts the run before anything is written.
-const regionRecords = await mapLimit(AREA_CODES, fetchRegion);
+const festivals = await fetchFestivals();
+const unmapped = festivals.filter((record) => !record.areacode);
+if (unmapped.length) console.warn(`festivals: ${unmapped.length} with unknown lDongRegnCd (${[...new Set(unmapped.map((record) => record.lDongRegnCd))].join(", ")})`);
+console.log(`festivals: ${festivals.length - unmapped.length} assigned to regions`);
+const regionRecords = await mapLimit(AREA_CODES, (areaCode) => fetchRegion(areaCode, festivals));
 // The list API returns a shifting window of places, so keep places from earlier runs
 // (except events, which expire) instead of letting them drop off the site.
 const regions = Object.fromEntries(AREA_CODES.map((code, index) => {

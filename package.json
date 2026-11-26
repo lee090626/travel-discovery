@@ -9,7 +9,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "data:fetch": "node --env-file=.env.local scripts/fetch-travel-data.mjs"
+    "data:fetch": "node --env-file=.env.local scripts/fetch-travel-data.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "sh scripts/lint-changed.sh && depcruise app components lib --config .dependency-cruiser.cjs",
+    "test": "vitest run"
   },
   "dependencies": {
     "@astryxdesign/core": "0.7.11",
@@ -20,9 +23,12 @@
     "react-dom": "19.3.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.6.9",
     "@types/node": "^24.10.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
-    "typescript": "^5.9.3"
+    "dependency-cruiser": "^18.9.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.2"
   }
 }

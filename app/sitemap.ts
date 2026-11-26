@@ -19,6 +19,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: origin + "/regions", changeFrequency: "weekly", priority: 0.8 },
     { url: origin + "/themes", changeFrequency: "weekly", priority: 0.8 },
     { url: origin + "/collections", changeFrequency: "weekly", priority: 0.8 },
+    { url: origin + "/events", changeFrequency: "daily", priority: 0.8 },
     ...collections.map(({ collection }) => ({ url: origin + "/collections/" + collection.slug, changeFrequency: "weekly" as const, priority: 0.7 })),
   ];
 

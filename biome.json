@@ -1,0 +1,15 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.6.9/schema.json",
+	"vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+	"files": { "includes": ["app/**/*.{ts,tsx}", "components/**", "lib/**", "scripts/**"] },
+	"formatter": { "enabled": false },
+	"assist": { "enabled": false },
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"preset": "recommended",
+			"style": { "useTemplate": "off" },
+			"performance": { "noImgElement": "off" }
+		}
+	}
+}
